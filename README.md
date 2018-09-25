@@ -5,6 +5,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 # Table of content
 
 * [Quality control](#quality-control)
+* [Differential expression](#differential-expression)
 * [Functional enrichment](#functional-enrichment)
 * [Alternative splicing](#alternative-splicing)
 * [Gene fusion](#gene-fusion)
@@ -22,6 +23,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `MultiQC` - Summarization and visualization QC results for multiple samples in one report. Recognizes multiple QC tools. http://multiqc.info/
 
 - `ngsReports` - An R Package for managing FastQC reports and other NGS related log files. https://github.com/UofABioinformaticsHub/ngsReports, http://biorxiv.org/content/early/2018/05/02/313148.abstract
+
+
+## Differential expression
+
+- `ideal` - Interactive Differential Expression AnaLysis. http://bioconductor.org/packages/release/bioc/html/ideal.html
 
 
 ## Functional enrichment
