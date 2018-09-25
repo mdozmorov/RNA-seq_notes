@@ -68,6 +68,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `chromoMap` - Interactive Visualization and Mapping of Human Chromosomes, https://cran.r-project.org/web/packages/chromoMap/index.html
 
+- `pcaExplorer` - Interactive Visualization of RNA-seq Data Using a Principal Components Approach. https://bioconductor.org/packages/release/bioc/html/pcaExplorer.html
+
 
 ## Data
 
