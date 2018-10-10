@@ -76,6 +76,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `pcaExplorer` - Interactive Visualization of RNA-seq Data Using a Principal Components Approach. https://bioconductor.org/packages/release/bioc/html/pcaExplorer.html
 
+- `WIlsON` - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. 
+
 
 ## Data
 
