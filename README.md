@@ -5,6 +5,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 # Table of content
 
 * [Quality control](#quality-control)
+* [Clustering](#clustering)
 * [Differential expression](#differential-expression)
 * [Functional enrichment](#functional-enrichment)
 * [Alternative splicing](#alternative-splicing)
@@ -23,6 +24,12 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `MultiQC` - Summarization and visualization QC results for multiple samples in one report. Recognizes multiple QC tools. http://multiqc.info/
 
 - `ngsReports` - An R Package for managing FastQC reports and other NGS related log files. https://github.com/UofABioinformaticsHub/ngsReports, http://biorxiv.org/content/early/2018/05/02/313148.abstract
+
+
+## Clustering
+
+- `clust` - Python package for identification of consistently coexpressed clusters of genes, within and across datasets. Consensus clustering principle. ~50% of genes do not cluster well and thus shouldn't be considered. Compared with seven tools (cross-clustering, k-means, SOMs, MCL, HC, Click, WGCNA) using seven different cluster validation metrics. Outperforms all, produces more focused and significant functional enrichment results. https://github.com/BaselAbujamous/clust
+    - Abu-Jamous, Basel, and Steven Kelly. “Clust: Automatic Extraction of Optimal Co-Expressed Gene Clusters from Gene Expression Data.” Genome Biology 19, no. 1 (December 2018). https://doi.org/10.1186/s13059-018-1536-8.
 
 
 ## Differential expression
