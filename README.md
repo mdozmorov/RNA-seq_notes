@@ -9,6 +9,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Differential expression](#differential-expression)
 * [Functional enrichment](#functional-enrichment)
 * [Alternative splicing](#alternative-splicing)
+  * [circRNAs](#circrnas)
 * [Gene fusion](#gene-fusion)
 * [Structural variations](#structural-variations)
 * [Networks](#networks)
@@ -46,6 +47,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `vast-tools` - A toolset for profiling alternative splicing events in RNA-Seq data. https://github.com/vastgroup/vast-tools
 
+### circRNAs
+
+- `CIRCpedia` database of cornRNAs from human, mouse, and some model organisms. Ribo-, poly(A)-, RNAse R methods for enriching for circRNAs. http://www.picb.ac.cn/rnomics/circpedia/. `CIRCexplorer2` for the analysis of such experiments, https://circexplorer2.readthedocs.io/en/latest/
+    - Zhang et al., “Diverse Alternative Back-Splicing and Alternative Splicing Landscape of Circular RNAs.”
 
 ## Gene fusion
 
