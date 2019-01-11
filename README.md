@@ -26,6 +26,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `ngsReports` - An R Package for managing FastQC reports and other NGS related log files. https://github.com/UofABioinformaticsHub/ngsReports, http://biorxiv.org/content/early/2018/05/02/313148.abstract
 
+- `sickle` - A windowed adaptive trimming tool for FASTQ files using quality. Post-adapter trimming step. https://github.com/najoshi/sickle
 
 ## Clustering
 
