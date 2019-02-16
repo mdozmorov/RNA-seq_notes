@@ -38,6 +38,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `ideal` - Interactive Differential Expression AnaLysis. http://bioconductor.org/packages/release/bioc/html/ideal.html
 
+- Publication-ready volcano plots with enhanced colouring and labeling. https://github.com/kevinblighe/EnhancedVolcano
 
 ## Functional enrichment
 
