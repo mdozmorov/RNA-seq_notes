@@ -4,6 +4,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 # Table of content
 
+* [Pipelines](#pipelines)
+  * [Preprocessing](#preprocessing)
+  * [Analysis](#analysis)
 * [Quality control](#quality-control)
 * [Clustering](#clustering)
 * [Differential expression](#differential-expression)
@@ -18,6 +21,15 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Visualization](#visualization)
 * [Data](#data)
 * [Misc](#misc)
+
+## Pipelines
+
+### Preprocessing
+
+### Analysis
+
+- `3D_RNA-seq` - R package and Shiny app, and Docker image, for differential expression, differential alternative splicing, and differential Transcript Usage. Two- and mutliple group analysis, time course. Input - Salmon/Kallisto transcript quantification files, or .csv. Diagnostic plots, PCA, batch removal using RUVseq, limma-voom for differential expression, iso-kTSP and TSIS for isoform switching between groups and in time course, respectively. Heatmaps, barplots, volcano plots, Venn diagrams. 3D stands for three days. Web: https://ics.hutton.ac.uk/3drnaseq/,  Manual: https://github.com/wyguo/ThreeDRNAseq/blob/master/vignettes/user_manuals/3D_RNA-seq_App_manual.md,  GitHub: https://github.com/wyguo/ThreeDRNAseq
+    - Guo, Wenbin, Nikoleta Tzioutziou, Gordon Stephen, Iain Milne, Cristiane Calixto, Robbie Waugh, John WS Brown, and Runxuan Zhang. “3D RNA-Seq - a Powerful and Flexible Tool for Rapid and Accurate Differential Expression and Alternative Splicing Analysis of RNA-Seq Data for Biologists.” Preprint. Bioinformatics, May 31, 2019. https://doi.org/10.1101/656686.
 
 
 ## Quality control
