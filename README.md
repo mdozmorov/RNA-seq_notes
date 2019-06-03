@@ -73,6 +73,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `RegTools` - integration of somatic variants from DNA-seq and splice junctions from RNA-seq data to identify variants causing aberrant splicing in cancer. https://regtools.readthedocs.io/en/latest/
     - Feng, Yang-Yang, Avinash Ramu, Kelsy C Cotto, Zachary L Skidmore, Jason Kunisaki, Donald F Conrad, Yiing Lin, et al. “RegTools: Integrated Analysis of Genomic and Transcriptomic Data for Discovery of Splicing Variants in Cancer,” November 25, 2018. https://doi.org/10.1101/436634.
 
+- `rMATS` alternative splicing detection tool. Using paired samples.RNA-seq depth and alternative splicing power - 200M reads minimum. http://rnaseq-mats.sourceforge.net/
+    - Shen, Shihao, Juw Won Park, Zhi-xiang Lu, Lan Lin, Michael D. Henry, Ying Nian Wu, Qing Zhou, and Yi Xing. “RMATS: Robust and Flexible Detection of Differential Alternative Splicing from Replicate RNA-Seq Data.” Proceedings of the National Academy of Sciences of the United States of America 111, no. 51 (December 23, 2014): E5593-5601. https://doi.org/10.1073/pnas.1419161111.
+
 - `tappAS` - functional impact of alternative splicing. Input - transcript-level count matrix. http://tappas.org/
 
 - `vast-tools` - A toolset for profiling alternative splicing events in RNA-Seq data. https://github.com/vastgroup/vast-tools
