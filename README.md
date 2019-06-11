@@ -79,6 +79,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `tappAS` - functional impact of alternative splicing. Input - transcript-level count matrix. http://tappas.org/
 
 - `vast-tools` - A toolset for profiling alternative splicing events in RNA-Seq data. https://github.com/vastgroup/vast-tools
+    - Irimia, Manuel, Robert J. Weatheritt, Jonathan D. Ellis, Neelroop N. Parikshak, Thomas Gonatopoulos-Pournatzis, Mariana Babor, Mathieu Quesnel-Vallières, et al. “A Highly Conserved Program of Neuronal Microexons Is Misregulated in Autistic Brains.” Cell 159, no. 7 (December 18, 2014): 1511–23. https://doi.org/10.1016/j.cell.2014.11.035.
+
 
 ### circRNAs
 
