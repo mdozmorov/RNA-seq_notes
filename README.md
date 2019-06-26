@@ -11,7 +11,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Clustering](#clustering)
 * [Differential expression](#differential-expression)
 * [Functional enrichment](#functional-enrichment)
-* [Alternative splicing](#alternative-splicing)
+* [Non-canonical RNAs](#non-canonical-rnas)
+  * [Alternative splicing](#alternative-splicing)
   * [circRNAs](#circrnas)
 * [Gene fusion](#gene-fusion)
 * [Structural variations](#structural-variations)
@@ -67,8 +68,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Metascape` - multi-gene lists functional analysis, auto gene ID recognition, >40 databases. http://metascape.org/gp/index.html#/main/step1
     - Zhou, Yingyao, Bin Zhou, Lars Pache, Max Chang, Alireza Hadj Khodabakhshi, Olga Tanaseichuk, Christopher Benner, and Sumit K. Chanda. “Metascape Provides a Biologist-Oriented Resource for the Analysis of Systems-Level Datasets.” Nature Communications 10, no. 1 (December 2019): 1523. https://doi.org/10.1038/s41467-019-09234-6.
 
+## Non-canonical RNAs
 
-## Alternative splicing
+### Alternative splicing
 
 - `MAJIQ` - local splicing variation analysis. Detects canonical and alternative splicing events. Quantifies as Percent Selected In (PSI). Differential splicing as delta PSI. Visualization using VOILA package. Python 3. https://majiq.biociphers.org/
     - Vaquero-Garcia, Jorge, Alejandro Barrera, Matthew R. Gazzara, Juan González-Vallinas, Nicholas F. Lahens, John B. Hogenesch, Kristen W. Lynch, and Yoseph Barash. “A New View of Transcriptome Complexity and Regulation through the Lens of Local Splicing Variations.” ELife 5 (February 1, 2016): e11752. https://doi.org/10.7554/eLife.11752.
