@@ -36,6 +36,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `DrEdGE` - Differential Expression Gene Explorer, Takes in a table of transcript abundance counts, experimental design, other input can be generated in R. Plot, table, heatmap visualization options. Web: http://dredge.bio.unc.edu/ , GitHub: https://github.com/ptgolden/dredge
     - Tintori, Sophia C, Patrick Golden, and Bob Goldstein. “Differential Expression Gene Explorer (DrEdGE): A Tool for Generating Interactive Online Data Visualizations for Exploration of Quantitative Transcript Abundance Datasets.” Preprint. Genomics, April 25, 2019. https://doi.org/10.1101/618439.
 
+- `Phantasus` - interactive exploratory analyses of genomic data, from clustering, PCA, to enrichment, network, and pathway analyses. R package and Docker  (link: https://github.com/ctlab/phantasus) github.com/ctlab/phantasus. Works on user data, ARCHS4, TCGA (link: https://genome.ifmo.ru/phantasus/) genome.ifmo.ru/phantasus/
 
 ## Quality control
 
