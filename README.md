@@ -180,3 +180,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `rpkmforgenes` - a Python script for calculating gene expression for RNA-Seq data. http://sandberg.cmb.ki.se/media/data/rnaseq/instructions-rpkmforgenes.html
 
 - Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl, https://github.com/openvax/pyensembl
+
+- `TPMcalculator` - converts gene counts to TPM using transcript information from a GTF file. TPM vs. FPKM correlation for validation. C/C++ command line tool, Docker image, CWL workflow. https://github.com/ncbi/TPMCalculator
+    - Vera Alvarez, Roberto, Lorinc Sandor Pongor, Leonardo Mariño-Ramírez, and David Landsman. “TPMCalculator: One-Step Software to Quantify MRNA Abundance of Genomic Features.” Edited by Bonnie Berger. Bioinformatics 35, no. 11 (June 1, 2019): 1960–62. https://doi.org/10.1093/bioinformatics/bty896.
+
