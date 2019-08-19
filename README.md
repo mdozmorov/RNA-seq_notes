@@ -13,6 +13,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Functional enrichment](#functional-enrichment)
 * [Non-canonical RNAs](#non-canonical-rnas)
   * [Alternative splicing](#alternative-splicing)
+  * [miRNAs](#mirnas)
   * [lncRNAs](#lncrnas)
   * [circRNAs](#circrnas)
   * [Gene fusion](#gene-fusion)
@@ -93,6 +94,15 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `vast-tools` - A toolset for profiling alternative splicing events in RNA-Seq data. https://github.com/vastgroup/vast-tools
     - Irimia, Manuel, Robert J. Weatheritt, Jonathan D. Ellis, Neelroop N. Parikshak, Thomas Gonatopoulos-Pournatzis, Mariana Babor, Mathieu Quesnel-Vallières, et al. “A Highly Conserved Program of Neuronal Microexons Is Misregulated in Autistic Brains.” Cell 159, no. 7 (December 18, 2014): 1511–23. https://doi.org/10.1016/j.cell.2014.11.035.
+
+### miRNAs
+
+- `miRsponge` - identification and analysis of miRNA sponge interaction networks and modules. Seven methods for miRNA sponge interaction detection (miRHomology, pc, sppc, hermes, ppc, muTaME, and cernia), and integrative method, description of each method. Four module detection methods (FN, MCL, LINKCOMM, MCODE), description of each. Enrichment analyses - disease (DO, DisGeNet, Network of Cancer Genes), functions (GO, KEGG, REACTOME). Survival analysis.
+    - Zhang, Junpeng, Lin Liu, Taosheng Xu, Yong Xie, Chunwen Zhao, Jiuyong Li, and Thuc Duy Le. “MiRsponge: An R/Bioconductor Package for the Identification and Analysis of MiRNA Sponge Interaction Networks and Modules.” BioRxiv, January 1, 2018, 507749. https://doi.org/10.1101/507749.
+
+- `MirGeneDB` - standardized microRNA database, 1288 microRNA families across 45 species. Downloadable, FASTA, GFF, BED files. Nomenclature refs 19, 20. http://mirgenedb.org/
+    - Fromm, Bastian, Diana Domanska, Eirik Hoye, Vladimir Ovchinnikov, Wenjing Kang, Ernesto Aparicio-Puerta, Morten Johansen, et al. “MirGeneDB 2.0: The Metazoan MicroRNA Complement.” BioRxiv, August 13, 2019. https://doi.org/10.1101/258749.
+
 
 ### lncRNAs
 
