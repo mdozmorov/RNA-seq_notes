@@ -120,6 +120,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `Arriba` - Fast and accurate gene fusion detection from RNA-Seq data. https://github.com/suhrig/arriba
 
+- `FuSeq` - fast fusion detection. Compared with FusionMap, TRUP, TopHat-Fusion, JAFFA, SOAPfuse.  https://github.com/nghiavtr/FuSeq
+    - Vu, Trung Nghia, Wenjiang Deng, Quang Thinh Trac, Stefano Calza, Woochang Hwang, and Yudi Pawitan. “A Fast Detection of Fusion Genes from Paired-End RNA-Seq Data.” BMC Genomics 19, no. 1 (December 2018). https://doi.org/10.1186/s12864-018-5156-1.
+
 - `GeneFuse` - Gene fusion detection and visualization. https://github.com/OpenGene/GeneFuse
 
 - `EricScript` is a computational framework for the discovery of gene fusions in paired end RNA-seq data, https://sites.google.com/site/bioericscript/
