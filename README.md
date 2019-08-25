@@ -17,6 +17,7 @@ These notes are not intended to be comprehensive. They include notes about metho
   * [lncRNAs](#lncrnas)
   * [circRNAs](#circrnas)
   * [Gene fusion](#gene-fusion)
+  * [Isoforms](isoforms)
 * [Structural variations](#structural-variations)
 * [Networks](#networks)
 * [Motif enrichment](#motif-enrtichment)
@@ -123,6 +124,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `EricScript` is a computational framework for the discovery of gene fusions in paired end RNA-seq data, https://sites.google.com/site/bioericscript/
 
+### Isoforms
+
+- `IsoformSwitchAnalyzeR` - An R package to Identify, Annotate and Visualize Alternative Splicing and Isoform Switches with Functional Consequences (from RNA-seq data). https://bioconductor.org/packages/release/bioc/html/IsoformSwitchAnalyzeR.html
+    - Vitting-Seerup, Kristoffer, and Albin Sandelin. “IsoformSwitchAnalyzeR: Analysis of Changes in Genome-Wide Patterns of Alternative Splicing and Its Functional Consequences.” Edited by Bonnie Berger. Bioinformatics, April 15, 2019. https://doi.org/10.1093/bioinformatics/btz247.
+    - Vitting-Seerup, Kristoffer, and Albin Sandelin. “The Landscape of Isoform Switches in Human Cancers.” Molecular Cancer Research 15, no. 9 (September 2017): 1206–20. https://doi.org/10.1158/1541-7786.MCR-16-0459. - Isoform switching analysis of TCGA data, tumor vs. normal. Consequences, survival prediction. Supplementary data has isoform switching analysis results for all TCGA cancers, https://mcr.aacrjournals.org/content/15/9/1206.figures-only
 
 ## Structural variations
 
