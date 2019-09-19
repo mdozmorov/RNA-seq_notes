@@ -50,6 +50,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `fastqc` - an R package for quality control (QC) of short read fastq files, analog of the [original FASTQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), https://github.com/Malarkey73/fastqc
 
+- `FastQt` - FastQC port to Qt5: A quality control tool for high throughput sequence data. https://github.com/labsquare/FastQt
+
 ## Clustering
 
 - `clust` - Python package for identification of consistently coexpressed clusters of genes, within and across datasets. Consensus clustering principle. ~50% of genes do not cluster well and thus shouldn't be considered. Compared with seven tools (cross-clustering, k-means, SOMs, MCL, HC, Click, WGCNA) using seven different cluster validation metrics. Outperforms all, produces more focused and significant functional enrichment results. https://github.com/BaselAbujamous/clust
