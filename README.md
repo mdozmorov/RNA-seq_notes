@@ -52,6 +52,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `FastQt` - FastQC port to Qt5: A quality control tool for high throughput sequence data. https://github.com/labsquare/FastQt
 
+- `fastqcheck` - Generate statistics on and validate fastq files. https://github.com/VertebrateResequencing/fastqcheck
+
 ## Clustering
 
 - `clust` - Python package for identification of consistently coexpressed clusters of genes, within and across datasets. Consensus clustering principle. ~50% of genes do not cluster well and thus shouldn't be considered. Compared with seven tools (cross-clustering, k-means, SOMs, MCL, HC, Click, WGCNA) using seven different cluster validation metrics. Outperforms all, produces more focused and significant functional enrichment results. https://github.com/BaselAbujamous/clust
