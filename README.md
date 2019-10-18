@@ -131,6 +131,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ### Gene fusion
 
+- `FusionScan` – prediction of fusion genes from RNA-Seq data. [RNA-seq blog post](https://www.rna-seqblog.com/fusionscan-prediction-of-fusion-genes-from-rna-seq-data/), http://fusionscan.ewha.ac.kr/, https://github.com/iamlife/FusionScan
+
 - `Arriba` - Fast and accurate gene fusion detection from RNA-Seq data. https://github.com/suhrig/arriba
 
 - `FuSeq` - fast fusion detection. Compared with FusionMap, TRUP, TopHat-Fusion, JAFFA, SOAPfuse.  https://github.com/nghiavtr/FuSeq
