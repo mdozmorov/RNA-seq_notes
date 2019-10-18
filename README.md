@@ -66,6 +66,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - Publication-ready volcano plots with enhanced colouring and labeling. https://github.com/kevinblighe/EnhancedVolcano
 
+- `ALDEx` - differential abundance analysis of compositional data. ANOVA-like approach, partitioning within-condition to between-condition variation. Uses a Dirichlet-multinomial model to infer abundance from counts. Methods description for transforming proportional data into independent components.  https://bioconductor.org/packages/release/bioc/html/ALDEx2.html
+    - Fernandes, Andrew D., Jean M. Macklaim, Thomas G. Linn, Gregor Reid, and Gregory B. Gloor. “ANOVA-like Differential Expression (ALDEx) Analysis for Mixed Population RNA-Seq.” PloS One 8, no. 7 (2013): e67019. https://doi.org/10.1371/journal.pone.0067019.
+
+
 ## Functional enrichment
 
 - `CEMiTool` - gene co-expression analysis, reimplements WGCNA, includes selection of a soft-thresholding power using Cauchi distribution, gene enrichment analysis and, optionally, PPI network. Good overview of WGCNA algorithm. https://bioconductor.org/packages/release/bioc/html/CEMiTool.html
