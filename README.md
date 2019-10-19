@@ -85,6 +85,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Metascape` - multi-gene lists functional analysis, auto gene ID recognition, >40 databases. http://metascape.org/gp/index.html#/main/step1
     - Zhou, Yingyao, Bin Zhou, Lars Pache, Max Chang, Alireza Hadj Khodabakhshi, Olga Tanaseichuk, Christopher Benner, and Sumit K. Chanda. “Metascape Provides a Biologist-Oriented Resource for the Analysis of Systems-Level Datasets.” Nature Communications 10, no. 1 (December 2019): 1523. https://doi.org/10.1038/s41467-019-09234-6.
 
+- Positional Gene Enrichment analysis of gene sets for high resolution identification of overrepresented chromosomal regions.  http://silico.biotoul.fr/pge/
+    - De Preter, K., Barriot, R., Speleman, F., Vandesompele, J., Moreau, Y., 2008, Nucleic Acids Res. https://academic.oup.com/nar/article/36/7/e43/2410597
+
+
 ## Non-canonical RNAs
 
 ### Alternative splicing
