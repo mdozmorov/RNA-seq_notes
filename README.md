@@ -62,6 +62,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Differential expression
 
+- `Degust` -  interactive RNA-seq analysis, RNA-seq exploration, analysis and visualisation. http://degust.erc.monash.edu/
+
 - `ideal` - Interactive Differential Expression AnaLysis. http://bioconductor.org/packages/release/bioc/html/ideal.html
 
 - Publication-ready volcano plots with enhanced colouring and labeling. https://github.com/kevinblighe/EnhancedVolcano
