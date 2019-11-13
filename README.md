@@ -139,6 +139,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `ChimerDB` is a comprehensive database of fusion genes encompassing analysis of deep sequencing data and manual curations. In this update, the database coverage was enhanced considerably by adding two new modules of TCGA RNA-Seq analysis and PubMed abstract mining. http://203.255.191.229:8080/chimerdbv31/mindex.cdb
 
+- TUMOR FUSION GENE DATA PORTAL - Landscape of cancer-associated fusions using the Pipeline for RNA sequencing Data Analysis. https://www.tumorfusions.org/
+
 - `FusionScan` – prediction of fusion genes from RNA-Seq data. [RNA-seq blog post](https://www.rna-seqblog.com/fusionscan-prediction-of-fusion-genes-from-rna-seq-data/), http://fusionscan.ewha.ac.kr/, https://github.com/iamlife/FusionScan
 
 - `Arriba` - Fast and accurate gene fusion detection from RNA-Seq data. https://github.com/suhrig/arriba
