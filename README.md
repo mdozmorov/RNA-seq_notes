@@ -114,6 +114,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ### miRNAs
 
+- `MIENTURNET` - web tool for miRNA-target enrichment analysis, prioritization, network visualization, functional enrichment for microRNA target genes. http://userver.bio.uniroma1.it/apps/mienturnet/
+    - Licursi, Valerio, Federica Conte, Giulia Fiscon, and Paola Paci. “MIENTURNET: An Interactive Web Tool for MicroRNA-Target Enrichment and Network-Based Analysis.” BMC Bioinformatics 20, no. 1 (December 2019): 545. https://doi.org/10.1186/s12859-019-3105-x.
+
 - `miRDB` - database for miRNA target prediction and functional annotations. The targets were predicted by MirTarget from RNA-seq and CLIP-seq data. Five species: human, mouse, rat, dog and chicken. Custom target prediction. Cell line-specific. Integrative analysis of target prediction and Gene Ontology data. http://mirdb.org
     - Chen, Yuhao, and Xiaowei Wang. “MiRDB: An Online Database for Prediction of Functional MicroRNA Targets.” Nucleic Acids Research, August 31, 2019, gkz757. https://doi.org/10.1093/nar/gkz757.
 
