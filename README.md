@@ -30,6 +30,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ### Preprocessing
 
+- Check strandedness of RNA-Seq fastq files, https://github.com/betsig/how_are_we_stranded_here
+
 ### Analysis
 
 - `3D_RNA-seq` - R package and Shiny app, and Docker image, for differential expression, differential alternative splicing, and differential Transcript Usage. Two- and mutliple group analysis, time course. Input - Salmon/Kallisto transcript quantification files, or .csv. Diagnostic plots, PCA, batch removal using RUVseq, limma-voom for differential expression, iso-kTSP and TSIS for isoform switching between groups and in time course, respectively. Heatmaps, barplots, volcano plots, Venn diagrams. 3D stands for three days. Web: https://ics.hutton.ac.uk/3drnaseq/,  Manual: https://github.com/wyguo/ThreeDRNAseq/blob/master/vignettes/user_manuals/3D_RNA-seq_App_manual.md,  GitHub: https://github.com/wyguo/ThreeDRNAseq
