@@ -20,6 +20,7 @@ These notes are not intended to be comprehensive. They include notes about metho
   * [Isoforms](isoforms)
 * [Structural variations](#structural-variations)
 * [Networks](#networks)
+* [Integrative](#integrative)
 * [Motif enrichment](#motif-enrtichment)
 * [Classification](#classification)
 * [Visualization](#visualization)
@@ -175,6 +176,12 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `GENIE3` - random forest regression detection of gene modules. Input - expression matrix, output - gene x gene square co-regulation matrix. https://github.com/aertslab/GENIE3
 
+## Integrative
+
+- `JIVE` - Joint and Individual Variation Explained. Decomposition of (X) multiple (i) omics datasets into three terms: low-rank (constrained) matrices capturing joint variation (J), plus structured variation (A_i) and residual noise. Data are row-centered and scaled by its total variation. Main constrain: the rows of joint and individual matrices should be orthogonal. Estimate matrices by iteratively minimizing ||R||^2 (R=X-J-A). Relationship to PCA, CCA, PLS. Illustrated on TCGA GBM gene expression, methylation, and miRNA data, with interpretation. Matlab code https://genome.unc.edu/jive/, r.jive package, https://cran.r-project.org/web/packages/r.jive/vignettes/BRCA_Example.html
+    - Lock, Eric F., Katherine A. Hoadley, J. S. Marron, and Andrew B. Nobel. “JOINT AND INDIVIDUAL VARIATION EXPLAINED (JIVE) FOR INTEGRATED ANALYSIS OF MULTIPLE DATA TYPES.” The Annals of Applied Statistics 7, no. 1 (March 1, 2013): 523–42. https://doi.org/10.1214/12-AOAS597.
+
+- List of software packages for multi-omics analysis, by Mike Love. https://github.com/mikelove/awesome-multi-omics. Slides for the talk "Assessing consistency of unsupervised multi-omics methods". https://docs.google.com/presentation/d/1QAaweEc32JzhWHl7YenLdT9w8JUjwaTExe_uve2s22U/edit#slide=id.p
 
 ## Motif enrichment
 
