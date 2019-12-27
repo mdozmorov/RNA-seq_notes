@@ -62,6 +62,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `clust` - Python package for identification of consistently coexpressed clusters of genes, within and across datasets. Consensus clustering principle. ~50% of genes do not cluster well and thus shouldn't be considered. Compared with seven tools (cross-clustering, k-means, SOMs, MCL, HC, Click, WGCNA) using seven different cluster validation metrics. Outperforms all, produces more focused and significant functional enrichment results. https://github.com/BaselAbujamous/clust
     - Abu-Jamous, Basel, and Steven Kelly. “Clust: Automatic Extraction of Optimal Co-Expressed Gene Clusters from Gene Expression Data.” Genome Biology 19, no. 1 (December 2018). https://doi.org/10.1186/s13059-018-1536-8.
 
+## Timecourse
+
+- `DREM` 2.0 - time course analysis of gene expression data. Detects patterns of gene expression changes and the corresponding transcription factors driving them, motif discovery using protein-DNA (ChIP-seq, ChIP-chip, computational) data, differential motif analysis (DECOD method). Hidden Markov Model-based algorithm. Java tool, GUI and command line interface. http://wwhttp://sb.cs.cmu.edu/drem/
+    - Schulz, Marcel H, William E Devanny, Anthony Gitter, Shan Zhong, Jason Ernst, and Ziv Bar-Joseph. “DREM 2.0: Improved Reconstruction of Dynamic Regulatory Networks from Time-Series Expression Data.” BMC Systems Biology 6, no. 1 (2012): 104. https://doi.org/10.1186/1752-0509-6-104.
+
 
 ## Differential expression
 
