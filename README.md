@@ -9,6 +9,7 @@ These notes are not intended to be comprehensive. They include notes about metho
   * [Analysis](#analysis)
 * [Quality control](#quality-control)
 * [Clustering](#clustering)
+* [Timecourse](#timecourse)
 * [Differential expression](#differential-expression)
 * [Functional enrichment](#functional-enrichment)
 * [Non-canonical RNAs](#non-canonical-rnas)
@@ -63,6 +64,9 @@ These notes are not intended to be comprehensive. They include notes about metho
     - Abu-Jamous, Basel, and Steven Kelly. “Clust: Automatic Extraction of Optimal Co-Expressed Gene Clusters from Gene Expression Data.” Genome Biology 19, no. 1 (December 2018). https://doi.org/10.1186/s13059-018-1536-8.
 
 ## Timecourse
+
+- Time course gene expression analysis review. Biological scenarios requiring a time-course, analytical approaches, Table 1 - software for time course analysis (EDGE, BETR, clustering tools, network analysis).
+    - Bar-Joseph, Ziv, Anthony Gitter, and Itamar Simon. “Studying and Modelling Dynamic Biological Processes Using Time-Series Gene Expression Data.” Nature Reviews. Genetics 13, no. 8 (July 18, 2012): 552–64. https://doi.org/10.1038/nrg3244.
 
 - `DREM` 2.0 - time course analysis of gene expression data. Detects patterns of gene expression changes and the corresponding transcription factors driving them, motif discovery using protein-DNA (ChIP-seq, ChIP-chip, computational) data, differential motif analysis (DECOD method). Hidden Markov Model-based algorithm. Java tool, GUI and command line interface. http://wwhttp://sb.cs.cmu.edu/drem/
     - Schulz, Marcel H, William E Devanny, Anthony Gitter, Shan Zhong, Jason Ernst, and Ziv Bar-Joseph. “DREM 2.0: Improved Reconstruction of Dynamic Regulatory Networks from Time-Series Expression Data.” BMC Systems Biology 6, no. 1 (2012): 104. https://doi.org/10.1186/1752-0509-6-104.
