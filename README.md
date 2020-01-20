@@ -65,6 +65,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Timecourse
 
+- `LPWC` - Lag Penalized Weighted Correlation, a similarity measure to group pairs of time series that are not perfectly synchronized. Review of previous approaches (hierarchical clustering, partition-based, Bayesian models). Correlation-based, with the lag penalty for shift, two options to select it. Best for 5 or more time points, for shorter time course - either use high penalty or another tool STEM. Tested on simulated data (ImpulsDE data) using the adjusted Rand index. https://gitter-lab.github.io/LPWC/
+    - Chandereng, Thevaa, and Anthony Gitter. “Lag Penalized Weighted Correlation for Time Series Clustering.” BMC Bioinformatics 21, no. 1 (December 2020): 21. https://doi.org/10.1186/s12859-019-3324-1.
+
 - Time course gene expression analysis review. Biological scenarios requiring a time-course, analytical approaches, Table 1 - software for time course analysis (EDGE, BETR, clustering tools, network analysis).
     - Bar-Joseph, Ziv, Anthony Gitter, and Itamar Simon. “Studying and Modelling Dynamic Biological Processes Using Time-Series Gene Expression Data.” Nature Reviews. Genetics 13, no. 8 (July 18, 2012): 552–64. https://doi.org/10.1038/nrg3244.
 
