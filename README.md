@@ -158,6 +158,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ### Gene fusion
 
+- `annoFuse` - an R package for standartization, filtering and annotation of fusion calls detected by STAR-Fusion and Arriba, two best methods for fusion detection. Visualization options. Applied to OpenPBTA data. https://github.com/d3b-center/annoFuse/
+    - Gaonkar, Krutika S., Komal S. Rathi, Payal Jain, Yuankun Zhu, Miguel A. Brown, Bo Zhang, Pichai Raman, et al. “AnnoFuse: An R Package to Annotate and Prioritize Putative Oncogenic RNA Fusions.” Preprint. Bioinformatics, November 12, 2019. https://doi.org/10.1101/839738.
+
 - `ChimerDB` is a comprehensive database of fusion genes encompassing analysis of deep sequencing data and manual curations. In this update, the database coverage was enhanced considerably by adding two new modules of TCGA RNA-Seq analysis and PubMed abstract mining. http://203.255.191.229:8080/chimerdbv31/mindex.cdb
 
 - TUMOR FUSION GENE DATA PORTAL - Landscape of cancer-associated fusions using the Pipeline for RNA sequencing Data Analysis. https://www.tumorfusions.org/
