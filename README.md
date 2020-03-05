@@ -12,6 +12,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Timecourse](#timecourse)
 * [Differential expression](#differential-expression)
 * [Functional enrichment](#functional-enrichment)
+  * [Transcription regulators](#transcription-regulators)
 * [Non-canonical RNAs](#non-canonical-rnas)
   * [Alternative splicing](#alternative-splicing)
   * [miRNAs](#mirnas)
@@ -22,7 +23,6 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Structural variations](#structural-variations)
 * [Networks](#networks)
 * [Integrative](#integrative)
-* [Motif enrichment](#motif-enrtichment)
 * [Classification](#classification)
 * [Visualization](#visualization)
 * [Data](#data)
@@ -108,6 +108,12 @@ These notes are not intended to be comprehensive. They include notes about metho
 - Positional Gene Enrichment analysis of gene sets for high resolution identification of overrepresented chromosomal regions.  http://silico.biotoul.fr/pge/
     - De Preter, K., Barriot, R., Speleman, F., Vandesompele, J., Moreau, Y., 2008, Nucleic Acids Res. https://academic.oup.com/nar/article/36/7/e43/2410597
 
+### Transcription regulators
+
+- `ChEA3` - predicting regulatory TFs for sets of user-provided genes. Improved backend reference gene set data (six datasets), ranking of the most significantly enriched TFs. Benchmarking against several other TF prioritization tools (overviewed in intro). Docker, https://hub.docker.com/r/maayanlab/chea3, API, web-interface and downloadable data https://amp.pharm.mssm.edu/chea3/
+    - Keenan, Alexandra B., Denis Torre, Alexander Lachmann, Ariel K. Leong, Megan L. Wojciechowicz, Vivian Utti, Kathleen M. Jagodnik, Eryk Kropiwnicki, Zichen Wang, and Avi Ma’ayan. “ChEA3: Transcription Factor Enrichment Analysis by Orthogonal Omics Integration.” Nucleic Acids Research, May 22, 2019. https://doi.org/10.1093/nar/gkz446.
+
+- `RcisTarget` - finding enriched motifs in cis-regulatory regions in a gene list. https://github.com/aertslab/RcisTarget
 
 ## Non-canonical RNAs
 
@@ -203,10 +209,6 @@ These notes are not intended to be comprehensive. They include notes about metho
     - Lock, Eric F., Katherine A. Hoadley, J. S. Marron, and Andrew B. Nobel. “JOINT AND INDIVIDUAL VARIATION EXPLAINED (JIVE) FOR INTEGRATED ANALYSIS OF MULTIPLE DATA TYPES.” The Annals of Applied Statistics 7, no. 1 (March 1, 2013): 523–42. https://doi.org/10.1214/12-AOAS597.
 
 - List of software packages for multi-omics analysis, by Mike Love. https://github.com/mikelove/awesome-multi-omics. Slides for the talk "Assessing consistency of unsupervised multi-omics methods". https://docs.google.com/presentation/d/1QAaweEc32JzhWHl7YenLdT9w8JUjwaTExe_uve2s22U/edit#slide=id.p
-
-## Motif enrichment
-
-- `RcisTarget` - finding enriched motifs in cis-regulatory regions in a gene list. https://github.com/aertslab/RcisTarget
 
 
 ## Classification
