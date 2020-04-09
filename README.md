@@ -119,6 +119,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ### Alternative splicing
 
+- Benchmarking review, two types of alternative splicing analysis: differential splicing and differential isoform detection. DESeq2, DEXSeq, Limma and NOISeq perform well overall. https://github.com/gamerino/benchmarkingDiffExprAndSpl
+    - Merino, Gabriela A, Ana Conesa, and Elmer A Fernández. “A Benchmarking of Workflows for Detecting Differential Splicing and Differential Expression at Isoform Level in Human RNA-Seq Studies.” Briefings in Bioinformatics 20, no. 2 (March 25, 2019): 471–81. https://doi.org/10.1093/bib/bbx122.
+
 - `MAJIQ` - local splicing variation analysis. Detects canonical and alternative splicing events. Quantifies as Percent Selected In (PSI). Differential splicing as delta PSI. Visualization using VOILA package. Python 3. https://majiq.biociphers.org/
     - Vaquero-Garcia, Jorge, Alejandro Barrera, Matthew R. Gazzara, Juan González-Vallinas, Nicholas F. Lahens, John B. Hogenesch, Kristen W. Lynch, and Yoseph Barash. “A New View of Transcriptome Complexity and Regulation through the Lens of Local Splicing Variations.” ELife 5 (February 1, 2016): e11752. https://doi.org/10.7554/eLife.11752.
 
