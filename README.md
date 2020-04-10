@@ -113,6 +113,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `ChEA3` - predicting regulatory TFs for sets of user-provided genes. Improved backend reference gene set data (six datasets), ranking of the most significantly enriched TFs. Benchmarking against several other TF prioritization tools (overviewed in intro). Docker, https://hub.docker.com/r/maayanlab/chea3, API, web-interface and downloadable data https://amp.pharm.mssm.edu/chea3/
     - Keenan, Alexandra B., Denis Torre, Alexander Lachmann, Ariel K. Leong, Megan L. Wojciechowicz, Vivian Utti, Kathleen M. Jagodnik, Eryk Kropiwnicki, Zichen Wang, and Avi Ma’ayan. “ChEA3: Transcription Factor Enrichment Analysis by Orthogonal Omics Integration.” Nucleic Acids Research, May 22, 2019. https://doi.org/10.1093/nar/gkz446.
 
+- `RABIT` - find TFs regulating a list of genes. Integrated ChIP-seq and gene expression data, regression framework. Tested in experimental KO data, tumor-profiling cohorts. http://rabit.dfci.harvard.edu/
+    - Jiang, Peng, Matthew L. Freedman, Jun S. Liu, and Xiaole Shirley Liu. “Inference of Transcriptional Regulation in Cancers.” Proceedings of the National Academy of Sciences 112, no. 25 (June 23, 2015): 7731–36. https://doi.org/10.1073/pnas.1424272112.
+
 - `RcisTarget` - finding enriched motifs in cis-regulatory regions in a gene list. https://github.com/aertslab/RcisTarget
 
 ## Non-canonical RNAs
