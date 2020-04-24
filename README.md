@@ -162,6 +162,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `lncRNAKB` - database of long noncoding RNAs. lncRNAs are typically less conserved, expressed low on average and highly tissue-specific. Combines six resources (CHESS, LNCipedia, NONCODE, FANTOM, MiTranscriptome, BIGTranscriptome). Information about tissue-specific expression, eQTL, WGCNA co-expression to predict functions in a tissue-specific manner, random forest prediction of protein-coding score. Data: GTF gene annotation, tissue-specific expression (TPM, counts, eQTL). http://psychiatry.som.jhmi.edu/lncrnakb/, https://www.rna-seqblog.com/lncrnakb-a-comprehensive-knowledgebase-of-long-non-coding-rnas/
     - Seifuddin, Fayaz, Komudi Singh, Abhilash Suresh, Yun-Ching Chen, Vijender Chaitankar, Ilker Tunc, Xiangbo Ruan, et al. “LncRNAKB: A Comprehensive Knowledgebase of Long Non-Coding RNAs.” Preprint. Bioinformatics, June 13, 2019. https://doi.org/10.1101/669994.
 
+- `UClncR` - detecting and quantifying expression of unknown and known lncRNAs. Works for unstranded and stranded RNA-seq. Incorporates StringTie, Sebnif for novel lncRNA detection, iSeeRNA for assessing noncoding potential. Annotates lncRNAs by the nearby protein-coding genes. Tested on real data using Gencode annotations with parts of lncRNA annotations removed. http://bioinformaticstools.mayo.edu/research/uclncr-pipeline/
+    - Sun, Zhifu, Asha Nair, Xianfeng Chen, Naresh Prodduturi, Junwen Wang, and Jean-Pierre Kocher. “UClncR: Ultrafast and Comprehensive Long Non-Coding RNA Detection from RNA-Seq.” Scientific Reports 7, no. 1 (December 2017): 14196. https://doi.org/10.1038/s41598-017-14595-3.
+
 
 ### circRNAs
 
