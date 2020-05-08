@@ -20,7 +20,7 @@ These notes are not intended to be comprehensive. They include notes about metho
   * [circRNAs](#circrnas)
   * [Gene fusion](#gene-fusion)
   * [Isoforms](isoforms)
-* [Structural variations](#structural-variations)
+* [CNVs and Structural variations](#cnvs-and-structural-variations)
 * [Networks](#networks)
 * [Integrative](#integrative)
 * [Classification](#classification)
@@ -197,7 +197,7 @@ These notes are not intended to be comprehensive. They include notes about metho
     - Vitting-Seerup, Kristoffer, and Albin Sandelin. “IsoformSwitchAnalyzeR: Analysis of Changes in Genome-Wide Patterns of Alternative Splicing and Its Functional Consequences.” Edited by Bonnie Berger. Bioinformatics, April 15, 2019. https://doi.org/10.1093/bioinformatics/btz247.
     - Vitting-Seerup, Kristoffer, and Albin Sandelin. “The Landscape of Isoform Switches in Human Cancers.” Molecular Cancer Research 15, no. 9 (September 2017): 1206–20. https://doi.org/10.1158/1541-7786.MCR-16-0459. - Isoform switching analysis of TCGA data, tumor vs. normal. Consequences, survival prediction. Supplementary data has isoform switching analysis results for all TCGA cancers, https://mcr.aacrjournals.org/content/15/9/1206.figures-only
 
-## Structural variations
+## CNVs and Structural variations
 
 - `SQUID` - transcriptomic structural variation caller. Genome segment graph, then rearrange segments so that as many read alignments as possible are concordant with the rearranged sequence. Compared with MUMmer3, DELLY2, LUMPY in simulated settings, and with SOAPfuse, deFuse, FusionCatcher, JAFFA, INTEGRATE tools using real data. https://github.com/Kingsford-Group/squid
     - Ma, Cong, Mingfu Shao, and Carl Kingsford. “SQUID: Transcriptomic Structural Variation Detection from RNA-Seq.” Genome Biology 19, no. 1 (12 2018): 52. https://doi.org/10.1186/s13059-018-1421-5.
