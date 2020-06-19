@@ -252,6 +252,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Data
 
+- [refine.bio](https://www.ccdatalab.org/projects/refinebio) - harmonized microarray and RNA-seq data for various organisms and conditions, https://www.ccdatalab.org/projects/refinebio
+
 - `cBioPortalData` - cBioPortal data as MultiAssayExperiment objects. https://github.com/waldronlab/cBioPortalData
 
 - `curatedTCGAData` - Curated Data From The Cancer Genome Atlas (TCGA) as MultiAssayExperiment objects. https://github.com/waldronlab/curatedTCGAData
