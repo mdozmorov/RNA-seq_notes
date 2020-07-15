@@ -49,6 +49,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Quality control
 
+- [fastp](https://github.com/OpenGene/fastp) - fast C++ parallelized tool for FASTQ quality control, adapter trimming, quality filtering, pruning, polyX (polyG) trimming, works with single- and paired-end data. https://github.com/OpenGene/fastp
+    - Chen, Shifu, Yanqing Zhou, Yaru Chen, and Jia Gu. “[Fastp: An Ultra-Fast All-in-One FASTQ Preprocessor](https://doi.org/10.1093/bioinformatics/bty560).” Bioinformatics 34, no. 17 (September 1, 2018)
+
 - `MultiQC` - Summarization and visualization QC results for multiple samples in one report. Recognizes multiple QC tools. http://multiqc.info/
 
 - `ngsReports` - An R Package for managing FastQC reports and other NGS related log files. https://github.com/UofABioinformaticsHub/ngsReports, http://biorxiv.org/content/early/2018/05/02/313148.abstract
