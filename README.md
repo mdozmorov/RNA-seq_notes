@@ -26,6 +26,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Classification](#classification)
 * [Visualization](#visualization)
 * [Data](#data)
+  * [Genes](#genes)
 * [Misc](#misc)
 
 ## Pipelines
@@ -173,6 +174,12 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ### miRNAs
 
+- [PharmacomiR](http://www.pharmaco-mir.org/) - miRNA-drug associations analysis
+
+- [microRNAome](https://bioconductor.org/packages/microRNAome/) - read counts for microRNAs across tissues, cell-types, and cancer cell-lines, SummarizedExperiment R package
+
+- [miRNAmeConverter](https://bioconductor.org/packages/miRNAmeConverter/) - Convert miRNA Names to Different miRBase Versions
+
 - `MIENTURNET` - web tool for miRNA-target enrichment analysis, prioritization, network visualization, functional enrichment for microRNA target genes. http://userver.bio.uniroma1.it/apps/mienturnet/
     - Licursi, Valerio, Federica Conte, Giulia Fiscon, and Paola Paci. “MIENTURNET: An Interactive Web Tool for MicroRNA-Target Enrichment and Network-Based Analysis.” BMC Bioinformatics 20, no. 1 (December 2019): 545. https://doi.org/10.1186/s12859-019-3105-x.
 
@@ -304,6 +311,31 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - [GEMMA](https://gemma.msl.ubc.ca/home.html) - curated transcriptomic database, >10,000 studies, \~34% are brain-related. Query genes, phenotypes, experiments, search for coexpression, differential expression. Processing methods, batch correction. Online access, API, R package. [GitHub](https://github.com/PavlidisLab/Gemma/)
     - Lim, Nathaniel, Stepan Tesar, Manuel Belmadani, Guillaume Poirier-Morency, Burak Ogan Mancarci, Jordan Sicherman, Matthew Jacobson, Justin Leong, Patrick Tan, and Paul Pavlidis. “[Curation of over 10,000 Transcriptomic Studies to Enable Data Reuse](https://doi.org/10.1101/2020.07.13.201442).” Preprint. Bioinformatics, July 14, 2020. 
+
+### Genes
+
+- [List of gene lists for genomic analyses](https://github.com/macarthur-lab/gene_lists) - GitHub repo with tab-separated annotated lists
+
+- [CREEDS](https://amp.pharm.mssm.edu/creeds/) - database of manually (and automatically) extracted gene signatures. Single gene perturbations, disease signatures, single drug perturbations. Batch effect correction, when necessary. Overall, good agreement with MSigDb C2. Characteristic Direction (CD) method to detect differential genes. [API access in R](http://rpubs.com/wangz10/177826)
+    - Wang, Zichen, Caroline D. Monteiro, Kathleen M. Jagodnik, Nicolas F. Fernandez, Gregory W. Gundersen, Andrew D. Rouillard, Sherry L. Jenkins, et al. “[Extraction and Analysis of Signatures from the Gene Expression Omnibus by the Crowd](https://doi.org/10.1038/ncomms12846).” Nature Communications 7, no. 1 (November 2016)
+
+- [OGEE](http://ogee.medgenius.info/browse/) - Online GEne Essentiality database for multiple organisms, including human and mouse
+
+- [HGNChelper](https://waldronlab.io/HGNChelper/) - Identify and Correct Invalid HGNC Human Gene Symbols and MGI Mouse Gene Symbols
+
+- [gencode_regions](https://github.com/saketkc/gencode_regions) - Extract 3'UTR, 5'UTR, CDS, Promoter, Genes, Introns etc from GTF files, by Saket Choudhary
+
+- [Extract intron boundaries per transcript](https://gist.github.com/hiraksarkar/ce8a71a6953cb4e9823d868c283bf99d)
+
+- [CHESS](http://ccb.jhu.edu/chess/) - Comprehensive Human Expressed SequenceS, database of novel genes, identified from GTeX data, protein-coding and lncRNA
+
+- [GTEx Visualizations](https://github.com/broadinstitute/gtex-viz) - web-based visualization tools for exploring tissue-specific gene expression and regulation
+
+- [ideogram](https://github.com/eweitz/ideogram) - Chromosome visualization with D3.js. [Examples](https://eweitz.github.io/ideogram/). [ideogRam R wrapper](https://github.com/freestatman/ideogRam)
+
+- [Enhancer-promoter (EP) pairs from Thurman et al., (2012)](ftp://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/openchrom/jan2011/dhs_gene_connectivity/genomewideCorrs_above0.7_promoterPlusMinus500kb_withGeneNames_32celltypeCategories.bed8.gz)
+
+- [pysradb](https://github.com/saketkc/pysradb) - Python package for interacting with SRAdb and downloading datasets from SRA, by Saket Choudhary. [Documentation](https://www.saket-choudhary.me/pysradb/)
 
 
 ## Misc
