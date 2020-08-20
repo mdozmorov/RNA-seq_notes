@@ -1,33 +1,39 @@
 # A continually expanding collection of RNA-seq tools
 
-These notes are not intended to be comprehensive. They include notes about methods, packages and tools I would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
+RNA-seq related tools and genomics data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
 
-* [Pipelines](#pipelines)
-  * [Preprocessing](#preprocessing)
-  * [Analysis](#analysis)
-* [Quality control](#quality-control)
-* [Clustering](#clustering)
-* [Timecourse](#timecourse)
-* [Differential expression](#differential-expression)
-* [Functional enrichment](#functional-enrichment)
-  * [Transcription regulators](#transcription-regulators)
-* [Non-canonical RNAs](#non-canonical-rnas)
-  * [Alternative splicing](#alternative-splicing)
-  * [miRNAs](#mirnas)
-  * [lncRNAs](#lncrnas)
-  * [circRNAs](#circrnas)
-  * [Gene fusion](#gene-fusion)
-  * [Isoforms](isoforms)
-* [CNVs and Structural variations](#cnvs-and-structural-variations)
-* [Networks](#networks)
-* [Integrative](#integrative)
-* [Classification](#classification)
-* [Visualization](#visualization)
-* [Data](#data)
-  * [Genes](#genes)
-* [Misc](#misc)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Pipelines](#pipelines)
+  - [Preprocessing](#preprocessing)
+  - [Analysis](#analysis)
+- [Quality control](#quality-control)
+- [Clustering](#clustering)
+- [Timecourse](#timecourse)
+- [Differential expression](#differential-expression)
+- [Functional enrichment](#functional-enrichment)
+  - [Transcription regulators](#transcription-regulators)
+- [Non-canonical RNAs](#non-canonical-rnas)
+  - [Alternative splicing](#alternative-splicing)
+  - [miRNAs](#mirnas)
+  - [lncRNAs](#lncrnas)
+  - [circRNAs](#circrnas)
+  - [Gene fusion](#gene-fusion)
+  - [Isoforms](#isoforms)
+- [CNVs and Structural variations](#cnvs-and-structural-variations)
+- [Networks](#networks)
+- [Integrative](#integrative)
+- [Classification](#classification)
+- [Visualization](#visualization)
+- [Data](#data)
+  - [Genes](#genes)
+- [Misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Pipelines
 
