@@ -34,6 +34,26 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - Check strandedness of RNA-Seq fastq files, https://github.com/betsig/how_are_we_stranded_here
 
+- [Illumina Instrument Type from fastq](https://www.biostars.org/p/198143/)
+
+- [adapters](https://github.com/stephenturner/adapters) - Adapter sequences for trimming, by Stephen Turner
+
+- [bamcov](https://github.com/fbreitwieser/bamcov) - Quickly calculate and visualize sequence coverage in alignment files in command line
+
+- [bamcount](https://github.com/BenLangmead/bamcount) - BigWig and BAM utilities, coverage, by Ben Langmead
+
+- [bigwig-nim](https://github.com/brentp/bigwig-nim) - single static binary + liberal license of tool to convert bed to bigwig (and back) and get fast coverage stats from bigwig, by Brent Pedersen, [Twitter](https://twitter.com/brent_p/status/1162765386548305923?s=03)
+
+- [cgpBigWig](https://github.com/cancerit/cgpBigWig) - Package of C scripts for generation of BigWig coverage files. 
+
+- [covviz](https://github.com/brwnj/covviz) - calculate and view coverage based variation
+
+- [indexcov](https://github.com/brentp/goleft/tree/master/indexcov) - Quickly estimate coverage from a whole-genome bam or cram index
+
+- [fastq-pair](https://github.com/linsalrob/fastq-pair) - Match up paired end fastq files quickly and efficiently
+
+
+
 ### Analysis
 
 - [Shiny-Seq](https://github.com/schultzelab/Shiny-Seq) - Shiny app, and Docker image. Input - a count table, or kallisto output, and annotations. Normalization (DESeq2), batch effect removal (limma or SVA),  differential expression analysis (DeSeq2), co-expression network analysis (WGCNA), functional enrichment analysis (clusterprofiler), TFBS motif overrepresentation (pcaGopromoter). Visualization (heatmaps, volcano plots), https://github.com/schultzelab/Shiny-Seq. [RNA-seq blog post](https://www.rna-seqblog.com/shiny-seq-advanced-guided-transcriptome-analysis/)
@@ -281,6 +301,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `DEE2` - Digital Expression Explorer - gene- and transcript-level processed data from multiple organisms, amenable for downstream analysis in R etc. `getDEE2` R package to get the data, https://github.com/markziemann/dee2/blob/master/AccessDEEfromR.md. Web interface: http://dee2.io
     - Ziemann, Mark, Antony Kaspi, and Assam El-Osta. “Digital Expression Explorer 2: A Repository of Uniformly Processed RNA Sequencing Data.” GigaScience 8, no. 4 (April 1, 2019). https://doi.org/10.1093/gigascience/giz022.
+
+- [GEMMA](https://gemma.msl.ubc.ca/home.html) - curated transcriptomic database, >10,000 studies, \~34% are brain-related. Query genes, phenotypes, experiments, search for coexpression, differential expression. Processing methods, batch correction. Online access, API, R package. [GitHub](https://github.com/PavlidisLab/Gemma/)
+    - Lim, Nathaniel, Stepan Tesar, Manuel Belmadani, Guillaume Poirier-Morency, Burak Ogan Mancarci, Jordan Sicherman, Matthew Jacobson, Justin Leong, Patrick Tan, and Paul Pavlidis. “[Curation of over 10,000 Transcriptomic Studies to Enable Data Reuse](https://doi.org/10.1101/2020.07.13.201442).” Preprint. Bioinformatics, July 14, 2020. 
 
 
 ## Misc
