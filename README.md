@@ -1,5 +1,7 @@
 # A continually expanding collection of RNA-seq tools
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
+
 RNA-seq related tools and genomics data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
@@ -39,7 +41,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Preprocessing
 
-- Check strandedness of RNA-Seq fastq files, https://github.com/betsig/how_are_we_stranded_here
+- [Check strandedness of RNA-Seq fastq files](https://github.com/betsig/how_are_we_stranded_here)
 
 - [Illumina Instrument Type from fastq](https://www.biostars.org/p/198143/)
 
@@ -63,25 +65,25 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Analysis
 
-- [Shiny-Seq](https://github.com/schultzelab/Shiny-Seq) - Shiny app, and Docker image. Input - a count table, or kallisto output, and annotations. Normalization (DESeq2), batch effect removal (limma or SVA),  differential expression analysis (DeSeq2), co-expression network analysis (WGCNA), functional enrichment analysis (clusterprofiler), TFBS motif overrepresentation (pcaGopromoter). Visualization (heatmaps, volcano plots), https://github.com/schultzelab/Shiny-Seq. [RNA-seq blog post](https://www.rna-seqblog.com/shiny-seq-advanced-guided-transcriptome-analysis/)
+- [Shiny-Seq](https://github.com/schultzelab/Shiny-Seq) - Shiny app, and Docker image. Input - a count table, or kallisto output, and annotations. Normalization (DESeq2), batch effect removal (limma or SVA),  differential expression analysis (DeSeq2), co-expression network analysis (WGCNA), functional enrichment analysis (clusterprofiler), TFBS motif overrepresentation (pcaGopromoter). Visualization (heatmaps, volcano plots). [GitHub](https://github.com/schultzelab/Shiny-Seq). [RNA-seq blog post](https://www.rna-seqblog.com/shiny-seq-advanced-guided-transcriptome-analysis/)
     - Sundararajan, Zenitha, Rainer Knoll, Peter Hombach, Matthias Becker, Joachim L. Schultze, and Thomas Ulas. “[Shiny-Seq: Advanced Guided Transcriptome Analysis](https://doi.org/10.1186/s13104-019-4471-1).” BMC Research Notes 12, no. 1 (December 2019). 
 
-- [3D_RNA-seq]( https://github.com/wyguo/ThreeDRNAseq) - R package and Shiny app, and Docker image, for differential expression, differential alternative splicing, and differential Transcript Usage. Two- and mutliple group analysis, time course. Input - Salmon/Kallisto transcript quantification files, or .csv. Diagnostic plots, PCA, batch removal using RUVseq, limma-voom for differential expression, iso-kTSP and TSIS for isoform switching between groups and in time course, respectively. Heatmaps, barplots, volcano plots, Venn diagrams. 3D stands for three days. Web: https://ics.hutton.ac.uk/3drnaseq/,  Manual: https://github.com/wyguo/ThreeDRNAseq/blob/master/vignettes/user_manuals/3D_RNA-seq_App_manual.md,  GitHub: https://github.com/wyguo/ThreeDRNAseq
+- [3D_RNA-seq]( https://github.com/wyguo/ThreeDRNAseq) - R package and Shiny app, and Docker image, for differential expression, differential alternative splicing, and differential Transcript Usage. Two- and mutliple group analysis, time course. Input - Salmon/Kallisto transcript quantification files, or .csv. Diagnostic plots, PCA, batch removal using RUVseq, limma-voom for differential expression, iso-kTSP and TSIS for isoform switching between groups and in time course, respectively. Heatmaps, barplots, volcano plots, Venn diagrams. 3D stands for three days. [Web](https://ics.hutton.ac.uk/3drnaseq/),  [Manual](https://github.com/wyguo/ThreeDRNAseq/blob/master/vignettes/user_manuals/3D_RNA-seq_App_manual.md),  [GitHub](https://github.com/wyguo/ThreeDRNAseq)
     - Guo, Wenbin, Nikoleta Tzioutziou, Gordon Stephen, Iain Milne, Cristiane Calixto, Robbie Waugh, John WS Brown, and Runxuan Zhang. “[3D RNA-Seq - a Powerful and Flexible Tool for Rapid and Accurate Differential Expression and Alternative Splicing Analysis of RNA-Seq Data for Biologists](https://doi.org/10.1101/656686).” Preprint. Bioinformatics, May 31, 2019.
 
 - [DrEdGE](https://github.com/ptgolden/dredge) - Differential Expression Gene Explorer, Takes in a table of transcript abundance counts, experimental design, other input can be generated in R. Plot, table, heatmap visualization options. Web: http://dredge.bio.unc.edu/ , GitHub: https://github.com/ptgolden/dredge
     - Tintori, Sophia C, Patrick Golden, and Bob Goldstein. “[Differential Expression Gene Explorer (DrEdGE): A Tool for Generating Interactive Online Data Visualizations for Exploration of Quantitative Transcript Abundance Datasets](https://doi.org/10.1101/618439).” Preprint. Genomics, April 25, 2019. 
 
-- [Phantasus](https://github.com/ctlab/phantasus) - interactive exploratory analyses of genomic data, from clustering, PCA, to enrichment, network, and pathway analyses. Works on user data, ARCHS4, TCGA. https://github.com/ctlab/phantasus. [Bioconductor R package](http://www.bioconductor.org/packages/release/bioc/html/phantasus.html) and [Docker image](https://hub.docker.com/r/dzenkova/phantasus), Web version:https://genome.ifmo.ru/phantasus/
+- [Phantasus](https://github.com/ctlab/phantasus) - interactive exploratory analyses of genomic data, from clustering, PCA, to enrichment, network, and pathway analyses. Works on user data, ARCHS4, TCGA. https://github.com/ctlab/phantasus. [Bioconductor R package](http://www.bioconductor.org/packages/release/bioc/html/phantasus.html) and [Docker image](https://hub.docker.com/r/dzenkova/phantasus)
 
 ## Quality control
 
-- [fastp](https://github.com/OpenGene/fastp) - fast C++ parallelized tool for FASTQ quality control, adapter trimming, quality filtering, pruning, polyX (polyG) trimming, works with single- and paired-end data. https://github.com/OpenGene/fastp
+- [fastp](https://github.com/OpenGene/fastp) - fast C++ parallelized tool for FASTQ quality control, adapter trimming, quality filtering, pruning, polyX (polyG) trimming, works with single- and paired-end data. [GitHub](https://github.com/OpenGene/fastp)
     - Chen, Shifu, Yanqing Zhou, Yaru Chen, and Jia Gu. “[Fastp: An Ultra-Fast All-in-One FASTQ Preprocessor](https://doi.org/10.1093/bioinformatics/bty560).” Bioinformatics 34, no. 17 (September 1, 2018)
 
-- `MultiQC` - Summarization and visualization QC results for multiple samples in one report. Recognizes multiple QC tools. http://multiqc.info/
+- [MultiQC](http://multiqc.info/) - Summarization and visualization QC results for multiple samples in one report. Recognizes multiple QC tools
 
-- `ngsReports` - An R Package for managing FastQC reports and other NGS related log files. https://github.com/UofABioinformaticsHub/ngsReports, http://biorxiv.org/content/early/2018/05/02/313148.abstract
+- [ngsReports](https://github.com/UofABioinformaticsHub/ngsReports) - An R Package for managing FastQC reports and other NGS related log files. [biorXiv](http://biorxiv.org/content/early/2018/05/02/313148.abstract)
 
 - `sickle` - A windowed adaptive trimming tool for FASTQ files using quality. Post-adapter trimming step. https://github.com/najoshi/sickle
 
