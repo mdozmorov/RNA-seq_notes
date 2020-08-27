@@ -348,6 +348,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Misc
 
+- [Recommended Coverage and Read Depth for NGS Applications](https://genohub.com/recommended-sequencing-coverage-by-application/), by GenoHub. And, their [NGS Handbook](https://genohub.com/next-generation-sequencing-handbook/)
+
 - `gencode_regions` - Extract 3'UTR, 5'UTR, CDS, Promoter, Genes, Introns, Exons from GTF files https://github.com/saketkc/gencode_regions
 
 - `combat.py` - python / numpy / pandas / patsy version of ComBat for removing batch effects. https://github.com/brentp/combat.py
