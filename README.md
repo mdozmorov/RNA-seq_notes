@@ -88,44 +88,44 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [ngsReports](https://github.com/UofABioinformaticsHub/ngsReports) - An R Package for managing FastQC reports and other NGS related log files. [biorXiv](http://biorxiv.org/content/early/2018/05/02/313148.abstract)
 
-- `sickle` - A windowed adaptive trimming tool for FASTQ files using quality. Post-adapter trimming step. https://github.com/najoshi/sickle
+- [sickle](https://github.com/najoshi/sickle) - A windowed adaptive trimming tool for FASTQ files using quality. Post-adapter trimming step
 
-- `fastqc` - an R package for quality control (QC) of short read fastq files, analog of the [original FASTQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), https://github.com/Malarkey73/fastqc
+- [fastqc](https://github.com/Malarkey73/fastqc) - an R package for quality control (QC) of short read fastq files, analog of the [original FASTQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
-- `FastQt` - FastQC port to Qt5: A quality control tool for high throughput sequence data. https://github.com/labsquare/FastQt
+- [FastQt](https://github.com/labsquare/FastQt) - FastQC port to Qt5: A quality control tool for high throughput sequence data
 
-- `fastqcheck` - Generate statistics on and validate fastq files. https://github.com/VertebrateResequencing/fastqcheck
+- [fastqcheck](https://github.com/VertebrateResequencing/fastqcheck) - Generate statistics on and validate fastq files
 
 ## Clustering
 
-- `clust` - Python package for identification of consistently coexpressed clusters of genes, within and across datasets. Consensus clustering principle. ~50% of genes do not cluster well and thus shouldn't be considered. Compared with seven tools (cross-clustering, k-means, SOMs, MCL, HC, Click, WGCNA) using seven different cluster validation metrics. Outperforms all, produces more focused and significant functional enrichment results. https://github.com/BaselAbujamous/clust
-    - Abu-Jamous, Basel, and Steven Kelly. “Clust: Automatic Extraction of Optimal Co-Expressed Gene Clusters from Gene Expression Data.” Genome Biology 19, no. 1 (December 2018). https://doi.org/10.1186/s13059-018-1536-8.
+- [clust](https://github.com/BaselAbujamous/clust) - Python package for identification of consistently coexpressed clusters of genes, within and across datasets. Consensus clustering principle. Aproximately 50% of genes do not cluster well and thus shouldn't be considered. Compared with seven tools (cross-clustering, k-means, SOMs, MCL, HC, Click, WGCNA) using seven different cluster validation metrics. Outperforms all, produces more focused and significant functional enrichment results. 
+    - Abu-Jamous, Basel, and Steven Kelly. “[Clust: Automatic Extraction of Optimal Co-Expressed Gene Clusters from Gene Expression Data](https://doi.org/10.1186/s13059-018-1536-8).” Genome Biology 19, no. 1 (December 2018)
 
 ## Timecourse
 
-- `LPWC` - Lag Penalized Weighted Correlation, a similarity measure to group pairs of time series that are not perfectly synchronized. Review of previous approaches (hierarchical clustering, partition-based, Bayesian models). Correlation-based, with the lag penalty for shift, two options to select it. Best for 5 or more time points, for shorter time course - either use high penalty or another tool STEM. Tested on simulated data (ImpulsDE data) using the adjusted Rand index. https://gitter-lab.github.io/LPWC/
-    - Chandereng, Thevaa, and Anthony Gitter. “Lag Penalized Weighted Correlation for Time Series Clustering.” BMC Bioinformatics 21, no. 1 (December 2020): 21. https://doi.org/10.1186/s12859-019-3324-1.
+- [LPWC](https://gitter-lab.github.io/LPWC/) - Lag Penalized Weighted Correlation, a similarity measure to group pairs of time series that are not perfectly synchronized. Review of previous approaches (hierarchical clustering, partition-based, Bayesian models). Correlation-based, with the lag penalty for shift, two options to select it. Best for 5 or more time points, for shorter time course - either use high penalty or another tool STEM. Tested on simulated data (ImpulsDE data) using the adjusted Rand index
+    - Chandereng, Thevaa, and Anthony Gitter. “[Lag Penalized Weighted Correlation for Time Series Clustering](https://doi.org/10.1186/s12859-019-3324-1).” BMC Bioinformatics 21, no. 1 (December 2020)
 
 - Time course gene expression analysis review. Biological scenarios requiring a time-course, analytical approaches, Table 1 - software for time course analysis (EDGE, BETR, clustering tools, network analysis).
-    - Bar-Joseph, Ziv, Anthony Gitter, and Itamar Simon. “Studying and Modelling Dynamic Biological Processes Using Time-Series Gene Expression Data.” Nature Reviews. Genetics 13, no. 8 (July 18, 2012): 552–64. https://doi.org/10.1038/nrg3244.
+    - Bar-Joseph, Ziv, Anthony Gitter, and Itamar Simon. “[Studying and Modelling Dynamic Biological Processes Using Time-Series Gene Expression Data](https://doi.org/10.1038/nrg3244).” Nature Reviews. Genetics 13, no. 8 (July 18, 2012)
 
-- `DREM` 2.0 - time course analysis of gene expression data. Detects patterns of gene expression changes and the corresponding transcription factors driving them, motif discovery using protein-DNA (ChIP-seq, ChIP-chip, computational) data, differential motif analysis (DECOD method). Hidden Markov Model-based algorithm. Java tool, GUI and command line interface. http://wwhttp://sb.cs.cmu.edu/drem/
-    - Schulz, Marcel H, William E Devanny, Anthony Gitter, Shan Zhong, Jason Ernst, and Ziv Bar-Joseph. “DREM 2.0: Improved Reconstruction of Dynamic Regulatory Networks from Time-Series Expression Data.” BMC Systems Biology 6, no. 1 (2012): 104. https://doi.org/10.1186/1752-0509-6-104.
+- [DREM 2.0](http://sb.cs.cmu.edu/drem/) - time course analysis of gene expression data. Detects patterns of gene expression changes and the corresponding transcription factors driving them, motif discovery using protein-DNA (ChIP-seq, ChIP-chip, computational) data, differential motif analysis (DECOD method). Hidden Markov Model-based algorithm. Java tool, GUI and command line interface. 
+    - Schulz, Marcel H, William E Devanny, Anthony Gitter, Shan Zhong, Jason Ernst, and Ziv Bar-Joseph. “[DREM 2.0: Improved Reconstruction of Dynamic Regulatory Networks from Time-Series Expression Data](https://doi.org/10.1186/1752-0509-6-104).” BMC Systems Biology 6, no. 1 (2012)
 
 
 ## Differential expression
 
-- [Topconfect](https://bioconductor.org/packages/release/bioc/html/topconfects.html) - differential gene expression using confidence intervals of log fold changes. Confect units are interpretable as effect sizes. Uses TREAT (limma) functionality, Methods, also wraps edgeR and DESeq2 functionality. Tested using simulated and tumor-normal data. R package, GitHub https://github.com/pfh/topconfects, Bioconductor https://bioconductor.org/packages/release/bioc/html/topconfects.html
+- [Topconfect](https://bioconductor.org/packages/release/bioc/html/topconfects.html) - differential gene expression using confidence intervals of log fold changes. Confect units are interpretable as effect sizes. Uses TREAT (limma) functionality, Methods, also wraps edgeR and DESeq2 functionality. Tested using simulated and tumor-normal data. R package, [GitHub](https://github.com/pfh/topconfects), [Bioconductor](https://bioconductor.org/packages/release/bioc/html/topconfects.html)
     - Harrison, Paul F., Andrew D. Pattison, David R. Powell, and Traude H. Beilharz. “[Topconfects: A Package for Confident Effect Sizes in Differential Expression Analysis Provides a More Biologically Useful Ranked Gene List](https://doi.org/10.1186/s13059-019-1674-7).” Genome Biology 20, no. 1 (December 2019)
 
-- `Degust` -  interactive RNA-seq analysis, RNA-seq exploration, analysis and visualisation. http://degust.erc.monash.edu/
+- [Degust](http://degust.erc.monash.edu/) -  interactive RNA-seq analysis, RNA-seq exploration, analysis and visualisation
 
-- `ideal` - Interactive Differential Expression AnaLysis. http://bioconductor.org/packages/release/bioc/html/ideal.html
+- [ideal](http://bioconductor.org/packages/release/bioc/html/ideal.html) - Interactive Differential Expression AnaLysis. 
 
-- Publication-ready volcano plots with enhanced colouring and labeling. https://github.com/kevinblighe/EnhancedVolcano
+- [EnhancedVolcano](https://github.com/kevinblighe/EnhancedVolcano) - Publication-ready volcano plots with enhanced colouring and labeling, by Kevin Blighe
 
-- `ALDEx` - differential abundance analysis of compositional data. ANOVA-like approach, partitioning within-condition to between-condition variation. Uses a Dirichlet-multinomial model to infer abundance from counts. Methods description for transforming proportional data into independent components.  https://bioconductor.org/packages/release/bioc/html/ALDEx2.html
-    - Fernandes, Andrew D., Jean M. Macklaim, Thomas G. Linn, Gregor Reid, and Gregory B. Gloor. “ANOVA-like Differential Expression (ALDEx) Analysis for Mixed Population RNA-Seq.” PloS One 8, no. 7 (2013): e67019. https://doi.org/10.1371/journal.pone.0067019.
+- [ALDEx](https://bioconductor.org/packages/release/bioc/html/ALDEx2.html) - differential abundance analysis of compositional data. ANOVA-like approach, partitioning within-condition to between-condition variation. Uses a Dirichlet-multinomial model to infer abundance from counts. Methods description for transforming proportional data into independent components
+    - Fernandes, Andrew D., Jean M. Macklaim, Thomas G. Linn, Gregor Reid, and Gregory B. Gloor. “[ANOVA-like Differential Expression (ALDEx) Analysis for Mixed Population RNA-Seq](https://doi.org/10.1371/journal.pone.0067019).” PloS One 8, no. 7 (2013)
 
 
 ## Functional enrichment
@@ -133,58 +133,56 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [GSEABenchmarking](https://github.com/waldronlab/GSEABenchmarking) - an R package for systematic testing of gene set enrichment analyses. 10 major enrichment analyses tested on runtime, % significant sets, type I error rate, relevance to phenotype. Microarray and TCGA RNA-seq data. Best performing - overrepresentation analysis, aka Fisher's, hypergeometric test. [Tweet by Levi Waldron](https://twitter.com/LeviWaldron1/status/1142092301403115521?s=03)
     - Geistlinger, Ludwig, Gergely Csaba, Mara Santarelli, Marcel Ramos, Lucas Schiffer, Charity W Law, Nitesh Turaga, et al. “[Towards a Gold Standard for Benchmarking Gene Set Enrichment Analysis](https://doi.org/10.1101/674267).” Preprint. Bioinformatics, June 19, 2019. 
 
-- `PaintOmics 3` - web tool for KEGG pathway enrichment analysis and visualization of gene expression (also, metabolite, protein, region-based data) over pathway diagrams. Competitors: MapMan, KaPPA-View, Pathview Web. Auto-detection of IDs. Analyzes fold change, time course. http://www.paintomics.org/
-    - Hernández-de-Diego, Rafael, Sonia Tarazona, Carlos Martínez-Mira, Leandro Balzano-Nogueira, Pedro Furió-Tarí, Georgios J. Pappas, and Ana Conesa. “PaintOmics 3: A Web Resource for the Pathway Analysis and Visualization of Multi-Omics Data.” Nucleic Acids Research 46, no. W1 (July 2, 2018): W503–9. https://doi.org/10.1093/nar/gky466.
+- [PaintOmics 3](http://www.paintomics.org/) - web tool for KEGG pathway enrichment analysis and visualization of gene expression (also, metabolite, protein, region-based data) over pathway diagrams. Competitors: MapMan, KaPPA-View, Pathview Web. Auto-detection of IDs. Analyzes fold change, time course
+    - Hernández-de-Diego, Rafael, Sonia Tarazona, Carlos Martínez-Mira, Leandro Balzano-Nogueira, Pedro Furió-Tarí, Georgios J. Pappas, and Ana Conesa. “[PaintOmics 3: A Web Resource for the Pathway Analysis and Visualization of Multi-Omics Data](https://doi.org/10.1093/nar/gky466).” Nucleic Acids Research 46, no. W1 (July 2, 2018)
 
-- `CEMiTool` - gene co-expression analysis, reimplements WGCNA, includes selection of a soft-thresholding power using Cauchi distribution, gene enrichment analysis and, optionally, PPI network. Good overview of WGCNA algorithm. https://bioconductor.org/packages/release/bioc/html/CEMiTool.html
-    - Russo, Pedro S. T., Gustavo R. Ferreira, Lucas E. Cardozo, Matheus C. Bürger, Raul Arias-Carrasco, Sandra R. Maruyama, Thiago D. C. Hirata, et al. “CEMiTool: A Bioconductor Package for Performing Comprehensive Modular Co-Expression Analyses.” BMC Bioinformatics 19, no. 1 (20 2018): 56. https://doi.org/10.1186/s12859-018-2053-1.
+- [CEMiTool](https://bioconductor.org/packages/release/bioc/html/CEMiTool.html) - gene co-expression analysis, reimplements WGCNA, includes selection of a soft-thresholding power using Cauchi distribution, gene enrichment analysis and, optionally, PPI network. Good overview of WGCNA algorithm. 
+    - Russo, Pedro S. T., Gustavo R. Ferreira, Lucas E. Cardozo, Matheus C. Bürger, Raul Arias-Carrasco, Sandra R. Maruyama, Thiago D. C. Hirata, et al. “[CEMiTool: A Bioconductor Package for Performing Comprehensive Modular Co-Expression Analyses](https://doi.org/10.1186/s12859-018-2053-1).” BMC Bioinformatics 19, no. 1 (20 2018)
 
-- `EnrichmentBrowser` - R package for microarray/RNA-seq normalization, ID mapping, differential analysis, functional enrichment (many methods) and network analyses and visualization. https://bioconductor.org/packages/release/bioc/html/EnrichmentBrowser.html
-     - Geistlinger, Ludwig, Gergely Csaba, and Ralf Zimmer. “Bioconductor’s EnrichmentBrowser: Seamless Navigation through Combined Results of Set- & Network-Based Enrichment Analysis.” BMC Bioinformatics 17 (January 20, 2016): 45. https://doi.org/10.1186/s12859-016-0884-1.
-
-- `data_analysis_portals.xlsx` - 25 data analysis portals, from the Metascape paper. [Source](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-09234-6/MediaObjects/41467_2019_9234_MOESM3_ESM.xlsx)
+- [EnrichmentBrowser](https://bioconductor.org/packages/release/bioc/html/EnrichmentBrowser.html) - R package for microarray/RNA-seq normalization, ID mapping, differential analysis, functional enrichment (many methods) and network analyses and visualization
+     - Geistlinger, Ludwig, Gergely Csaba, and Ralf Zimmer. “[Bioconductor’s EnrichmentBrowser: Seamless Navigation through Combined Results of Set- & Network-Based Enrichment Analysis](https://doi.org/10.1186/s12859-016-0884-1).” BMC Bioinformatics 17 (January 20, 2016)
 
 - `gProfileR` - enrichment of gene lists, from GO to KEGG and others, organism-specific, ortholog conversion
 
-- `Metascape` - multi-gene lists functional analysis, auto gene ID recognition, >40 databases. http://metascape.org/gp/index.html#/main/step1
-    - Zhou, Yingyao, Bin Zhou, Lars Pache, Max Chang, Alireza Hadj Khodabakhshi, Olga Tanaseichuk, Christopher Benner, and Sumit K. Chanda. “Metascape Provides a Biologist-Oriented Resource for the Analysis of Systems-Level Datasets.” Nature Communications 10, no. 1 (December 2019): 1523. https://doi.org/10.1038/s41467-019-09234-6.
+- [Metascape](http://metascape.org/gp/index.html#/main/step1) - multi-gene lists functional analysis, auto gene ID recognition, >40 databases. [data_analysis_portals.xlsx]((https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-09234-6/MediaObjects/41467_2019_9234_MOESM3_ESM.xlsx)) - 25 data analysis portals
+    - Zhou, Yingyao, Bin Zhou, Lars Pache, Max Chang, Alireza Hadj Khodabakhshi, Olga Tanaseichuk, Christopher Benner, and Sumit K. Chanda. “[Metascape Provides a Biologist-Oriented Resource for the Analysis of Systems-Level Datasets](https://doi.org/10.1038/s41467-019-09234-6).” Nature Communications 10, no. 1 (December 2019)
 
-- Positional Gene Enrichment analysis of gene sets for high resolution identification of overrepresented chromosomal regions.  http://silico.biotoul.fr/pge/
-    - De Preter, K., Barriot, R., Speleman, F., Vandesompele, J., Moreau, Y., 2008, Nucleic Acids Res. https://academic.oup.com/nar/article/36/7/e43/2410597
+- [Positional Gene Enrichment analysis](http://silico.biotoul.fr/pge/) of gene sets for high resolution identification of overrepresented chromosomal regions.  
+    - [De Preter, K., Barriot, R., Speleman, F., Vandesompele, J., Moreau, Y., 2008, Nucleic Acids Res.](https://academic.oup.com/nar/article/36/7/e43/2410597)
 
 ### Transcription regulators
 
-- `ChEA3` - predicting regulatory TFs for sets of user-provided genes. Improved backend reference gene set data (six datasets), ranking of the most significantly enriched TFs. Benchmarking against several other TF prioritization tools (overviewed in intro). Docker, https://hub.docker.com/r/maayanlab/chea3, API, web-interface and downloadable data https://amp.pharm.mssm.edu/chea3/
-    - Keenan, Alexandra B., Denis Torre, Alexander Lachmann, Ariel K. Leong, Megan L. Wojciechowicz, Vivian Utti, Kathleen M. Jagodnik, Eryk Kropiwnicki, Zichen Wang, and Avi Ma’ayan. “ChEA3: Transcription Factor Enrichment Analysis by Orthogonal Omics Integration.” Nucleic Acids Research, May 22, 2019. https://doi.org/10.1093/nar/gkz446.
+- [ChEA3](https://amp.pharm.mssm.edu/chea3/) - predicting regulatory TFs for sets of user-provided genes. Improved backend reference gene set data (six datasets), ranking of the most significantly enriched TFs. Benchmarking against several other TF prioritization tools (overviewed in intro). [Docker](https://hub.docker.com/r/maayanlab/chea3), [API web-interface and downloadable data](https://amp.pharm.mssm.edu/chea3/)
+    - Keenan, Alexandra B., Denis Torre, Alexander Lachmann, Ariel K. Leong, Megan L. Wojciechowicz, Vivian Utti, Kathleen M. Jagodnik, Eryk Kropiwnicki, Zichen Wang, and Avi Ma’ayan. “[ChEA3: Transcription Factor Enrichment Analysis by Orthogonal Omics Integration](https://doi.org/10.1093/nar/gkz446).” Nucleic Acids Research, May 22, 2019. 
 
-- `RABIT` - find TFs regulating a list of genes. Integrated ChIP-seq and gene expression data, regression framework. Tested in experimental KO data, tumor-profiling cohorts. http://rabit.dfci.harvard.edu/
-    - Jiang, Peng, Matthew L. Freedman, Jun S. Liu, and Xiaole Shirley Liu. “Inference of Transcriptional Regulation in Cancers.” Proceedings of the National Academy of Sciences 112, no. 25 (June 23, 2015): 7731–36. https://doi.org/10.1073/pnas.1424272112.
+- [RABIT](http://rabit.dfci.harvard.edu/) - find TFs regulating a list of genes. Integrated ChIP-seq and gene expression data, regression framework. Tested in experimental KO data, tumor-profiling cohorts. 
+    - Jiang, Peng, Matthew L. Freedman, Jun S. Liu, and Xiaole Shirley Liu. “[Inference of Transcriptional Regulation in Cancers](https://doi.org/10.1073/pnas.1424272112).” Proceedings of the National Academy of Sciences 112, no. 25 (June 23, 2015)
 
-- `RcisTarget` - finding enriched motifs in cis-regulatory regions in a gene list. https://github.com/aertslab/RcisTarget
+- [RcisTarget](https://github.com/aertslab/RcisTarget) - finding enriched motifs in cis-regulatory regions in a gene list
 
 ## Non-canonical RNAs
 
 ### Alternative splicing
 
-- Benchmarking review, two types of alternative splicing analysis: differential splicing and differential isoform detection. DESeq2, DEXSeq, Limma and NOISeq perform well overall. https://github.com/gamerino/benchmarkingDiffExprAndSpl
-    - Merino, Gabriela A, Ana Conesa, and Elmer A Fernández. “A Benchmarking of Workflows for Detecting Differential Splicing and Differential Expression at Isoform Level in Human RNA-Seq Studies.” Briefings in Bioinformatics 20, no. 2 (March 25, 2019): 471–81. https://doi.org/10.1093/bib/bbx122.
+- Benchmarking review, two types of alternative splicing analysis: differential splicing and differential isoform detection. DESeq2, DEXSeq, Limma and NOISeq perform well overall. [GitHub](https://github.com/gamerino/benchmarkingDiffExprAndSpl)
+    - Merino, Gabriela A, Ana Conesa, and Elmer A Fernández. “[A Benchmarking of Workflows for Detecting Differential Splicing and Differential Expression at Isoform Level in Human RNA-Seq Studies](https://doi.org/10.1093/bib/bbx122).” Briefings in Bioinformatics 20, no. 2 (March 25, 2019)
 
-- `MAJIQ` - local splicing variation analysis. Detects canonical and alternative splicing events. Quantifies as Percent Selected In (PSI). Differential splicing as delta PSI. Visualization using VOILA package. Python 3. https://majiq.biociphers.org/
-    - Vaquero-Garcia, Jorge, Alejandro Barrera, Matthew R. Gazzara, Juan González-Vallinas, Nicholas F. Lahens, John B. Hogenesch, Kristen W. Lynch, and Yoseph Barash. “A New View of Transcriptome Complexity and Regulation through the Lens of Local Splicing Variations.” ELife 5 (February 1, 2016): e11752. https://doi.org/10.7554/eLife.11752.
+- [MAJIQ](https://majiq.biociphers.org/) - local splicing variation analysis. Detects canonical and alternative splicing events. Quantifies as Percent Selected In (PSI). Differential splicing as delta PSI. Visualization using VOILA package. Python 3.
+    - Vaquero-Garcia, Jorge, Alejandro Barrera, Matthew R. Gazzara, Juan González-Vallinas, Nicholas F. Lahens, John B. Hogenesch, Kristen W. Lynch, and Yoseph Barash. “[A New View of Transcriptome Complexity and Regulation through the Lens of Local Splicing Variations](https://doi.org/10.7554/eLife.11752).” ELife 5 (February 1, 2016)
 
-- `MISO` (Mixture-of-Isoforms) is a probabilistic framework that quantitates the expression level of alternatively spliced genes from RNA-Seq data, and identifies differentially regulated isoforms or exons across samples. - By modeling the generative process by which reads are produced from isoforms in RNA-Seq, the MISO model uses Bayesian inference to compute the probability that a read originated from a particular isoform.- MISO treats the expression level of a set of isoforms as a random variable and estimates a distribution over the values of this variable. - The estimation algorithm is based on sampling, and falls in the family of techniques known as Markov Chain Monte Carlo (“MCMC”). https://miso.readthedocs.io/en/fastmiso/
-    - Katz, Yarden, Eric T. Wang, Edoardo M. Airoldi, and Christopher B. Burge. “Analysis and Design of RNA Sequencing Experiments for Identifying Isoform Regulation.” Nature Methods 7, no. 12 (December 2010): 1009–15. https://doi.org/10.1038/nmeth.1528.
+- [MISO](https://miso.readthedocs.io/en/fastmiso/) (Mixture-of-Isoforms) is a probabilistic framework that quantitates the expression level of alternatively spliced genes from RNA-Seq data, and identifies differentially regulated isoforms or exons across samples. - By modeling the generative process by which reads are produced from isoforms in RNA-Seq, the MISO model uses Bayesian inference to compute the probability that a read originated from a particular isoform.- MISO treats the expression level of a set of isoforms as a random variable and estimates a distribution over the values of this variable. - The estimation algorithm is based on sampling, and falls in the family of techniques known as Markov Chain Monte Carlo (“MCMC”). 
+    - Katz, Yarden, Eric T. Wang, Edoardo M. Airoldi, and Christopher B. Burge. “[Analysis and Design of RNA Sequencing Experiments for Identifying Isoform Regulation](https://doi.org/10.1038/nmeth.1528).” Nature Methods 7, no. 12 (December 2010)
 
-- `RegTools` - integration of somatic variants from DNA-seq and splice junctions from RNA-seq data to identify variants causing aberrant splicing in cancer. https://regtools.readthedocs.io/en/latest/
-    - Feng, Yang-Yang, Avinash Ramu, Kelsy C Cotto, Zachary L Skidmore, Jason Kunisaki, Donald F Conrad, Yiing Lin, et al. “RegTools: Integrated Analysis of Genomic and Transcriptomic Data for Discovery of Splicing Variants in Cancer,” November 25, 2018. https://doi.org/10.1101/436634.
+- [RegTools](https://regtools.readthedocs.io/en/latest/) - integration of somatic variants from DNA-seq and splice junctions from RNA-seq data to identify variants causing aberrant splicing in cancer. 
+    - Feng, Yang-Yang, Avinash Ramu, Kelsy C Cotto, Zachary L Skidmore, Jason Kunisaki, Donald F Conrad, Yiing Lin, et al. “[RegTools: Integrated Analysis of Genomic and Transcriptomic Data for Discovery of Splicing Variants in Cancer](https://doi.org/10.1101/436634),” November 25, 2018. 
 
 - [rMATS](http://rnaseq-mats.sourceforge.net/) alternative splicing detection tool. Using paired samples.RNA-seq depth and alternative splicing power - 200M reads minimum. [rMATS-turbo](https://github.com/Xinglab/rmats-turbo/) - 100X faster implementation, [Tweet](https://twitter.com/YiXing77/status/1267834667715235843?s=20)
-    - Shen, Shihao, Juw Won Park, Zhi-xiang Lu, Lan Lin, Michael D. Henry, Ying Nian Wu, Qing Zhou, and Yi Xing. “RMATS: Robust and Flexible Detection of Differential Alternative Splicing from Replicate RNA-Seq Data.” Proceedings of the National Academy of Sciences of the United States of America 111, no. 51 (December 23, 2014): E5593-5601. https://doi.org/10.1073/pnas.1419161111.
+    - Shen, Shihao, Juw Won Park, Zhi-xiang Lu, Lan Lin, Michael D. Henry, Ying Nian Wu, Qing Zhou, and Yi Xing. “[RMATS: Robust and Flexible Detection of Differential Alternative Splicing from Replicate RNA-Seq Data](https://doi.org/10.1073/pnas.1419161111).” Proceedings of the National Academy of Sciences of the United States of America 111, no. 51 (December 23, 2014)
 
-- `tappAS` - functional impact of alternative splicing. Input - transcript-level count matrix. http://tappas.org/
+- [tappAS](http://tappas.org/) - functional impact of alternative splicing. Input - transcript-level count matrix
 
-- `vast-tools` - A toolset for profiling alternative splicing events in RNA-Seq data. https://github.com/vastgroup/vast-tools
-    - Irimia, Manuel, Robert J. Weatheritt, Jonathan D. Ellis, Neelroop N. Parikshak, Thomas Gonatopoulos-Pournatzis, Mariana Babor, Mathieu Quesnel-Vallières, et al. “A Highly Conserved Program of Neuronal Microexons Is Misregulated in Autistic Brains.” Cell 159, no. 7 (December 18, 2014): 1511–23. https://doi.org/10.1016/j.cell.2014.11.035.
+- [vast-tools](https://github.com/vastgroup/vast-tools) - A toolset for profiling alternative splicing events in RNA-Seq data
+    - Irimia, Manuel, Robert J. Weatheritt, Jonathan D. Ellis, Neelroop N. Parikshak, Thomas Gonatopoulos-Pournatzis, Mariana Babor, Mathieu Quesnel-Vallières, et al. “[A Highly Conserved Program of Neuronal Microexons Is Misregulated in Autistic Brains](https://doi.org/10.1016/j.cell.2014.11.035).” Cell 159, no. 7 (December 18, 2014)
 
 ### miRNAs
 
@@ -194,58 +192,58 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [miRNAmeConverter](https://bioconductor.org/packages/miRNAmeConverter/) - Convert miRNA Names to Different miRBase Versions
 
-- `MIENTURNET` - web tool for miRNA-target enrichment analysis, prioritization, network visualization, functional enrichment for microRNA target genes. http://userver.bio.uniroma1.it/apps/mienturnet/
-    - Licursi, Valerio, Federica Conte, Giulia Fiscon, and Paola Paci. “MIENTURNET: An Interactive Web Tool for MicroRNA-Target Enrichment and Network-Based Analysis.” BMC Bioinformatics 20, no. 1 (December 2019): 545. https://doi.org/10.1186/s12859-019-3105-x.
+- [MIENTURNET](http://userver.bio.uniroma1.it/apps/mienturnet/) - web tool for miRNA-target enrichment analysis, prioritization, network visualization, functional enrichment for microRNA target genes. 
+    - Licursi, Valerio, Federica Conte, Giulia Fiscon, and Paola Paci. “[MIENTURNET: An Interactive Web Tool for MicroRNA-Target Enrichment and Network-Based Analysis](https://doi.org/10.1186/s12859-019-3105-x).” BMC Bioinformatics 20, no. 1 (December 2019)
 
-- `miRDB` - database for miRNA target prediction and functional annotations. The targets were predicted by MirTarget from RNA-seq and CLIP-seq data. Five species: human, mouse, rat, dog and chicken. Custom target prediction. Cell line-specific. Integrative analysis of target prediction and Gene Ontology data. http://mirdb.org
-    - Chen, Yuhao, and Xiaowei Wang. “MiRDB: An Online Database for Prediction of Functional MicroRNA Targets.” Nucleic Acids Research, August 31, 2019, gkz757. https://doi.org/10.1093/nar/gkz757.
+- [miRDB](http://mirdb.org) - database for miRNA target prediction and functional annotations. The targets were predicted by MirTarget from RNA-seq and CLIP-seq data. Five species: human, mouse, rat, dog and chicken. Custom target prediction. Cell line-specific. Integrative analysis of target prediction and Gene Ontology data. 
+    - Chen, Yuhao, and Xiaowei Wang. “[MiRDB: An Online Database for Prediction of Functional MicroRNA Targets](https://doi.org/10.1093/nar/gkz757).” Nucleic Acids Research, August 31, 2019
 
 - `miRsponge` - identification and analysis of miRNA sponge interaction networks and modules. Seven methods for miRNA sponge interaction detection (miRHomology, pc, sppc, hermes, ppc, muTaME, and cernia), and integrative method, description of each method. Four module detection methods (FN, MCL, LINKCOMM, MCODE), description of each. Enrichment analyses - disease (DO, DisGeNet, Network of Cancer Genes), functions (GO, KEGG, REACTOME). Survival analysis.
-    - Zhang, Junpeng, Lin Liu, Taosheng Xu, Yong Xie, Chunwen Zhao, Jiuyong Li, and Thuc Duy Le. “MiRsponge: An R/Bioconductor Package for the Identification and Analysis of MiRNA Sponge Interaction Networks and Modules.” BioRxiv, January 1, 2018, 507749. https://doi.org/10.1101/507749.
+    - Zhang, Junpeng, Lin Liu, Taosheng Xu, Yong Xie, Chunwen Zhao, Jiuyong Li, and Thuc Duy Le. “[MiRsponge: An R/Bioconductor Package for the Identification and Analysis of MiRNA Sponge Interaction Networks and Modules](https://doi.org/10.1101/507749).” BioRxiv, January 1, 2018
 
-- `MirGeneDB` - standardized microRNA database, 1288 microRNA families across 45 species. Downloadable, FASTA, GFF, BED files. Nomenclature refs 19, 20. http://mirgenedb.org/
-    - Fromm, Bastian, Diana Domanska, Eirik Hoye, Vladimir Ovchinnikov, Wenjing Kang, Ernesto Aparicio-Puerta, Morten Johansen, et al. “MirGeneDB 2.0: The Metazoan MicroRNA Complement.” BioRxiv, August 13, 2019. https://doi.org/10.1101/258749.
+- [MirGeneDB](http://mirgenedb.org/) - standardized microRNA database, 1288 microRNA families across 45 species. Downloadable, FASTA, GFF, BED files. Nomenclature refs 19, 20. 
+    - Fromm, Bastian, Diana Domanska, Eirik Hoye, Vladimir Ovchinnikov, Wenjing Kang, Ernesto Aparicio-Puerta, Morten Johansen, et al. “[MirGeneDB 2.0: The Metazoan MicroRNA Complement](https://doi.org/10.1101/258749).” BioRxiv, August 13, 2019. 
 
 
 ### lncRNAs
 
-- `lncRNAKB` - database of long noncoding RNAs. lncRNAs are typically less conserved, expressed low on average and highly tissue-specific. Combines six resources (CHESS, LNCipedia, NONCODE, FANTOM, MiTranscriptome, BIGTranscriptome). Information about tissue-specific expression, eQTL, WGCNA co-expression to predict functions in a tissue-specific manner, random forest prediction of protein-coding score. Data: GTF gene annotation, tissue-specific expression (TPM, counts, eQTL). http://psychiatry.som.jhmi.edu/lncrnakb/, https://www.rna-seqblog.com/lncrnakb-a-comprehensive-knowledgebase-of-long-non-coding-rnas/
-    - Seifuddin, Fayaz, Komudi Singh, Abhilash Suresh, Yun-Ching Chen, Vijender Chaitankar, Ilker Tunc, Xiangbo Ruan, et al. “LncRNAKB: A Comprehensive Knowledgebase of Long Non-Coding RNAs.” Preprint. Bioinformatics, June 13, 2019. https://doi.org/10.1101/669994.
+- [lncRNAKB](http://psychiatry.som.jhmi.edu/lncrnakb/) - database of long noncoding RNAs. lncRNAs are typically less conserved, expressed low on average and highly tissue-specific. Combines six resources (CHESS, LNCipedia, NONCODE, FANTOM, MiTranscriptome, BIGTranscriptome). Information about tissue-specific expression, eQTL, WGCNA co-expression to predict functions in a tissue-specific manner, random forest prediction of protein-coding score. Data: GTF gene annotation, tissue-specific expression (TPM, counts, eQTL). [RNA-seq blog post](https://www.rna-seqblog.com/lncrnakb-a-comprehensive-knowledgebase-of-long-non-coding-rnas/)
+    - Seifuddin, Fayaz, Komudi Singh, Abhilash Suresh, Yun-Ching Chen, Vijender Chaitankar, Ilker Tunc, Xiangbo Ruan, et al. “[LncRNAKB: A Comprehensive Knowledgebase of Long Non-Coding RNAs](https://doi.org/10.1101/669994).” Preprint. Bioinformatics, June 13, 2019. 
 
-- `UClncR` - detecting and quantifying expression of unknown and known lncRNAs. Works for unstranded and stranded RNA-seq. Incorporates StringTie, Sebnif for novel lncRNA detection, iSeeRNA for assessing noncoding potential. Annotates lncRNAs by the nearby protein-coding genes. Tested on real data using Gencode annotations with parts of lncRNA annotations removed. http://bioinformaticstools.mayo.edu/research/uclncr-pipeline/
-    - Sun, Zhifu, Asha Nair, Xianfeng Chen, Naresh Prodduturi, Junwen Wang, and Jean-Pierre Kocher. “UClncR: Ultrafast and Comprehensive Long Non-Coding RNA Detection from RNA-Seq.” Scientific Reports 7, no. 1 (December 2017): 14196. https://doi.org/10.1038/s41598-017-14595-3.
+- [UClncR](http://bioinformaticstools.mayo.edu/research/uclncr-pipeline/) - detecting and quantifying expression of unknown and known lncRNAs. Works for unstranded and stranded RNA-seq. Incorporates StringTie, Sebnif for novel lncRNA detection, iSeeRNA for assessing noncoding potential. Annotates lncRNAs by the nearby protein-coding genes. Tested on real data using Gencode annotations with parts of lncRNA annotations removed. 
+    - Sun, Zhifu, Asha Nair, Xianfeng Chen, Naresh Prodduturi, Junwen Wang, and Jean-Pierre Kocher. “[UClncR: Ultrafast and Comprehensive Long Non-Coding RNA Detection from RNA-Seq](https://doi.org/10.1038/s41598-017-14595-3).” Scientific Reports 7, no. 1 (December 2017)
 
 
 ### circRNAs
 
-- `CIRCpedia` database of cornRNAs from human, mouse, and some model organisms. Ribo-, poly(A)-, RNAse R methods for enriching for circRNAs. http://www.picb.ac.cn/rnomics/circpedia/. `CIRCexplorer2` for the analysis of such experiments, https://circexplorer2.readthedocs.io/en/latest/
+- [CIRCpedia](http://www.picb.ac.cn/rnomics/circpedia/) database of cornRNAs from human, mouse, and some model organisms. Ribo-, poly(A)-, RNAse R methods for enriching for circRNAs. [CIRCexplorer2](https://circexplorer2.readthedocs.io/en/latest/) for the analysis of such experiments
     - Zhang et al., “Diverse Alternative Back-Splicing and Alternative Splicing Landscape of Circular RNAs.”
 
 ### Gene fusion
 
-- `annoFuse` - an R package for standartization, filtering and annotation of fusion calls detected by STAR-Fusion and Arriba, two best methods for fusion detection. Visualization options. Applied to OpenPBTA data. https://github.com/d3b-center/annoFuse/
-    - Gaonkar, Krutika S., Komal S. Rathi, Payal Jain, Yuankun Zhu, Miguel A. Brown, Bo Zhang, Pichai Raman, et al. “AnnoFuse: An R Package to Annotate and Prioritize Putative Oncogenic RNA Fusions.” Preprint. Bioinformatics, November 12, 2019. https://doi.org/10.1101/839738.
+- [annoFuse](https://github.com/d3b-center/annoFuse/) - an R package for standartization, filtering and annotation of fusion calls detected by STAR-Fusion and Arriba, two best methods for fusion detection. Visualization options. Applied to OpenPBTA data. 
+    - Gaonkar, Krutika S., Komal S. Rathi, Payal Jain, Yuankun Zhu, Miguel A. Brown, Bo Zhang, Pichai Raman, et al. “[AnnoFuse: An R Package to Annotate and Prioritize Putative Oncogenic RNA Fusions](https://doi.org/10.1101/839738).” Preprint. Bioinformatics, November 12, 2019. 
 
-- `ChimerDB` is a comprehensive database of fusion genes encompassing analysis of deep sequencing data and manual curations. In this update, the database coverage was enhanced considerably by adding two new modules of TCGA RNA-Seq analysis and PubMed abstract mining. http://203.255.191.229:8080/chimerdbv31/mindex.cdb
+- [ChimerDB](http://203.255.191.229:8080/chimerdbv31/mindex.cdb) is a comprehensive database of fusion genes encompassing analysis of deep sequencing data and manual curations. In this update, the database coverage was enhanced considerably by adding two new modules of TCGA RNA-Seq analysis and PubMed abstract mining
 
-- TUMOR FUSION GENE DATA PORTAL - Landscape of cancer-associated fusions using the Pipeline for RNA sequencing Data Analysis. https://www.tumorfusions.org/
+- [TUMOR FUSION GENE DATA PORTAL](https://www.tumorfusions.org/) - Landscape of cancer-associated fusions using the Pipeline for RNA sequencing Data Analysis. 
 
-- `FusionScan` – prediction of fusion genes from RNA-Seq data. [RNA-seq blog post](https://www.rna-seqblog.com/fusionscan-prediction-of-fusion-genes-from-rna-seq-data/), http://fusionscan.ewha.ac.kr/, https://github.com/iamlife/FusionScan
+- [FusionScan](http://fusionscan.ewha.ac.kr/) – prediction of fusion genes from RNA-Seq data. [RNA-seq blog post](https://www.rna-seqblog.com/fusionscan-prediction-of-fusion-genes-from-rna-seq-data/), [GitHub](https://github.com/iamlife/FusionScan)
 
-- `Arriba` - Fast and accurate gene fusion detection from RNA-Seq data. https://github.com/suhrig/arriba
+- [Arriba](https://github.com/suhrig/arriba) - Fast and accurate gene fusion detection from RNA-Seq data 
 
-- `FuSeq` - fast fusion detection. Compared with FusionMap, TRUP, TopHat-Fusion, JAFFA, SOAPfuse.  https://github.com/nghiavtr/FuSeq
-    - Vu, Trung Nghia, Wenjiang Deng, Quang Thinh Trac, Stefano Calza, Woochang Hwang, and Yudi Pawitan. “A Fast Detection of Fusion Genes from Paired-End RNA-Seq Data.” BMC Genomics 19, no. 1 (December 2018). https://doi.org/10.1186/s12864-018-5156-1.
+- [FuSeq](https://github.com/nghiavtr/FuSeq) - fast fusion detection. Compared with FusionMap, TRUP, TopHat-Fusion, JAFFA, SOAPfuse
+    - Vu, Trung Nghia, Wenjiang Deng, Quang Thinh Trac, Stefano Calza, Woochang Hwang, and Yudi Pawitan. “[A Fast Detection of Fusion Genes from Paired-End RNA-Seq Data](https://doi.org/10.1186/s12864-018-5156-1).” BMC Genomics 19, no. 1 (December 2018)
 
-- `GeneFuse` - Gene fusion detection and visualization. https://github.com/OpenGene/GeneFuse
+- [GeneFuse](https://github.com/OpenGene/GeneFuse) - Gene fusion detection and visualization
 
-- `EricScript` is a computational framework for the discovery of gene fusions in paired end RNA-seq data, https://sites.google.com/site/bioericscript/
+- [EricScript](https://sites.google.com/site/bioericscript/) is a computational framework for the discovery of gene fusions in paired end RNA-seq data
 
 ### Isoforms
 
-- `IsoformSwitchAnalyzeR` - An R package to Identify, Annotate and Visualize Alternative Splicing and Isoform Switches with Functional Consequences (from RNA-seq data). https://bioconductor.org/packages/release/bioc/html/IsoformSwitchAnalyzeR.html
-    - Vitting-Seerup, Kristoffer, and Albin Sandelin. “IsoformSwitchAnalyzeR: Analysis of Changes in Genome-Wide Patterns of Alternative Splicing and Its Functional Consequences.” Edited by Bonnie Berger. Bioinformatics, April 15, 2019. https://doi.org/10.1093/bioinformatics/btz247.
-    - Vitting-Seerup, Kristoffer, and Albin Sandelin. “The Landscape of Isoform Switches in Human Cancers.” Molecular Cancer Research 15, no. 9 (September 2017): 1206–20. https://doi.org/10.1158/1541-7786.MCR-16-0459. - Isoform switching analysis of TCGA data, tumor vs. normal. Consequences, survival prediction. Supplementary data has isoform switching analysis results for all TCGA cancers, https://mcr.aacrjournals.org/content/15/9/1206.figures-only
+- [IsoformSwitchAnalyzeR](https://bioconductor.org/packages/release/bioc/html/IsoformSwitchAnalyzeR.html) - An R package to Identify, Annotate and Visualize Alternative Splicing and Isoform Switches with Functional Consequences (from RNA-seq data)
+    - Vitting-Seerup, Kristoffer, and Albin Sandelin. “[IsoformSwitchAnalyzeR: Analysis of Changes in Genome-Wide Patterns of Alternative Splicing and Its Functional Consequences](https://doi.org/10.1093/bioinformatics/btz247).” Bioinformatics, April 15, 2019
+    - Vitting-Seerup, Kristoffer, and Albin Sandelin. “[The Landscape of Isoform Switches in Human Cancers](https://doi.org/10.1158/1541-7786.MCR-16-0459).” Molecular Cancer Research 15, no. 9 (September 2017) - Isoform switching analysis of TCGA data, tumor vs. normal. Consequences, survival prediction. [Supplementary data](https://mcr.aacrjournals.org/content/15/9/1206.figures-only) has isoform switching analysis results for all TCGA cancers
 
 ## CNVs and Structural variations
 
@@ -261,67 +259,68 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [InferCNV](https://www.bioconductor.org/packages/release/bioc/html/infercnv.html) - Inferring copy number alterations from tumor single cell RNA-Seq data. R package. [GitHub wiki](https://github.com/broadinstitute/inferCNV/wiki). Part of [Trinity Cancer Transcriptome Analysis Toolkit](https://github.com/NCIP/Trinity_CTAT/wiki)
 
-- `SQUID` - transcriptomic structural variation caller. Genome segment graph, then rearrange segments so that as many read alignments as possible are concordant with the rearranged sequence. Compared with MUMmer3, DELLY2, LUMPY in simulated settings, and with SOAPfuse, deFuse, FusionCatcher, JAFFA, INTEGRATE tools using real data. https://github.com/Kingsford-Group/squid
-    - Ma, Cong, Mingfu Shao, and Carl Kingsford. “SQUID: Transcriptomic Structural Variation Detection from RNA-Seq.” Genome Biology 19, no. 1 (12 2018): 52. https://doi.org/10.1186/s13059-018-1421-5.
+- [SQUID](https://github.com/Kingsford-Group/squid) - transcriptomic structural variation caller. Genome segment graph, then rearrange segments so that as many read alignments as possible are concordant with the rearranged sequence. Compared with MUMmer3, DELLY2, LUMPY in simulated settings, and with SOAPfuse, deFuse, FusionCatcher, JAFFA, INTEGRATE tools using real data
+    - Ma, Cong, Mingfu Shao, and Carl Kingsford. “[SQUID: Transcriptomic Structural Variation Detection from RNA-Seq](https://doi.org/10.1186/s13059-018-1421-5).” Genome Biology 19, no. 1 (12 2018)
 
-- `transindel` - Indel caller for DNA-seq or RNA-seq, https://github.com/cauyrd/transIndel
+- [transindel](https://github.com/cauyrd/transIndel) - Indel caller for DNA-seq or RNA-seq
 
 
 ## Networks
 
-- `GENIE3` - random forest regression detection of gene modules. Input - expression matrix, output - gene x gene square co-regulation matrix. https://github.com/aertslab/GENIE3
+- [GENIE3](https://github.com/aertslab/GENIE3) - random forest regression detection of gene modules. Input - expression matrix, output - gene x gene square co-regulation matrix
 
 ## Integrative
 
-- `DIABLO` - multi-omics analysis method. Overview of previous methods (SNF, Bayesian Consensus Clustering, NMF, JIVE, sGCCA, MOFA, others). Method extends sGCCA multivariate dimensionality reduction that uses SVD and selects co-expressed (correlated) variables from several omics datasets. Methods, model, iterative solution. Design matrix specifies which omics datasets are connected. Variable selection for biomarkers identification.  Visualization options. Part of mixOmics R package, http://mixomics.org/, https://mixomicsteam.github.io/Bookdown/intro.html
+- [DIABLO](http://mixomics.org/) - multi-omics analysis method. Overview of previous methods (SNF, Bayesian Consensus Clustering, NMF, JIVE, sGCCA, MOFA, others). Method extends sGCCA multivariate dimensionality reduction that uses SVD and selects co-expressed (correlated) variables from several omics datasets. Methods, model, iterative solution. Design matrix specifies which omics datasets are connected. Variable selection for biomarkers identification.  Visualization options. Part of [mixOmics R package](http://mixomics.org/), [Documentation](https://mixomicsteam.github.io/Bookdown/intro.html)
     - Singh, Amrit, Casey P Shannon, Benoît Gautier, Florian Rohart, Michaël Vacher, Scott J Tebbutt, and Kim-Anh Lê Cao. “DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omics Assays.” Edited by Inanc Birol. Bioinformatics 35, no. 17 (September 1, 2019): 3055–62. https://doi.org/10.1093/bioinformatics/bty1054.
 
-- [MANCIE](https://cran.r-project.org/web/packages/MANCIE/) - matrix analysis and normalization by concordant information enhancement. Bias correction and data integration of distinct genomic profiles on the same samples. Match matrices by rows, run correlation for each row, replace the associated row with modified values using a PCA procedure, Methods. Tested on integration of DHS and gene expression data, TCGA and METABRIC data. R package, https://cran.r-project.org/web/packages/MANCIE/
+- [MANCIE](https://cran.r-project.org/web/packages/MANCIE/) - matrix analysis and normalization by concordant information enhancement. Bias correction and data integration of distinct genomic profiles on the same samples. Match matrices by rows, run correlation for each row, replace the associated row with modified values using a PCA procedure, Methods. Tested on integration of DHS and gene expression data, TCGA and METABRIC data. R package
     - Zang, Chongzhi, Tao Wang, Ke Deng, Bo Li, Sheng’en Hu, Qian Qin, Tengfei Xiao, et al. “[High-Dimensional Genomic Data Bias Correction and Data Integration Using MANCIE](https://doi.org/10.1038/ncomms11305).” Nature Communications 7, no. 1 (December 2016). 
 
-- `JIVE` - Joint and Individual Variation Explained. Decomposition of (X) multiple (i) omics datasets into three terms: low-rank (constrained) matrices capturing joint variation (J), plus structured variation (A_i) and residual noise. Data are row-centered and scaled by its total variation. Main constrain: the rows of joint and individual matrices should be orthogonal. Estimate matrices by iteratively minimizing ||R||^2 (R=X-J-A). Relationship to PCA, CCA, PLS. Illustrated on TCGA GBM gene expression, methylation, and miRNA data, with interpretation. Matlab code https://genome.unc.edu/jive/, r.jive package, https://cran.r-project.org/web/packages/r.jive/vignettes/BRCA_Example.html
-    - Lock, Eric F., Katherine A. Hoadley, J. S. Marron, and Andrew B. Nobel. “JOINT AND INDIVIDUAL VARIATION EXPLAINED (JIVE) FOR INTEGRATED ANALYSIS OF MULTIPLE DATA TYPES.” The Annals of Applied Statistics 7, no. 1 (March 1, 2013): 523–42. https://doi.org/10.1214/12-AOAS597.
+- [JIVE](https://genome.unc.edu/jive/) - Joint and Individual Variation Explained. Decomposition of (X) multiple (i) omics datasets into three terms: low-rank (constrained) matrices capturing joint variation (J), plus structured variation (A_i) and residual noise. Data are row-centered and scaled by its total variation. Main constrain: the rows of joint and individual matrices should be orthogonal. Estimate matrices by iteratively minimizing ||R||^2 (R=X-J-A). Relationship to PCA, CCA, PLS. Illustrated on TCGA GBM gene expression, methylation, and miRNA data, with interpretation. [Matlab code](https://genome.unc.edu/jive/), [r.jive package](https://cran.r-project.org/web/packages/r.jive/vignettes/BRCA_Example.html)
+    - Lock, Eric F., Katherine A. Hoadley, J. S. Marron, and Andrew B. Nobel. “[JOINT AND INDIVIDUAL VARIATION EXPLAINED (JIVE) FOR INTEGRATED ANALYSIS OF MULTIPLE DATA TYPES](https://doi.org/10.1214/12-AOAS597).” The Annals of Applied Statistics 7, no. 1 (March 1, 2013)
 
-- List of software packages for multi-omics analysis, by Mike Love. https://github.com/mikelove/awesome-multi-omics. Slides for the talk "Assessing consistency of unsupervised multi-omics methods". https://docs.google.com/presentation/d/1QAaweEc32JzhWHl7YenLdT9w8JUjwaTExe_uve2s22U/edit#slide=id.p
+- [List of software packages for multi-omics analysis](https://github.com/mikelove/awesome-multi-omics), by Mike Love. Slides for the talk "[Assessing consistency of unsupervised multi-omics methods](https://docs.google.com/presentation/d/1QAaweEc32JzhWHl7YenLdT9w8JUjwaTExe_uve2s22U/edit#slide=id.p)". 
 
 
 ## Classification
 
-- `MLSeq` - Machine learning interface for RNA-Seq data. https://www.bioconductor.org/packages/release/bioc/html/MLSeq.html, Zararsız, Gökmen, Dincer Goksuluk, Selcuk Korkmaz, Vahap Eldem, Gozde Erturk Zararsiz, Izzet Parug Duru, and Ahmet Ozturk. “A Comprehensive Simulation Study on Classification of RNA-Seq Data.” Edited by Christian Schönbach. PLOS ONE 12, no. 8 (August 23, 2017): e0182507. https://doi.org/10.1371/journal.pone.0182507.
+- [MLSeq](https://www.bioconductor.org/packages/release/bioc/html/MLSeq.html) - Machine learning interface for RNA-Seq data
+    - Zararsız, Gökmen, Dincer Goksuluk, Selcuk Korkmaz, Vahap Eldem, Gozde Erturk Zararsiz, Izzet Parug Duru, and Ahmet Ozturk. “[A Comprehensive Simulation Study on Classification of RNA-Seq Data](https://doi.org/10.1371/journal.pone.0182507).” PLOS ONE 12, no. 8 (August 23, 2017)
 
 
 ## Visualization
 
-- `chromoMap` - Interactive Visualization and Mapping of Human Chromosomes, https://cran.r-project.org/web/packages/chromoMap/index.html
+- [chromoMap](https://cran.r-project.org/web/packages/chromoMap/index.html) - Interactive Visualization and Mapping of Human Chromosomes, R package
 
-- genomation: a toolkit for annotation and visualization of genomic data. https://bioconductor.org/packages/devel/bioc/vignettes/genomation/inst/doc/GenomationManual.html
+- [genomation](https://bioconductor.org/packages/devel/bioc/vignettes/genomation/inst/doc/GenomationManual.html) - a toolkit for annotation and visualization of genomic data, R package
 
-- `karyoploteR` - An R/Bioconductor package to plot arbitrary data along the genome. https://github.com/bernatgel/karyoploteR
+- [karyoploteR](https://github.com/bernatgel/karyoploteR) - An R/Bioconductor package to plot arbitrary data along the genome
 
-- `pcaExplorer` - Interactive Visualization of RNA-seq Data Using a Principal Components Approach. https://bioconductor.org/packages/release/bioc/html/pcaExplorer.html
+- [pcaExplorer](https://bioconductor.org/packages/release/bioc/html/pcaExplorer.html) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach, R package
 
 - `WIlsON` - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. 
 
 
 ## Data
 
-- [refine.bio](https://www.ccdatalab.org/projects/refinebio) - harmonized microarray and RNA-seq data for various organisms and conditions, https://www.ccdatalab.org/projects/refinebio
+- [refine.bio](https://www.ccdatalab.org/projects/refinebio) - harmonized microarray and RNA-seq data for various organisms and conditions
 
-- `cBioPortalData` - cBioPortal data as MultiAssayExperiment objects. https://github.com/waldronlab/cBioPortalData
+- [cBioPortalData](https://github.com/waldronlab/cBioPortalData) - cBioPortal data as MultiAssayExperiment objects, by Waldron Lab
 
-- `curatedTCGAData` - Curated Data From The Cancer Genome Atlas (TCGA) as MultiAssayExperiment objects. https://github.com/waldronlab/curatedTCGAData
+- [curatedTCGAData](https://github.com/waldronlab/curatedTCGAData) - Curated Data From The Cancer Genome Atlas (TCGA) as MultiAssayExperiment objects, by Waldron Lab
 
-- `ARCHS4` - Massive Mining of Publicly Available RNA-seq Data from Human and Mouse. http://amp.pharm.mssm.edu/archs4/download.html
+- [ARCHS4](http://amp.pharm.mssm.edu/archs4/download.html) - Massive Mining of Publicly Available RNA-seq Data from Human and Mouse
 
-- `PINS` - A novel method for data integration and disease subtyping. http://www.cs.wayne.edu/tinnguyen/PINS/PINS.html
+- [PINS](http://www.cs.wayne.edu/tinnguyen/PINS/PINS.html) - A novel method for data integration and disease subtyping
 
-- `recount2` - https://bioconductor.org/help/workflows/recountWorkflow/
+- [recount2](https://bioconductor.org/help/workflows/recountWorkflow/) - an R workflow to work with recount2 data
 
-- `GREIN` - re-analysis of RNA-seq datasets from GEO. Download processed data, visualization, power analysis, differential expression, functional enrichment analysis, connectivity analysis with LINCS L1000 data. Web-app, http://www.ilincs.org/apps/grein/, source code, https://github.com/uc-bd2k/grein, Docker image, https://hub.docker.com/r/ucbd2k/grein/
-    - Al Mahi, Naim, Mehdi Fazel Najafabadi, Marcin Pilarczyk, Michal Kouril, and Mario Medvedovic. “GREIN: An Interactive Web Platform for Re-Analyzing GEO RNA-Seq Data,” October 27, 2018. https://doi.org/10.1101/326223.
+- [GREIN](http://www.ilincs.org/apps/grein/) - re-analysis of RNA-seq datasets from GEO. Download processed data, visualization, power analysis, differential expression, functional enrichment analysis, connectivity analysis with LINCS L1000 data. [GitHub](https://github.com/uc-bd2k/grein), [Docker image](https://hub.docker.com/r/ucbd2k/grein/)
+    - Al Mahi, Naim, Mehdi Fazel Najafabadi, Marcin Pilarczyk, Michal Kouril, and Mario Medvedovic. “[GREIN: An Interactive Web Platform for Re-Analyzing GEO RNA-Seq Data](https://doi.org/10.1101/326223),” October 27, 2018
 
-- `DEE2` - Digital Expression Explorer - gene- and transcript-level processed data from multiple organisms, amenable for downstream analysis in R etc. `getDEE2` R package to get the data, https://github.com/markziemann/dee2/blob/master/AccessDEEfromR.md. Web interface: http://dee2.io
-    - Ziemann, Mark, Antony Kaspi, and Assam El-Osta. “Digital Expression Explorer 2: A Repository of Uniformly Processed RNA Sequencing Data.” GigaScience 8, no. 4 (April 1, 2019). https://doi.org/10.1093/gigascience/giz022.
+- [DEE2](http://dee2.io) - Digital Expression Explorer - gene- and transcript-level processed data from multiple organisms, amenable for downstream analysis in R etc. [getDEE2](https://github.com/markziemann/dee2/blob/master/AccessDEEfromR.md) R package to get the data
+    - Ziemann, Mark, Antony Kaspi, and Assam El-Osta. “[Digital Expression Explorer 2: A Repository of Uniformly Processed RNA Sequencing Data](https://doi.org/10.1093/gigascience/giz022).” GigaScience 8, no. 4 (April 1, 2019)
 
 - [GEMMA](https://gemma.msl.ubc.ca/home.html) - curated transcriptomic database, >10,000 studies, \~34% are brain-related. Query genes, phenotypes, experiments, search for coexpression, differential expression. Processing methods, batch correction. Online access, API, R package. [GitHub](https://github.com/PavlidisLab/Gemma/)
     - Lim, Nathaniel, Stepan Tesar, Manuel Belmadani, Guillaume Poirier-Morency, Burak Ogan Mancarci, Jordan Sicherman, Matthew Jacobson, Justin Leong, Patrick Tan, and Paul Pavlidis. “[Curation of over 10,000 Transcriptomic Studies to Enable Data Reuse](https://doi.org/10.1101/2020.07.13.201442).” Preprint. Bioinformatics, July 14, 2020. 
@@ -356,20 +355,18 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [Recommended Coverage and Read Depth for NGS Applications](https://genohub.com/recommended-sequencing-coverage-by-application/), by GenoHub. And, their [NGS Handbook](https://genohub.com/next-generation-sequencing-handbook/)
 
-- `gencode_regions` - Extract 3'UTR, 5'UTR, CDS, Promoter, Genes, Introns, Exons from GTF files https://github.com/saketkc/gencode_regions
+- [combat.py](https://github.com/brentp/combat.py) - python / numpy / pandas / patsy version of ComBat for removing batch effects
 
-- `combat.py` - python / numpy / pandas / patsy version of ComBat for removing batch effects. https://github.com/brentp/combat.py
+- [BioJupies](https://amp.pharm.mssm.edu/biojupies/) - analysis of GEO/GTEx data or your own gene expression table/FASTQ in autogenerated Jupyter notebook. Rich set of tools for EDA (PCA, Clustergrammer, Library size analysis), Differential expression analysis (Volcano, MA plots), Enrichment analysis (Enrichr, GO, Pathway, TF, Kinase, miRNA enrichments), L1000 signatures. Best suited for two-group analysis. Includes Methods for the selected tools
 
-- `BioJupies` - analysis of GEO/GTEx data or your own gene expression table/FASTQ in autogenerated Jupyter notebook. Rich set of tools for EDA (PCA, Clustergrammer, Library size analysis), Differential expression analysis (Volcano, MA plots), Enrichment analysis (Enrichr, GO, Pathway, TF, Kinase, miRNA enrichments), L1000 signatures. Best suited for two-group analysis. Includes Methods for the selected tools. https://amp.pharm.mssm.edu/biojupies/
-
-- `HGNChelper` - Handy Functions for Working with HGNC Gene Symbols and Affymetrix Probeset Identifiers. https://cran.r-project.org/web/packages/HGNChelper/index.html
+- [HGNChelper](https://cran.r-project.org/web/packages/HGNChelper/index.html) - Handy Functions for Working with HGNC Gene Symbols and Affymetrix Probeset Identifiers
 
 - `tximport` - importing transcript abundance datasets from Salmon, Sailfish, kallisto, RSEM, and differential analysis
 
-- `rpkmforgenes` - a Python script for calculating gene expression for RNA-Seq data. http://sandberg.cmb.ki.se/media/data/rnaseq/instructions-rpkmforgenes.html
+- [rpkmforgenes](http://sandberg.cmb.ki.se/media/data/rnaseq/instructions-rpkmforgenes.html) - a Python script for calculating gene expression for RNA-Seq data
 
-- Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl, https://github.com/openvax/pyensembl
+- [Python interface to access reference genome features from Ensembl](https://github.com/openvax/pyensembl), e.g., genes, transcripts, and exons
 
-- `TPMcalculator` - converts gene counts to TPM using transcript information from a GTF file. TPM vs. FPKM correlation for validation. C/C++ command line tool, Docker image, CWL workflow. https://github.com/ncbi/TPMCalculator
-    - Vera Alvarez, Roberto, Lorinc Sandor Pongor, Leonardo Mariño-Ramírez, and David Landsman. “TPMCalculator: One-Step Software to Quantify MRNA Abundance of Genomic Features.” Edited by Bonnie Berger. Bioinformatics 35, no. 11 (June 1, 2019): 1960–62. https://doi.org/10.1093/bioinformatics/bty896.
+- [TPMcalculator](https://github.com/ncbi/TPMCalculator) - converts gene counts to TPM using transcript information from a GTF file. TPM vs. FPKM correlation for validation. C/C++ command line tool, Docker image, CWL workflow
+    - Vera Alvarez, Roberto, Lorinc Sandor Pongor, Leonardo Mariño-Ramírez, and David Landsman. “[TPMCalculator: One-Step Software to Quantify MRNA Abundance of Genomic Features](https://doi.org/10.1093/bioinformatics/bty896).” Bioinformatics 35, no. 11 (June 1, 2019)
 
