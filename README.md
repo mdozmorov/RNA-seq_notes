@@ -204,6 +204,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [MirGeneDB](http://mirgenedb.org/) - standardized microRNA database, 1288 microRNA families across 45 species. Downloadable, FASTA, GFF, BED files. Nomenclature refs 19, 20. 
     - Fromm, Bastian, Diana Domanska, Eirik Hoye, Vladimir Ovchinnikov, Wenjing Kang, Ernesto Aparicio-Puerta, Morten Johansen, et al. “[MirGeneDB 2.0: The Metazoan MicroRNA Complement](https://doi.org/10.1101/258749).” BioRxiv, August 13, 2019. 
 
+- [miRPathDB](https://mpd.bioinf.uni-sb.de/about.html) - miRNA-pathway association database, human, mouse
+    - Backes, Christina, Tim Kehl, Daniel Stöckel, Tobias Fehlmann, Lara Schneider, Eckart Meese, Hans-Peter Lenhof, and Andreas Keller. “[MiRPathDB: A New Dictionary on MicroRNAs and Target Pathways](https://doi.org/10.1093/nar/gkw926).” Nucleic Acids Research 45, no. D1 (January 4, 2017)
 
 ### lncRNAs
 
