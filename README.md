@@ -198,6 +198,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [miRDB](http://mirdb.org) - database for miRNA target prediction and functional annotations. The targets were predicted by MirTarget from RNA-seq and CLIP-seq data. Five species: human, mouse, rat, dog and chicken. Custom target prediction. Cell line-specific. Integrative analysis of target prediction and Gene Ontology data. 
     - Chen, Yuhao, and Xiaowei Wang. “[MiRDB: An Online Database for Prediction of Functional MicroRNA Targets](https://doi.org/10.1093/nar/gkz757).” Nucleic Acids Research, August 31, 2019
 
+- [TAM2](http://www.lirmed.com/tam2/) - miRNA enrichment analysis. Manually curated and established miRNA sets. Single list analysis, up vs downregulated. Complementary tools - [miSEA](http://www.baskent.edu.tr/~hogul/misea/), [miEAA](https://ccb-compute2.cs.uni-saarland.de/mieaa2)
+    - Li, Jianwei, Xiaofen Han, Yanping Wan, Shan Zhang, Yingshu Zhao, Rui Fan, Qinghua Cui, and Yuan Zhou. “[TAM 2.0: Tool for MicroRNA Set Analysis](https://doi.org/10.1093/nar/gky509).” Nucleic Acids Research 46, no. W1 (July 2, 2018)
+
 - `miRsponge` - identification and analysis of miRNA sponge interaction networks and modules. Seven methods for miRNA sponge interaction detection (miRHomology, pc, sppc, hermes, ppc, muTaME, and cernia), and integrative method, description of each method. Four module detection methods (FN, MCL, LINKCOMM, MCODE), description of each. Enrichment analyses - disease (DO, DisGeNet, Network of Cancer Genes), functions (GO, KEGG, REACTOME). Survival analysis.
     - Zhang, Junpeng, Lin Liu, Taosheng Xu, Yong Xie, Chunwen Zhao, Jiuyong Li, and Thuc Duy Le. “[MiRsponge: An R/Bioconductor Package for the Identification and Analysis of MiRNA Sponge Interaction Networks and Modules](https://doi.org/10.1101/507749).” BioRxiv, January 1, 2018
 
