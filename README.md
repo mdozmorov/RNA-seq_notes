@@ -68,6 +68,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Analysis
 
+- [Omics Playground](https://github.com/bigomics/omicsplayground) - self-service bioinformatics platform to analyze, visualize, and integrate omics data. Descriptive statistics, differential gene expression, clustering, GSEA/KEGG, signature, cell type prediction. Input - text-based files. R/Shiny implementation, Docker image. [GitHub](https://github.com/bigomics/omicsplayground), [Documentation](https://omicsplayground.readthedocs.io/)
+    - Akhmedov, Murodzhon, Axel Martinelli, Roger Geiger, and Ivo Kwee. “[Omics Playground: A Comprehensive Self-Service Platform for Visualization, Analytics and Exploration of Big Omics Data](https://doi.org/10.1093/nargab/lqz019).” NAR Genomics and Bioinformatics 2, no. 1 (March 1, 2020)
+
 - [Shiny-Seq](https://github.com/schultzelab/Shiny-Seq) - Shiny app, and Docker image. Input - a count table, or kallisto output, and annotations. Normalization (DESeq2), batch effect removal (limma or SVA),  differential expression analysis (DeSeq2), co-expression network analysis (WGCNA), functional enrichment analysis (clusterprofiler), TFBS motif overrepresentation (pcaGopromoter). Visualization (heatmaps, volcano plots). [GitHub](https://github.com/schultzelab/Shiny-Seq). [RNA-seq blog post](https://www.rna-seqblog.com/shiny-seq-advanced-guided-transcriptome-analysis/)
     - Sundararajan, Zenitha, Rainer Knoll, Peter Hombach, Matthias Becker, Joachim L. Schultze, and Thomas Ulas. “[Shiny-Seq: Advanced Guided Transcriptome Analysis](https://doi.org/10.1186/s13104-019-4471-1).” BMC Research Notes 12, no. 1 (December 2019). 
 
