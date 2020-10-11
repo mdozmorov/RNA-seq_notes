@@ -189,6 +189,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### miRNAs
 
+- [CancerMIRNome](http://bioinfo.jialab-ucr.org/CancerMIRNome/) - web server for exploratory miRNA analysis in TCGA cancers and circulating microRNA studies. Query individual miRNAs, cancers. Differential expression, ROC for predicting tumor-normal distinction, survival plots, miRNA-target correlation, functional enrichment of targets. [GitHub](https://github.com/rli012/CancerMIRNome)
+    - Li, Ruidong, Han Qu, Shibo Wang, Xuesong Wang, Yanru Cui, Lei Yu, John M. Chater, et al. “[CancerMIRNome: A Web Server for Interactive Analysis and Visualization of Cancer MiRNome Data](https://doi.org/10.1101/2020.10.04.325670).” Preprint. Bioinformatics, October 5, 2020
+
 - [PharmacomiR](http://www.pharmaco-mir.org/) - miRNA-drug associations analysis
 
 - [microRNAome](https://bioconductor.org/packages/microRNAome/) - read counts for microRNAs across tissues, cell-types, and cancer cell-lines, SummarizedExperiment R package
