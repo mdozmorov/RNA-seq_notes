@@ -352,7 +352,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [CREEDS](https://amp.pharm.mssm.edu/creeds/) - database of manually (and automatically) extracted gene signatures. Single gene perturbations, disease signatures, single drug perturbations. Batch effect correction, when necessary. Overall, good agreement with MSigDb C2. Characteristic Direction (CD) method to detect differential genes. [API access in R](http://rpubs.com/wangz10/177826)
     - Wang, Zichen, Caroline D. Monteiro, Kathleen M. Jagodnik, Nicolas F. Fernandez, Gregory W. Gundersen, Andrew D. Rouillard, Sherry L. Jenkins, et al. “[Extraction and Analysis of Signatures from the Gene Expression Omnibus by the Crowd](https://doi.org/10.1038/ncomms12846).” Nature Communications 7, no. 1 (November 2016)
 
-- [OGEE](http://ogee.medgenius.info/browse/) - Online GEne Essentiality database for multiple organisms, including human and mouse
+- [OGEE v3](https://v3.ogee.info/#/home) - online gene essentiality database. Experimentally validated using CRISPR and RNAi. All data (essential genes, their properties, expression data and more) are downloadable 
+    - Gurumayum, Sanathoi, Puzi Jiang, Xiaowen Hao, Tulio L Campos, Neil D Young, Pasi K Korhonen, Robin B Gasser, et al. “[OGEE v3: Online GEne Essentiality Database with Increased Coverage of Organisms and Human Cell Lines](https://doi.org/10.1093/nar/gkaa884)”
 
 - [HGNChelper](https://waldronlab.io/HGNChelper/) - Identify and Correct Invalid HGNC Human Gene Symbols and MGI Mouse Gene Symbols
 
