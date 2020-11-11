@@ -40,6 +40,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Pipelines
 
+- [RNA-seq pipeline developed by NASA GeneLab](https://github.com/nasa/GeneLab_Data_Processing). FastQC/MultiQC, TrimGalore, STAR (two-pass mode), RSEM (to quantify isiforms), DESeq2. Can normalize using ERCCs. produces unnormalized and normalized counts, more. PCA, heatmaps, other visualization. [Step-by-step instructions and commands](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/GL-DPPD-7101-C.md)
+    - Galazka, Jonathan. “[NASA GeneLab RNA-Seq Consensus Pipeline: Standardized Processing of Short-Read RNA-Seq Data](https://doi.org/10.1101/2020.11.06.371724),” bioRxiv, November 10, 2020
+
 - [GEO2RNAseq](https://anaconda.org/xentrics/r-geo2rnaseq) - an R-based RNA-seq processing pipeline, from FASTQ files or directly from GEO. Reads meta-data, oriented for two-group differential analysis. Competitors: Galaxy, the Total RNA-seq Analysis Package for R (TRAP), EasyRNASeq, READemption. Installable through Conda https://anaconda.org/xentrics/r-geo2rnaseq
     - Seelbinder, Bastian, Thomas Wolf, Steffen Priebe, Sylvie McNamara, Silvia Gerber, Reinhard Guthke, and Joerg Linde. “[GEO2RNAseq: An Easy-to-Use R Pipeline for Complete Pre-Processing of RNA-Seq Data](https://doi.org/10.1101/771063).” Preprint. Bioinformatics, September 16, 2019
 
