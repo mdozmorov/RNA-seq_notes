@@ -270,12 +270,14 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## CNVs and Structural variations
 
-
- - [SuperFreq](https://github.com/ChristofferFlensburg/SuperFreq) - CNV analysis from exome data adapted for RNA-seq data. Based on log fold-change variance estimation with the neighbour correction. R package, input - BAM files (reference normal needed), variant calls from samtools or other tools, output - visualization of CNAs, other variant-related plots
-    - Flensburg, Christoffer, Alicia Oshlack, and Ian J Majewski. “[Detecting Copy Number Alterations in RNA-Seq Using SuperFreq](https://www.biorxiv.org/content/10.1101/2020.05.31.126888v1)” n.d., 22.
+- [SuperFreq](https://github.com/ChristofferFlensburg/SuperFreq) - CNV analysis from exome data adapted for RNA-seq data. Based on log fold-change variance estimation with the neighbour correction. R package, input - BAM files (reference normal needed), variant calls from samtools or other tools, output - visualization of CNAs, other variant-related plots
+    - Flensburg, Christoffer, Alicia Oshlack, and Ian J Majewski. “[Detecting Copy Number Alterations in RNA-Seq Using SuperFreq](https://www.biorxiv.org/content/10.1101/2020.05.31.126888v1)” June 01, 2020
 
 - [CaSpER](https://github.com/akdess/CaSpER) - identification of CNVs from  RNA-seq data, bulk and single-cell (full-transcript only, like SMART-seq). Utilized multi-scale smoothed global gene expression profile and B-allele frequency (BAF) signal profile, detects concordant shifts in signal using a 5-state HMM (homozygous deletion, heterozygous deletion, neutral, one-copy-amplification, high-copy-amplification). Reconstructs subclonal CNV architecture for scRNA-seq data. Tested on GBM scRNA-seq, TCGA, other. Compared with HoneyBADGER. R code and tutorials
     - Serin Harmanci, Akdes, Arif O. Harmanci, and Xiaobo Zhou. “[CaSpER Identifies and Visualizes CNV Events by Integrative Analysis of Single-Cell or Bulk RNA-Sequencing Data.](https://doi.org/10.1038/s41467-019-13779-x)” Nature Communications 11, no. 1 (December 2020)
+
+- [CNAPE](https://github.com/WangLabHKUST/CNAPE) - CNV detection from RNA-seq data. Regularized logistic regression (Lasso), trained on TCGA samples. Prediction accuracy >80%. R implementation
+    - Mu, Quanhua, and Jiguang Wang. “[CNAPE: A Machine Learning Method for Copy Number Alteration Prediction from Gene Expression](https://doi.org/10.1109/TCBB.2019.2944827).” IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2019, 1–1. 
 
 - [CNVkit-RNA](https://github.com/etal/cnvkit) - CNV estimation from RNA-seq data. Improved moving average approach, corrects for GC content, gene expression level, gene length, correlation of gene expression and CNV (estimated from TCGA). [Docs](https://cnvkit.readthedocs.io/en/stable/), [Video tutorial](https://youtu.be/JGOIXYoLG6w)
     - Talevich, Eric, and A. Hunter Shain. “[CNVkit-RNA: Copy Number Inference from RNA-Sequencing Data.](https://doi.org/10.1101/408534)” Preprint. Bioinformatics, September 4, 2018
