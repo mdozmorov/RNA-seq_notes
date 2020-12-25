@@ -244,6 +244,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Gene fusion
 
+- [CICERO](https://platform.stjude.cloud/workflows/rapid_rna-seq) - gene fusion detection, uses longer (>75bp) reads, a local assembly-based. Prioritizes candidates. Outperforms ChimeraScan, deFuse, FusionCatcher, Arriba on TCGA brain tumor data. [FusionEditor](https://proteinpaint.stjude.org/FusionEditor/) imports CICERO's output for visualization. Imports paired-end FASTQs or aligned BAMs. Supports hg19 only. [Web](https://platform.stjude.cloud/workflows/rapid_rna-seq), [GitHub](https://github.com/stjude/Cicero)
+    - Tian, Liqing, Yongjin Li, Michael N. Edmonson, Xin Zhou, Scott Newman, Clay McLeod, Andrew Thrasher, et al. “[CICERO: A Versatile Method for Detecting Complex and Diverse Driver Fusions Using Cancer RNA Sequencing Data](https://doi.org/10.1186/s13059-020-02043-x).” Genome Biology 21, no. 1 (December 2020)
+
 - [annoFuse](https://github.com/d3b-center/annoFuse/) - an R package for standartization, filtering and annotation of fusion calls detected by STAR-Fusion and Arriba, two best methods for fusion detection. Visualization options. Applied to OpenPBTA data. 
     - Gaonkar, Krutika S., Komal S. Rathi, Payal Jain, Yuankun Zhu, Miguel A. Brown, Bo Zhang, Pichai Raman, et al. “[AnnoFuse: An R Package to Annotate and Prioritize Putative Oncogenic RNA Fusions](https://doi.org/10.1101/839738).” Preprint. Bioinformatics, November 12, 2019. 
 
