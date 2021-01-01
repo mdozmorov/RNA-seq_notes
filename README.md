@@ -29,6 +29,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
   - [Isoforms](#isoforms)
 - [CNVs and Structural variations](#cnvs-and-structural-variations)
 - [Networks](#networks)
+  - [Transcription regulators](#transcription-regulators)
 - [Integrative](#integrative)
 - [Classification](#classification)
 - [Visualization](#visualization)
@@ -296,6 +297,12 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 ## Networks
 
 - [GENIE3](https://github.com/aertslab/GENIE3) - random forest regression detection of gene modules. Input - expression matrix, output - gene x gene square co-regulation matrix
+
+### Transcription regulators
+
+- [BARTweb](http://bartweb.org/) - identifying TFs whose genomic binding patterns associate with input genomic features. Input - a gene set, a ChIP-seq mapped read dataset, as scored genomic region set. Adaptive lasso to prioritize TFs. hg38 and mm10 supported. Evaluated on [KnockTF data](http://www.licpathway.net/KnockTF/). Similar tools: [TFEA.ChIP](https://bioconductor.org/packages/TFEA.ChIP/), [ChEA3](https://maayanlab.cloud/chea3/)
+    - Ma, Wenjing, Zhenjia Wang, Yifan Zhang, Neal E Magee, Yang Chen, and Chongzhi Zang. “[BARTweb: A Web Server for Transcription Factor Association Analysis](https://doi.org/10.1101/2020.02.17.952838).” Preprint. Bioinformatics, February 17, 2020
+
 
 ## Integrative
 
