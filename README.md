@@ -300,6 +300,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Transcription regulators
 
+- [BARTcancer](https://zanglab.github.io/bartcancer/) - predicting the transcriptional regulators from the differentially expressed genes in cancer vs. normal comparison. Database for analyzing TCGA cancers, results separately for up- and downregulated genes. Cross-referenced with [Cistrome Cancer](http://cistrome.org/CistromeCancer/)
+    - Thomas, Zachary V., Zhenjia Wang, and Chongzhi Zang. “[BART Cancer: A Web Resource for Transcriptional Regulators in Cancer Genomes](https://doi.org/10.1101/2020.12.17.423327).” Preprint. Cancer Biology, December 18, 2020. 
+
 - [BARTweb](http://bartweb.org/) - identifying TFs whose genomic binding patterns associate with input genomic features. Input - a gene set, a ChIP-seq mapped read dataset, as scored genomic region set. Adaptive lasso to prioritize TFs. hg38 and mm10 supported. Evaluated on [KnockTF data](http://www.licpathway.net/KnockTF/). Similar tools: [TFEA.ChIP](https://bioconductor.org/packages/TFEA.ChIP/), [ChEA3](https://maayanlab.cloud/chea3/)
     - Ma, Wenjing, Zhenjia Wang, Yifan Zhang, Neal E Magee, Yang Chen, and Chongzhi Zang. “[BARTweb: A Web Server for Transcription Factor Association Analysis](https://doi.org/10.1101/2020.02.17.952838).” Preprint. Bioinformatics, February 17, 2020
 
