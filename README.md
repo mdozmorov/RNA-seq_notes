@@ -69,6 +69,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [fastq-pair](https://github.com/linsalrob/fastq-pair) - Match up paired end fastq files quickly and efficiently
 
+- [faster](https://github.com/angelovangel/faster) - A (very) fast program for getting statistics about a fastq file, written in Rust. Get the read length, GC content, mean Phred scores, trim frong and tail, regex search. Compiled binaries are available
 
 
 ### Analysis
