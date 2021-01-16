@@ -333,7 +333,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Visualization
 
-- [chromoMap](https://cran.r-project.org/web/packages/chromoMap/index.html) - Interactive Visualization and Mapping of Human Chromosomes, R package
+- [chromoMap](https://CRAN.R-project.org/package=chromoMap) - an R package/function for visualizing BED-like data across chromosomes. Static and interactive (Shiny embeddable) plots, segment-, point-, barplot-, scatterplot visualization. Filters to color visualization by criteria. Colors, spacing, height/width - all customizable. Supports multiple organisms. [Documentation, tutorial](https://lakshay-anand.github.io/chromoMap/index.html)
+    - Anand, Lakshay, and Carlos M Rodriguez Lopez. “[ChromoMap: An R Package for Interactive Visualization and Annotation of Chromosomes](https://doi.org/10.1101/605600)” bioRxiv, January 23, 2020
 
 - [genomation](https://bioconductor.org/packages/devel/bioc/vignettes/genomation/inst/doc/GenomationManual.html) - a toolkit for annotation and visualization of genomic data, R package
 
