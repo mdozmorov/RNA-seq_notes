@@ -370,6 +370,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Genes
 
+- [A list of updated 1439 DNA-binding transcription factors](https://www.ebi.ac.uk/QuickGO/targetset/dbTF) from re-annotation study of transcription factors in Gene Ontology annotations
+    - Lovering, Ruth C., Pascale Gaudet, Marcio L. Acencio, Alex Ignatchenko, Arttu Jolma, Oriol Fornes, Martin Kuiper, et al. “[A GO Catalogue of Human DNA-Binding Transcription Factors](https://doi.org/10.1101/2020.10.28.359232).” BioRxiv, January 1, 2020
+
 - [List of gene lists for genomic analyses](https://github.com/macarthur-lab/gene_lists) - GitHub repo with tab-separated annotated lists
 
 - [CREEDS](https://amp.pharm.mssm.edu/creeds/) - database of manually (and automatically) extracted gene signatures. Single gene perturbations, disease signatures, single drug perturbations. Batch effect correction, when necessary. Overall, good agreement with MSigDb C2. Characteristic Direction (CD) method to detect differential genes. [API access in R](http://rpubs.com/wangz10/177826)
