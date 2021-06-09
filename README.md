@@ -57,6 +57,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [bamcov](https://github.com/fbreitwieser/bamcov) - Quickly calculate and visualize sequence coverage in alignment files in command line
 
+- [bamtocov](https://github.com/telatin/bamtocov) - coverage extraction from BAM/CRAM files to wig format
+
 - [bamcount](https://github.com/BenLangmead/bamcount) - BigWig and BAM utilities, coverage, by Ben Langmead
 
 - [bigwig-nim](https://github.com/brentp/bigwig-nim) - single static binary + liberal license of tool to convert bed to bigwig (and back) and get fast coverage stats from bigwig, by Brent Pedersen, [Twitter](https://twitter.com/brent_p/status/1162765386548305923?s=03)
