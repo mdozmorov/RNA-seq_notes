@@ -372,6 +372,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Genes
 
+- [CellMarker](http://biocc.hrbmu.edu.cn/CellMarker/download.jsp) - Cell markers of different cell types from different tissues in human and mouse.
+
 - [A list of updated 1439 DNA-binding transcription factors](https://www.ebi.ac.uk/QuickGO/targetset/dbTF) from re-annotation study of transcription factors in Gene Ontology annotations
     - Lovering, Ruth C., Pascale Gaudet, Marcio L. Acencio, Alex Ignatchenko, Arttu Jolma, Oriol Fornes, Martin Kuiper, et al. “[A GO Catalogue of Human DNA-Binding Transcription Factors](https://doi.org/10.1101/2020.10.28.359232).” BioRxiv, January 1, 2020
 
