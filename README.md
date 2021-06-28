@@ -372,6 +372,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Genes
 
+- [Enrichr](https://maayanlab.cloud/Enrichr/) - enrichment analysis, gene search, term search. Libraries for various signatures are available for [download](https://maayanlab.cloud/Enrichr/#stats)
+
 - [CellMarker](http://biocc.hrbmu.edu.cn/CellMarker/download.jsp) - Cell markers of different cell types from different tissues in human and mouse.
 
 - [A list of updated 1439 DNA-binding transcription factors](https://www.ebi.ac.uk/QuickGO/targetset/dbTF) from re-annotation study of transcription factors in Gene Ontology annotations
