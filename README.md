@@ -76,6 +76,9 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Analysis
 
+- [GeneTonic](https://github.com/federicomarini/GeneTonic) - R/Shiny app for interactive visualization and interpretation of differential expression and functional enrichment result. GTL, GeneTonicList objects containing output of DESeq2, enrichment results (multiple tools supported), gene expression, gene annotations. GO graph, heatmaps, volcano plots, bookmarks, links to external resources. [Bioconductor](https://www.bioconductor.org/packages/GeneTonic)
+    - Marini, Federico, Annekathrin Ludt, Jan Linke, and Konstantin Strauch. “[GeneTonic: An R/Bioconductor Package for Streamlining the Interpretation of RNA-Seq Data](https://doi.org/10.1101/2021.05.19.444862).” Preprint. Bioinformatics, May 21, 2021. 
+
 - [Omics Playground](https://github.com/bigomics/omicsplayground) - self-service bioinformatics platform to analyze, visualize, and integrate omics data. Descriptive statistics, differential gene expression, clustering, GSEA/KEGG, signature, cell type prediction. Input - text-based files. R/Shiny implementation, Docker image. [GitHub](https://github.com/bigomics/omicsplayground), [Documentation](https://omicsplayground.readthedocs.io/)
     - Akhmedov, Murodzhon, Axel Martinelli, Roger Geiger, and Ivo Kwee. “[Omics Playground: A Comprehensive Self-Service Platform for Visualization, Analytics and Exploration of Big Omics Data](https://doi.org/10.1093/nargab/lqz019).” NAR Genomics and Bioinformatics 2, no. 1 (March 1, 2020)
 
