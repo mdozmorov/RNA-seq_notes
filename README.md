@@ -189,6 +189,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - Benchmarking review, two types of alternative splicing analysis: differential splicing and differential isoform detection. DESeq2, DEXSeq, Limma and NOISeq perform well overall. [GitHub](https://github.com/gamerino/benchmarkingDiffExprAndSpl)
     - Merino, Gabriela A, Ana Conesa, and Elmer A Fernández. “[A Benchmarking of Workflows for Detecting Differential Splicing and Differential Expression at Isoform Level in Human RNA-Seq Studies](https://doi.org/10.1093/bib/bbx122).” Briefings in Bioinformatics 20, no. 2 (March 25, 2019)
 
+- [ASpli](https://bioconductor.org/packages/ASpli/) - integrating several independent measures of alternative splicing. Bin-level analysis of genes/splice junctions (. edgeR to test for differences. Estimates PSI, PIR, PJU, novel junction. Input: BAM files and a genome annotation file. Bioconductor R package
+    - Mancini, Estefania, Andres Rabinovich, Javier Iserte, Marcelo Yanovsky, and Ariel Chernomoretz. “[ASpli: Integrative Analysis of Splicing Landscapes through RNA-Seq Assays](https://doi.org/10.1093/bioinformatics/btab141),” Bioinformatics, 02 March 2021
+
+
+
 - [MAJIQ](https://majiq.biociphers.org/) - local splicing variation analysis. Detects canonical and alternative splicing events. Quantifies as Percent Selected In (PSI). Differential splicing as delta PSI. Visualization using VOILA package. Python 3.
     - Vaquero-Garcia, Jorge, Alejandro Barrera, Matthew R. Gazzara, Juan González-Vallinas, Nicholas F. Lahens, John B. Hogenesch, Kristen W. Lynch, and Yoseph Barash. “[A New View of Transcriptome Complexity and Regulation through the Lens of Local Splicing Variations](https://doi.org/10.7554/eLife.11752).” ELife 5 (February 1, 2016)
 
