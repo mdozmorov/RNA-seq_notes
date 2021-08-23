@@ -49,6 +49,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Preprocessing
 
+- [rasusa](https://github.com/mbhall88/rasusa) - Randomly subsample sequencing reads to a specified coverage, single- and paired end reads
+
 - [Check strandedness of RNA-Seq fastq files](https://github.com/betsig/how_are_we_stranded_here)
 
 - [Illumina Instrument Type from fastq](https://www.biostars.org/p/198143/)
