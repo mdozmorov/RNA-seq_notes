@@ -97,6 +97,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Quality control
 
+- [Qualimap](http://qualimap.conesalab.org/) - Qualimap 2 is a platform-independent application written in Java and R that provides both a Graphical User Inteface (GUI) and a command-line interface to facilitate the quality control of alignment sequencing data and its derivatives like feature counts. Supported types of experiments include: Whole-genome sequencing, Whole-exome sequencing, RNA-seq (speical mode available), ChIP-seq
+
 - [fastp](https://github.com/OpenGene/fastp) - fast C++ parallelized tool for FASTQ quality control, adapter trimming, quality filtering, pruning, polyX (polyG) trimming, works with single- and paired-end data. [GitHub](https://github.com/OpenGene/fastp)
     - Chen, Shifu, Yanqing Zhou, Yaru Chen, and Jia Gu. “[Fastp: An Ultra-Fast All-in-One FASTQ Preprocessor](https://doi.org/10.1093/bioinformatics/bty560).” Bioinformatics 34, no. 17 (September 1, 2018)
 
