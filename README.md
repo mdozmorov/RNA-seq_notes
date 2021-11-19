@@ -434,3 +434,6 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [TPMcalculator](https://github.com/ncbi/TPMCalculator) - converts gene counts to TPM using transcript information from a GTF file. TPM vs. FPKM correlation for validation. C/C++ command line tool, Docker image, CWL workflow
     - Vera Alvarez, Roberto, Lorinc Sandor Pongor, Leonardo Mariño-Ramírez, and David Landsman. “[TPMCalculator: One-Step Software to Quantify MRNA Abundance of Genomic Features](https://doi.org/10.1093/bioinformatics/bty896).” Bioinformatics 35, no. 11 (June 1, 2019)
 
+- Multi-omics madness picture, [Tweet](https://twitter.com/AntoBeck/status/1461478948106170374?s=20), [download](multiomics.jpeg)
+
+![Multi-omics madness](https://pbs.twimg.com/media/FEg3MGmVQAIJnoQ?format=jpg&name=small)
