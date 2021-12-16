@@ -312,6 +312,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Networks
 
+- [corto](https://CRAN.R-project.org/package=corto) - R package for correlation-based gene network and master regulator analysis. Can correct for CNVs. Uses RNA-seq or ATAC-seq data. Benchmarked against ARACNE-AP, minet, RTN. [GitHub](https://github.com/federicogiorgi/corto) <details>
+    <summary>Paper</summary>
+    Mercatelli, Daniele, Gonzalo Lopez-Garcia, and Federico M Giorgi. “[Corto: A Lightweight R Package for Gene Network Inference and Master Regulator Analysis](https://doi.org/10.1093/bioinformatics/btaa223),” Bioinformatics, Volume 36, Issue 12, 15 June 2020
+</details>
+
 - [GENIE3](https://github.com/aertslab/GENIE3) - random forest regression detection of gene modules. Input - expression matrix, output - gene x gene square co-regulation matrix
 
 ### Transcription regulators
