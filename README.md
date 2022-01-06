@@ -17,6 +17,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [Batch effect](#batch-effect)
 - [Clustering](#clustering)
 - [Timecourse](#timecourse)
+- [Allele-specific expression](#allele-specific-expression)
 - [Differential expression](#differential-expression)
 - [Functional enrichment](#functional-enrichment)
   - [Transcription regulators](#transcription-regulators)
@@ -153,6 +154,12 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [ALDEx](https://bioconductor.org/packages/release/bioc/html/ALDEx2.html) - differential abundance analysis of compositional data. ANOVA-like approach, partitioning within-condition to between-condition variation. Uses a Dirichlet-multinomial model to infer abundance from counts. Methods description for transforming proportional data into independent components
     - Fernandes, Andrew D., Jean M. Macklaim, Thomas G. Linn, Gregor Reid, and Gregory B. Gloor. “[ANOVA-like Differential Expression (ALDEx) Analysis for Mixed Population RNA-Seq](https://doi.org/10.1371/journal.pone.0067019).” PloS One 8, no. 7 (2013)
 
+## Allele-specific expression
+
+- [SNPsplit](https://www.bioinformatics.babraham.ac.uk/projects/SNPsplit/) - allele-specific splitting of SAM/BAM alignments using known SNP genotypes. Based on alignment to SNP-masked genomes (N). Perl, three scripts (SNPsplit, SNPsplit_genome_preparation, tag2sort). Input - SAM/BAM files, an annotation file containing the positions of all SNPs in the genome. Performs 1) read tagging and 2) read sorting. Classifies into Allele 1-specific, Allele 2-specific, Unassigned, Conflicting. Works with DNA-seq, RNA-seq, Hi-C, Bisulfite-seq data, single- and paired end, aligned by various aligners. [GitHub](https://github.com/FelixKrueger/SNPsplit). <details>
+    <summary>Paper</summary>
+    Krueger, Felix, and Simon R. Andrews. “SNPsplit: Allele-Specific Splitting of Alignments between Genomes with Known SNP Genotypes.” F1000Research 5 (July 2016): 1479. https://doi.org/10.12688/f1000research.9037.2.
+</details>
 
 ## Functional enrichment
 
