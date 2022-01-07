@@ -147,6 +147,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [Degust](http://degust.erc.monash.edu/) -  interactive RNA-seq analysis, RNA-seq exploration, analysis and visualisation
 
+- [diffexpr](https://github.com/wckdouglas/diffexpr) - A python package using rpy2 to port DESeq2 into Python.
+
 - [ideal](http://bioconductor.org/packages/release/bioc/html/ideal.html) - Interactive Differential Expression AnaLysis. 
 
 - [EnhancedVolcano](https://github.com/kevinblighe/EnhancedVolcano) - Publication-ready volcano plots with enhanced colouring and labeling, by Kevin Blighe
