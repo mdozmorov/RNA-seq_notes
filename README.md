@@ -12,6 +12,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [Pipelines](#pipelines)
   - [Preprocessing](#preprocessing)
+  - [Aligners](#aligners)
+    - [Long-read](#long-read)
   - [Analysis](#analysis)
 - [Quality control](#quality-control)
 - [Batch effect](#batch-effect)
@@ -76,6 +78,24 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [faster](https://github.com/angelovangel/faster) - A (very) fast program for getting statistics about a fastq file, written in Rust. Get the read length, GC content, mean Phred scores, trim frong and tail, regex search. Compiled binaries are available
 
+### Aligners
+
+- [Chromap](https://github.com/haowenz/chromap) - ultra-fast aligner (>10X faster) for ChIP-seq, Hi-C, scATAC-seq. Based on the minimizer sketch. Memory depends only on genome index size, \~20Gb for human. <details>
+    <summary>Paper</summary>
+    Zhang, Haowen, Li Song, Xiaotao Wang, Haoyu Cheng, Chenfei Wang, Clifford A. Meyer, Tao Liu, et al. “Fast Alignment and Preprocessing of Chromatin Profiles with Chromap.” Nature Communications, 12 November 2021, https://doi.org/10.1038/s41467-021-26865-w
+</details>
+
+- [SNAP](https://github.com/amplab/snap) - paired-read short-read (70-300bp) aligner based on fussy set intersection. 2-5x faster than BWA-mem2, Bowtie2.  When used with Haplotype Caller from the Genome Analysis Toolkit, SNAP produces better concordance with known-truth sets than other aligners for most of the genome-in-a-bottle and Illumina Platinum genomes. Additonal features: accepts SAM and BAM, outputs sorted, duplicate marked and indexed file. Binaries for Windows, Mac, Linux. [Tweet](https://twitter.com/razoralign/status/1465664608711036932?s=20). <details>
+    <summary>Paper</summary>
+    Bolosky, William J., Arun Subramaniyan, Matei Zaharia, Ravi Pandya, Taylor Sittler, and David Patterson. “Fuzzy Set Intersection Based Paired-End Short-Read Alignment.” Preprint. Bioinformatics, November 23, 2021. https://doi.org/10.1101/2021.11.23.469039.
+</details>
+
+#### Long-read
+
+- [Minimap2](https://github.com/lh3/minimap2) - aligner for long- (SMRT, ONT technologies, over 1kb) and short- (over 100bp, paired-end supported) reads. Spli-read alignment, gap cost for long insertions and deletions, reduces spurious alignment. 3-4 tiimes faster than short-read aligners (C and Python implementation), over 30 times faster than long-read aligners (BLASR, BWA-MEM, GraphMap, minialign, NGMLR). Presets of parameters. <details>
+    <summary>Paper</summary>
+    Li, Heng. “Minimap2: Pairwise Alignment for Nucleotide Sequences.” Edited by Inanc Birol. Bioinformatics 34, no. 18 (September 15, 2018): 3094–3100. https://doi.org/10.1093/bioinformatics/bty191.
+</details>
 
 ### Analysis
 
