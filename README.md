@@ -97,6 +97,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     Li, Heng. “Minimap2: Pairwise Alignment for Nucleotide Sequences.” Edited by Inanc Birol. Bioinformatics 34, no. 18 (September 15, 2018): 3094–3100. https://doi.org/10.1093/bioinformatics/bty191.
 </details>
 
+- [lorax](https://github.com/tobiasrausch/lorax) - A long-read analysis toolbox for cancer genomics applications. Requires matched tumor-normal data sequenced using long-reads.
+
 - [NGMLR](https://github.com/philres/ngmlr) - long-read mapper designed to align PacBio or Oxford Nanopore (standard and ultra-long) to a reference genome with a focus on reads that span structural variations
 
 - [Sniffles](https://github.com/fritzsedlazeck/Sniffles) - structural variation caller using third generation sequencing (PacBio or Oxford Nanopore).
