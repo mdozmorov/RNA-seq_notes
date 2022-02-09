@@ -283,6 +283,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### lncRNAs
 
+- [LncSEA](http://bio.liclab.net/LncSEA/index.php) - long non-coding RNA database and enrichment analysis. Covers over 50K lncRNAs, contains reference sets in 18 categories (Accessible chromatin, enhancer, super enhancer, transcription factor, survival, Drug, Disease, Cancer hallmark, subsellular location etc., Supplementary Table 2 and 3 - data sources) and 66 subcategories (based on specific attributes, overlap/proximal/closest, cancer subtypes, etc.), Table 1. Hypergeometric enrichment, Jaccard, Simpson overlaps, Correction for multiple testing (BH, Bonferroni). ID conversion. Supplementary Material 2 - details of categories. Previous tools: Co-LncRNA, Lnc-GFP, FARNA, [LnCompare](http://www.rnanut.net/lncompare/) (Supplementary Table 1 - Comparison of LncSEA with other databases and tools). [Supplementary material](https://academic.oup.com/nar/article/49/D1/D969/5921297#supplementary-data). [GitHub](https://github.com/lxy-boy/LncSEA-Code). <details>
+    <summary>Paper</summary>
+    Chen, Jiaxin, Jian Zhang, Yu Gao, Yanyu Li, Chenchen Feng, Chao Song, Ziyu Ning, et al. “LncSEA: A Platform for Long Non-Coding RNA Related Sets and Enrichment Analysis,” Nucleic Acids Research, 8 January 2021. https://doi.org/10.1093/nar/gkaa806
+</details>
+
 - [lncRNAKB](http://psychiatry.som.jhmi.edu/lncrnakb/) - database of long noncoding RNAs. lncRNAs are typically less conserved, expressed low on average and highly tissue-specific. Combines six resources (CHESS, LNCipedia, NONCODE, FANTOM, MiTranscriptome, BIGTranscriptome). Information about tissue-specific expression, eQTL, WGCNA co-expression to predict functions in a tissue-specific manner, random forest prediction of protein-coding score. Data: GTF gene annotation, tissue-specific expression (TPM, counts, eQTL). [RNA-seq blog post](https://www.rna-seqblog.com/lncrnakb-a-comprehensive-knowledgebase-of-long-non-coding-rnas/)
     - Seifuddin, Fayaz, Komudi Singh, Abhilash Suresh, Yun-Ching Chen, Vijender Chaitankar, Ilker Tunc, Xiangbo Ruan, et al. “[LncRNAKB: A Comprehensive Knowledgebase of Long Non-Coding RNAs](https://doi.org/10.1101/669994).” Preprint. Bioinformatics, June 13, 2019. 
 
