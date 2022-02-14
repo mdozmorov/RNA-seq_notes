@@ -147,6 +147,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [fancyimpute](https://github.com/iskandr/fancyimpute) - Multivariate imputation and matrix completion algorithms implemented in Python. Algorithms: SimpleFill, KNN, SoftImpute, IterativeImputer, IterativeSVD, MatrixFactorization, NuclearNormMinimization, BiScaler.
 
+- [softImpute](https://CRAN.R-project.org/package=softImpute) - R package for Matrix Completion via Iterative Soft-Thresholded SVD, by Trevor Hastie and Rahul Mazumder.
+
 ## Batch effect
 
 - [ComBat-seq](https://github.com/zhangyuqing/sva-devel) - batch effect correction for RNA-seq data using negative binomial regression. Maintains count nature of RNA-seq data. Tested on simulated data (polyester package), and experimental data. Achieves the highest true positive rate. [Code to reproduce paper](https://github.com/zhangyuqing/ComBat-seq)
