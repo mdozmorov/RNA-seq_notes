@@ -16,6 +16,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     - [Long-read](#long-read)
   - [Analysis](#analysis)
 - [Quality control](#quality-control)
+- [Imputation](#imputation)
 - [Batch effect](#batch-effect)
 - [Clustering](#clustering)
 - [Timecourse](#timecourse)
@@ -141,6 +142,10 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [FastQt](https://github.com/labsquare/FastQt) - FastQC port to Qt5: A quality control tool for high throughput sequence data
 
 - [fastqcheck](https://github.com/VertebrateResequencing/fastqcheck) - Generate statistics on and validate fastq files
+
+## Imputation
+
+- [fancyimpute](https://github.com/iskandr/fancyimpute) - Multivariate imputation and matrix completion algorithms implemented in Python. Algorithms: SimpleFill, KNN, SoftImpute, IterativeImputer, IterativeSVD, MatrixFactorization, NuclearNormMinimization, BiScaler.
 
 ## Batch effect
 
