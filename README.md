@@ -169,6 +169,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Differential expression
 
+- [Glimma 2.0](https://github.com/hasaru-k/GlimmaV2) - R package for interactive visualization of DESeq2, edgeR, Limma objects. MDS plot, MA plot, Volcano plot. D3, htmlwidgets, plotly, dygraphs. Plots are embeddable in RMarkdown. Export data as CSV, PNG, SVG. [Bioconductor](https://bioconductor.org/packages/Glimma/). <details>
+    <summary>Paper</summary>
+    Kariyawasam, Hasaru, Shian Su, Oliver Voogd, Matthew E Ritchie, and Charity W Law. “Dashboard-Style Interactive Plots for RNA-Seq Analysis Are R Markdown Ready with Glimma 2.0.” NAR Genomics and Bioinformatics 3, no. 4 (October 4, 2021): lqab116. https://doi.org/10.1093/nargab/lqab116.
+</details>
+
 - [Topconfect](https://bioconductor.org/packages/release/bioc/html/topconfects.html) - differential gene expression using confidence intervals of log fold changes. Confect units are interpretable as effect sizes. Uses TREAT (limma) functionality, Methods, also wraps edgeR and DESeq2 functionality. Tested using simulated and tumor-normal data. R package, [GitHub](https://github.com/pfh/topconfects), [Bioconductor](https://bioconductor.org/packages/release/bioc/html/topconfects.html)
     - Harrison, Paul F., Andrew D. Pattison, David R. Powell, and Traude H. Beilharz. “[Topconfects: A Package for Confident Effect Sizes in Differential Expression Analysis Provides a More Biologically Useful Ranked Gene List](https://doi.org/10.1186/s13059-019-1674-7).” Genome Biology 20, no. 1 (December 2019)
 
