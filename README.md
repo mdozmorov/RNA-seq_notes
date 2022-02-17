@@ -216,13 +216,14 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [EnrichmentBrowser](https://bioconductor.org/packages/release/bioc/html/EnrichmentBrowser.html) - R package for microarray/RNA-seq normalization, ID mapping, differential analysis, functional enrichment (many methods) and network analyses and visualization
      - Geistlinger, Ludwig, Gergely Csaba, and Ralf Zimmer. “[Bioconductor’s EnrichmentBrowser: Seamless Navigation through Combined Results of Set- & Network-Based Enrichment Analysis](https://doi.org/10.1186/s12859-016-0884-1).” BMC Bioinformatics 17 (January 20, 2016)
 
-- `gProfileR` - enrichment of gene lists, from GO to KEGG and others, organism-specific, ortholog conversion
-
 - [Metascape](http://metascape.org/gp/index.html#/main/step1) - multi-gene lists functional analysis, auto gene ID recognition, >40 databases. [data_analysis_portals.xlsx]((https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-09234-6/MediaObjects/41467_2019_9234_MOESM3_ESM.xlsx)) - 25 data analysis portals
     - Zhou, Yingyao, Bin Zhou, Lars Pache, Max Chang, Alireza Hadj Khodabakhshi, Olga Tanaseichuk, Christopher Benner, and Sumit K. Chanda. “[Metascape Provides a Biologist-Oriented Resource for the Analysis of Systems-Level Datasets](https://doi.org/10.1038/s41467-019-09234-6).” Nature Communications 10, no. 1 (December 2019)
 
 - [Positional Gene Enrichment analysis](http://silico.biotoul.fr/pge/) of gene sets for high resolution identification of overrepresented chromosomal regions.  
     - [De Preter, K., Barriot, R., Speleman, F., Vandesompele, J., Moreau, Y., 2008, Nucleic Acids Res.](https://academic.oup.com/nar/article/36/7/e43/2410597)
+
+- [gProfileR](https://CRAN.R-project.org/package=gProfileR) - enrichment of gene lists, from GO to KEGG and others, organism-specific, ortholog conversion. [Web interface](https://biit.cs.ut.ee/gprofiler/gost)
+
 
 ### Transcription regulators
 
