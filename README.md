@@ -224,6 +224,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [gProfileR](https://CRAN.R-project.org/package=gProfileR) - enrichment of gene lists, from GO to KEGG and others, organism-specific, ortholog conversion. [Web interface](https://biit.cs.ut.ee/gprofiler/gost)
 
+- [msigdb4mouse](https://github.com/markziemann/msigdb4mouse) - MSigDB gene sets for mouse (GO, KEGG, Reactome).
 
 ### Transcription regulators
 
