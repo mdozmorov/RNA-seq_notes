@@ -427,15 +427,17 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Data
 
-- [refine.bio](https://www.ccdatalab.org/projects/refinebio) - harmonized microarray and RNA-seq data for various organisms and conditions
+- [ARCHS4](http://amp.pharm.mssm.edu/archs4/download.html) - Massive Mining of Publicly Available RNA-seq Data from Human and Mouse
 
 - [cBioPortalData](https://github.com/waldronlab/cBioPortalData) - cBioPortal data as MultiAssayExperiment objects, by Waldron Lab
 
 - [curatedTCGAData](https://github.com/waldronlab/curatedTCGAData) - Curated Data From The Cancer Genome Atlas (TCGA) as MultiAssayExperiment objects, by Waldron Lab
 
-- [ARCHS4](http://amp.pharm.mssm.edu/archs4/download.html) - Massive Mining of Publicly Available RNA-seq Data from Human and Mouse
+- [GTEx Visualizations](https://github.com/broadinstitute/gtex-viz) - web-based visualization tools for exploring tissue-specific gene expression and regulation
 
 - [PINS](http://www.cs.wayne.edu/tinnguyen/PINS/PINS.html) - A novel method for data integration and disease subtyping
+
+- [refine.bio](https://www.ccdatalab.org/projects/refinebio) - harmonized microarray and RNA-seq data for various organisms and conditions
 
 - [recount2](https://bioconductor.org/help/workflows/recountWorkflow/) - an R workflow to work with recount2 data
 
@@ -477,8 +479,6 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [Extract intron boundaries per transcript](https://gist.github.com/hiraksarkar/ce8a71a6953cb4e9823d868c283bf99d)
 
 - [CHESS](http://ccb.jhu.edu/chess/) - Comprehensive Human Expressed SequenceS, database of novel genes, identified from GTeX data, protein-coding and lncRNA
-
-- [GTEx Visualizations](https://github.com/broadinstitute/gtex-viz) - web-based visualization tools for exploring tissue-specific gene expression and regulation
 
 - [ideogram](https://github.com/eweitz/ideogram) - Chromosome visualization with D3.js. [Examples](https://eweitz.github.io/ideogram/). [ideogRam R wrapper](https://github.com/freestatman/ideogRam)
 
