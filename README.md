@@ -316,6 +316,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Gene fusion
 
+- [MetaFusion](https://github.com/ccmbioinfo/MetaFusion) - gene fusion caller by filtering and aggregating calls from multiple (7 by default) fusion callers (included in Docker/Singularity images, orchestrated by GenPipes). Results are summarized into new Common Fusion Format. Includes FusionAnnotator tool. [Documentation](https://github.com/ccmbioinfo/MetaFusion/wiki). <details>
+    <summary>Paper</summary>
+    Apostolides, Michael, Yue Jiang, Mia Husić, Robert Siddaway, Cynthia Hawkins, Andrei L Turinsky, Michael Brudno, and Arun K Ramani. “MetaFusion: A High-Confidence Metacaller for Filtering and Prioritizing RNA-Seq Gene Fusion Candidates.” Edited by Janet Kelso. Bioinformatics 37, no. 19 (October 11, 2021): 3144–51. https://doi.org/10.1093/bioinformatics/btab249.
+</details>
+
 - [CICERO](https://platform.stjude.cloud/workflows/rapid_rna-seq) - gene fusion detection, uses longer (>75bp) reads, a local assembly-based. Prioritizes candidates. Outperforms ChimeraScan, deFuse, FusionCatcher, Arriba on TCGA brain tumor data. [FusionEditor](https://proteinpaint.stjude.org/FusionEditor/) imports CICERO's output for visualization. Imports paired-end FASTQs or aligned BAMs. Supports hg19 only. [Web](https://platform.stjude.cloud/workflows/rapid_rna-seq), [GitHub](https://github.com/stjude/Cicero)
     - Tian, Liqing, Yongjin Li, Michael N. Edmonson, Xin Zhou, Scott Newman, Clay McLeod, Andrew Thrasher, et al. “[CICERO: A Versatile Method for Detecting Complex and Diverse Driver Fusions Using Cancer RNA Sequencing Data](https://doi.org/10.1186/s13059-020-02043-x).” Genome Biology 21, no. 1 (December 2020)
 
