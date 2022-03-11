@@ -433,6 +433,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [curatedTCGAData](https://github.com/waldronlab/curatedTCGAData) - Curated Data From The Cancer Genome Atlas (TCGA) as MultiAssayExperiment objects, by Waldron Lab
 
+- [gtexRNA](https://github.com/sigven/gtexRNA) - R package for retrieval of tissue-specific expression data from GTEx. By Sigve Nakken, [website](https://sigven.github.io/gtexRNA/)
+
 - [GTEx Visualizations](https://github.com/broadinstitute/gtex-viz) - web-based visualization tools for exploring tissue-specific gene expression and regulation
 
 - [PINS](http://www.cs.wayne.edu/tinnguyen/PINS/PINS.html) - A novel method for data integration and disease subtyping
