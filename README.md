@@ -53,8 +53,6 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Preprocessing
 
-- [rasusa](https://github.com/mbhall88/rasusa) - Randomly subsample sequencing reads to a specified coverage, single- and paired end reads
-
 - [Check strandedness of RNA-Seq fastq files](https://github.com/betsig/how_are_we_stranded_here)
 
 - [Illumina Instrument Type from fastq](https://www.biostars.org/p/198143/)
@@ -77,7 +75,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [fastq-pair](https://github.com/linsalrob/fastq-pair) - Match up paired end fastq files quickly and efficiently
 
+- [FastUniq](https://sourceforge.net/projects/fastuniq/) - an ultrafast de novo duplicates removal tool for paired short DNA sequences.
+
 - [faster](https://github.com/angelovangel/faster) - A (very) fast program for getting statistics about a fastq file, written in Rust. Get the read length, GC content, mean Phred scores, trim frong and tail, regex search. Compiled binaries are available
+
+- [rasusa](https://github.com/mbhall88/rasusa) - Randomly subsample sequencing reads to a specified coverage, single- and paired end reads
 
 ### Aligners
 
