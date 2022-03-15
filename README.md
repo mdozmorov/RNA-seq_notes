@@ -318,6 +318,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Gene fusion
 
+- [MINTIE](https://github.com/Oshlack/MINTIE) - identifying novel, rare transcriptional variants in cancer RNA-seq data. Detects fusions, transcribed structural variants (>=7bp), novel splice variants (flanked by >=20bp), complex variants (Figure 2). Filters, annotates, and prioritizes variants. Case(s) vs. control(s) analysis (single case vs. N controls). Four steps: transcriptome assembly of the case sample (SOAPdenovo-Trans), pseudo-alignment of cases and controls to an index composed of the assembled and reference transcripts (CHESS, Salmon), differential expression to identify upregulated novel features, and annotation of novel transcripts. Outperforms eight other variang detection methods on [simulated](https://github.com/Oshlack/MINTIE/tree/master/simu/run_simu.py) and experimental datasets. <details>
+    <summary>
+    Cmero, Marek, Breon Schmidt, Ian J. Majewski, Paul G. Ekert, Alicia Oshlack, and Nadia M. Davidson. “MINTIE: Identifying Novel Structural and Splice Variants in Transcriptomes Using RNA-Seq Data.” Genome Biology 22, no. 1 (December 2021): 296. https://doi.org/10.1186/s13059-021-02507-8.
+</summary>
+
 - [MetaFusion](https://github.com/ccmbioinfo/MetaFusion) - gene fusion caller by filtering and aggregating calls from multiple (7 by default) fusion callers (included in Docker/Singularity images, orchestrated by GenPipes). Results are summarized into new Common Fusion Format. Includes FusionAnnotator tool. [Documentation](https://github.com/ccmbioinfo/MetaFusion/wiki). <details>
     <summary>Paper</summary>
     Apostolides, Michael, Yue Jiang, Mia Husić, Robert Siddaway, Cynthia Hawkins, Andrei L Turinsky, Michael Brudno, and Arun K Ramani. “MetaFusion: A High-Confidence Metacaller for Filtering and Prioritizing RNA-Seq Gene Fusion Candidates.” Edited by Janet Kelso. Bioinformatics 37, no. 19 (October 11, 2021): 3144–51. https://doi.org/10.1093/bioinformatics/btab249.
