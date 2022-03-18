@@ -379,7 +379,12 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Networks
 
-- [corto](https://CRAN.R-project.org/package=corto) - R package for correlation-based gene network and master regulator analysis. Can correct for CNVs. Uses RNA-seq or ATAC-seq data. Benchmarked against ARACNE-AP, minet, RTN. [GitHub](https://github.com/federicogiorgi/corto) <details>
+- [MODifieR](https://gitlab.com/Gustafsson-lab/MODifieR) - R package wrapping 9 gene module inference methods from transcriptomics networks (WGCNA, DIAMOnD, DiffCoEx, MCODE, MODA, Module Discoverer, Clique-Sum, Correlation-Clique). Some methods include differential expression analysis. Consensus module detection. [Docker](https://hub.docker.com/r/ddeweerd/modifier). [Vignette](https://gustafsson-lab.gitlab.io/MODifieR/). <details>
+    <summary>Paper</summary>
+    Weerd, Hendrik A de, Tejaswi V S Badam, David Martínez-Enguita, Julia Åkesson, Daniel Muthas, Mika Gustafsson, and Zelmina Lubovac-Pilav. “MODifieR: An Ensemble R Package for Inference of Disease Modules from Transcriptomics Networks.” Edited by Lenore Cowen. Bioinformatics 36, no. 12 (June 1, 2020): 3918–19. https://doi.org/10.1093/bioinformatics/btaa235.
+</details>
+
+- [corto](https://CRAN.R-project.org/package=corto) - R package for correlation-based gene network and master regulator analysis. Can correct for CNVs. Uses RNA-seq or ATAC-seq data. Benchmarked against ARACNE-AP, minet, RTN. [GitHub](https://github.com/federicogiorgi/corto). <details>
     <summary>Paper</summary>
     Mercatelli, Daniele, Gonzalo Lopez-Garcia, and Federico M Giorgi. “[Corto: A Lightweight R Package for Gene Network Inference and Master Regulator Analysis](https://doi.org/10.1093/bioinformatics/btaa223),” Bioinformatics, Volume 36, Issue 12, 15 June 2020
 </details>
