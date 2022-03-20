@@ -379,6 +379,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Networks
 
+- [ANANSE](https://github.com/vanheeringen-lab/ANANSE) (ANalysis Algorithm for Networks Specified by Enhancers) - gene regulatory network inference using TF binding profiles. Missing TF binding profiles predicted from cis-regulatory enhancer activity (H3K27ac, ATAC-seq, EP300), TF motif scores, average ChIP-seq signal of REMAP peaks in enhancers (logistic regression). Influence score - how well the expression differences between two cell types can be explained by a TF. Python implementation. [Jupyter notebooks](https://github.com/vanheeringen-lab/ANANSE-manuscript). ANANSE-inferred [Tissue-specific networks](https://doi.org/10.5281/zenodo.4814016), [cell type-specific networks](https://doi.org/10.5281/zenodo.4809062), GRNBoost2-inferred [tissue-specific networks](https://doi.org/10.5281/zenodo.4814015). [Tweet](https://twitter.com/svheeringen/status/1324251851223666689?s=20&t=uOf-0h6htdUlkWe1WVdj3A). <details>
+    <summary>Paper</summary>
+    Xu, Quan, Georgios Georgiou, Siebren Frölich, Maarten van der Sande, Gert Jan C Veenstra, Huiqing Zhou, and Simon J van Heeringen. “ANANSE: An Enhancer Network-Based Computational Approach for Predicting Key Transcription Factors in Cell Fate Determination.” Nucleic Acids Research 49, no. 14 (August 20, 2021): 7966–85. https://doi.org/10.1093/nar/gkab598.
+</details>
+
 - [MODifieR](https://gitlab.com/Gustafsson-lab/MODifieR) - R package wrapping 9 gene module inference methods from transcriptomics networks (WGCNA, DIAMOnD, DiffCoEx, MCODE, MODA, Module Discoverer, Clique-Sum, Correlation-Clique). Some methods include differential expression analysis. Consensus module detection. [Docker](https://hub.docker.com/r/ddeweerd/modifier). [Vignette](https://gustafsson-lab.gitlab.io/MODifieR/). <details>
     <summary>Paper</summary>
     Weerd, Hendrik A de, Tejaswi V S Badam, David Martínez-Enguita, Julia Åkesson, Daniel Muthas, Mika Gustafsson, and Zelmina Lubovac-Pilav. “MODifieR: An Ensemble R Package for Inference of Disease Modules from Transcriptomics Networks.” Edited by Lenore Cowen. Bioinformatics 36, no. 12 (June 1, 2020): 3918–19. https://doi.org/10.1093/bioinformatics/btaa235.
@@ -390,6 +395,12 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 </details>
 
 - [GENIE3](https://github.com/aertslab/GENIE3) - random forest regression detection of gene modules. Input - expression matrix, output - gene x gene square co-regulation matrix
+
+- [PANDA networks](https://sites.google.com/a/channing.harvard.edu/kimberlyglass/tools/gtex-networks) - Tissue-Specific Gene Regulatory Networks constructed using [PANDA](https://sites.google.com/a/channing.harvard.edu/kimberlyglass/tools/panda)
+
+- [SCENIC networks](http://www.grndb.com/) - Tissue-specific networks inferred from single cell data using SCENIC
+
+
 
 ### Transcription regulators
 
