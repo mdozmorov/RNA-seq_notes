@@ -315,6 +315,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### circRNAs
 
+- [DCC](https://github.com/dieterich-lab/DCC) Python scripts and [CircTest](https://github.com/dieterich-lab/CircTest) R visualization package - circular RNA detection. DCC uses STAR output (chimeric.out.junction) and detects back-splice junctions, filters, integrated replicate data. A much higher precision than competitors (CIRI, KNIFE), similar sensitivity. Tests for host gene-independence of circRNA expression across different experimental conditions. <details>
+    <summary>Paper</summary>
+    Cheng, Jun, Franziska Metge, and Christoph Dieterich. "Specific identification and quantification of circular RNAs from sequencing data." Bioinformatics 32, no. 7 (2016): 1094-1096. https://doi.org/10.1093/bioinformatics/btv656
+</details>
+
 - [CIRCpedia](http://www.picb.ac.cn/rnomics/circpedia/) database of cornRNAs from human, mouse, and some model organisms. Ribo-, poly(A)-, RNAse R methods for enriching for circRNAs. [CIRCexplorer2](https://circexplorer2.readthedocs.io/en/latest/) for the analysis of such experiments
     - Zhang et al., “Diverse Alternative Back-Splicing and Alternative Splicing Landscape of Circular RNAs.”
 
