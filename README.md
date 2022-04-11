@@ -208,6 +208,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Functional enrichment
 
+- [eVITTA](https://tau.cmmt.ubc.ca/eVITTA/) - web tool for interactive gene expression and functional enrichment (GSEA, overrepresentation) analyses. Three modules: 1) easyGEO, retrieval and analysis of GEO datasets; 2) easyGSEA, GSEA or overrepresentation enrichment analyses; 3) easyVizR, comparison among experimental groups (overlap of gene lists and enrichment results). Input: DESeq2/edgeR output, (ranked) gene lists. Output: interactive barplots, heatmaps, volcano plots (plotly), rank-rank hypergeometric overlap (RRHO) plot, networks, enrichment tables. Figure 1, Table 1 - overview of analyses, inputs, outputs. [GitHub](https://github.com/easygsea/eVITTA). <details>
+    <summary>Paper</summary>
+    Cheng, Xuanjin, Junran Yan, Yongxing Liu, Jiahe Wang, and Stefan Taubert. “EVITTA: A Web-Based Visualization and Inference Toolbox for Transcriptome Analysis.” Nucleic Acids Research 49, no. W1 (July 2, 2021): W207–15. https://doi.org/10.1093/nar/gkab366.
+</details>
+
 - [GSEABenchmarking](https://github.com/waldronlab/GSEABenchmarking) - an R package for systematic testing of gene set enrichment analyses. 10 major enrichment analyses tested on runtime, % significant sets, type I error rate, relevance to phenotype. Microarray and TCGA RNA-seq data. Best performing - overrepresentation analysis, aka Fisher's, hypergeometric test. [Tweet by Levi Waldron](https://twitter.com/LeviWaldron1/status/1142092301403115521?s=03)
     - Geistlinger, Ludwig, Gergely Csaba, Mara Santarelli, Marcel Ramos, Lucas Schiffer, Charity W Law, Nitesh Turaga, et al. “[Towards a Gold Standard for Benchmarking Gene Set Enrichment Analysis](https://doi.org/10.1101/674267).” Preprint. Bioinformatics, June 19, 2019. 
 
