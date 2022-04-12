@@ -526,6 +526,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Misc
 
+- [RRHO](https://systems.crump.ucla.edu/rankrank/) - Rank–rank Hypergeometric Overlap between two gene lists ranked by the degree of differential expression (e.g., signed -log10 p-value). 2D analog of GSEA.  Identifies and visualizes areas of significant overlap by determining the degree of statistical enrichment using the hypergeometric distribution while sliding across all possible thresholds through the two ranked lists. Multiple testing correction (FWER, Benjamini-Yekutieli). [Website](https://systems.crump.ucla.edu/rankrank/) and [R/Bioconductor RRHO package](https://bioconductor.org/packages/RRHO/). <details>
+    <summary>Paper</summary>
+    Plaisier, Seema B, Richard Taschereau, Justin A Wong, and G Graeber. “Rank–Rank Hypergeometric Overlap: Identification of Statistically Significant Overlap between Gene-Expression Signatures.” Nucleic Acids Research 38, no. 17 (2010): 17. https://doi.org/10.1093/nar/gkq636
+</details>
+
 - [gtftk](https://github.com/dputhier/pygtftk) - A python package and a set of shell commands to handle GTF files. Subcommands for editing GTF files, getting information and summary statistics, selecting by various criteria, converting BED to gtf and other formats, annotating by closest genes and more, getting sequences, coordinates of specific gene elements, coverage profile and other bigWig operations. 
     - Ferre, Q, G Charbonnier, N Sadouni, F Lopez, Y Kermezli, S Spicuglia, C Capponi, B Ghattas, and D Puthier. “[OLOGRAM: Determining Significance of Total Overlap Length between Genomic Regions Sets](https://doi.org/10.1093/bioinformatics/btz810),” Bioinformatics, 15 March 2020 - [OLOGRAM](https://github.com/dputhier/pygtftk) - overlap statistics between sets of genomic regions (BED or GTF). Uses Monte Carlo simulation to model (negative binomial) both the distributions of region length and inter-region length, fast. [Supplementary data](https://doi.org/10.1093/bioinformatics/btz810): Table 1 - comparison of features with Genomic Hyperbrowser, GREAT, CEAS, Bedtools fisher, LOLA. Note - details of the method, test results on experimental data. [Supplementary GitHub repo](https://github.com/dputhier/ologram_supp_mat) - Snakefiles to generate figures.
 
