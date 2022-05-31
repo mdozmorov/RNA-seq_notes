@@ -168,6 +168,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Timecourse
 
+- Benchmarking of time course differential analysis tools for RNA-seq. Classical pairwise comparison outperforms specially designed methods in terms of overall performance and robustness to noise. Tested on stimulated data (generated using parameters estimated from ReCount data) and experimental data ([GSE69822](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69822)). AdaptiveGP, DyNB, EbSeqHMM, edgeR/DESeq2 (used as reference gold standard), FunPat, ImpulseDE2, lmms, Next maSigPro, splineTimeR, TimeSeq. Brief description of each method. ImpulseDE2 - overall best performing, comparable with pairwise comparison. Followed by SplineTC on long time series, lmms and others (Discussion). Despite differences, functional enrichment results are similar. [GitHub](https://github.com/daniel-spies/rna-seq_tcComp) with data and analysis scripts. <details>
+    <summary>Paper</summary>
+    Spies, Daniel, Peter F Renz, Tobias A Beyer, and Constance Ciaudo. “Comparative Analysis of Differential Gene Expression Tools for RNA Sequencing Time Course Data.” Briefings in Bioinformatics 20, no. 1 (January 18, 2019): 288–98. https://doi.org/10.1093/bib/bbx115.
+</details>
+
 - [LPWC](https://gitter-lab.github.io/LPWC/) - Lag Penalized Weighted Correlation, a similarity measure to group pairs of time series that are not perfectly synchronized. Review of previous approaches (hierarchical clustering, partition-based, Bayesian models). Correlation-based, with the lag penalty for shift, two options to select it. Best for 5 or more time points, for shorter time course - either use high penalty or another tool STEM. Tested on simulated data (ImpulsDE data) using the adjusted Rand index
     - Chandereng, Thevaa, and Anthony Gitter. “[Lag Penalized Weighted Correlation for Time Series Clustering](https://doi.org/10.1186/s12859-019-3324-1).” BMC Bioinformatics 21, no. 1 (December 2020)
 
