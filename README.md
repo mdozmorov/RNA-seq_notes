@@ -311,6 +311,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### lncRNAs
 
+- [ncFANs v2.0](http://ncfans.gene.ac/) - functional annotation of non-coding RNAs. Three modules: ncFANs-NET, ncFANs-eLnc and ncFANs-CHIP, for annotations using pre-built coexpression/comethylation/lncRNA-gene regulatory networks (GTeX, TCGA), enhancer-derived lncRNAs (data from GRO-seq, de novo transcript assembly), microarray-based analysis, random forest-predicted networks. Input: lists of ncRNA Ensembl IDs or gene symbols. <details>
+    <summary>Paper</summary>
+    Zhang, Yuwei, Dechao Bu, Peipei Huo, Zhihao Wang, Hao Rong, Yanguo Li, Jingjia Liu et al. "ncFANs v2. 0: an integrative platform for functional annotation of non-coding RNAs." Nucleic Acids Research 49, no. W1 (29 May 2021): W459-W468. https://doi.org/10.1093/nar/gkab435
+</details>
+
 - [LncSEA](http://bio.liclab.net/LncSEA/index.php) - long non-coding RNA database and enrichment analysis. Covers over 50K lncRNAs, contains reference sets in 18 categories (Accessible chromatin, enhancer, super enhancer, transcription factor, survival, Drug, Disease, Cancer hallmark, subsellular location etc., Supplementary Table 2 and 3 - data sources) and 66 subcategories (based on specific attributes, overlap/proximal/closest, cancer subtypes, etc.), Table 1. Hypergeometric enrichment, Jaccard, Simpson overlaps, Correction for multiple testing (BH, Bonferroni). ID conversion. Supplementary Material 2 - details of categories. Previous tools: Co-LncRNA, Lnc-GFP, FARNA, [LnCompare](http://www.rnanut.net/lncompare/) (Supplementary Table 1 - Comparison of LncSEA with other databases and tools). [Supplementary material](https://academic.oup.com/nar/article/49/D1/D969/5921297#supplementary-data). [GitHub](https://github.com/lxy-boy/LncSEA-Code). <details>
     <summary>Paper</summary>
     Chen, Jiaxin, Jian Zhang, Yu Gao, Yanyu Li, Chenchen Feng, Chao Song, Ziyu Ning, et al. “LncSEA: A Platform for Long Non-Coding RNA Related Sets and Enrichment Analysis,” Nucleic Acids Research, 8 January 2021. https://doi.org/10.1093/nar/gkaa806
