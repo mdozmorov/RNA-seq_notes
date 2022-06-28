@@ -252,6 +252,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Non-canonical RNAs
 
+- [oddgenes](https://github.com/cmdcolin/oddgenes) - A list of weird gene annotations or things that break bioinformatics assumptions
+
 ### Alternative splicing
 
 - Benchmarking review, two types of alternative splicing analysis: differential splicing and differential isoform detection. DESeq2, DEXSeq, Limma and NOISeq perform well overall. [GitHub](https://github.com/gamerino/benchmarkingDiffExprAndSpl)
