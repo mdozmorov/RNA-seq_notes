@@ -224,6 +224,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [PaintOmics 3](http://www.paintomics.org/) - web tool for KEGG pathway enrichment analysis and visualization of gene expression (also, metabolite, protein, region-based data) over pathway diagrams. Competitors: MapMan, KaPPA-View, Pathview Web. Auto-detection of IDs. Analyzes fold change, time course
     - Hernández-de-Diego, Rafael, Sonia Tarazona, Carlos Martínez-Mira, Leandro Balzano-Nogueira, Pedro Furió-Tarí, Georgios J. Pappas, and Ana Conesa. “[PaintOmics 3: A Web Resource for the Pathway Analysis and Visualization of Multi-Omics Data](https://doi.org/10.1093/nar/gky466).” Nucleic Acids Research 46, no. W1 (July 2, 2018)
 
+- [singscore](https://bioconductor.org/packages/singscore/) - a rank-based single-sample enrichment of molecular signatures (R/Bioconductor). Does not depend on background samples, stable for the analysis of small number of samples (<25). Compared woth GSVA, Z-score, PLAGE, ssGSEA, had overall better power, fast. [PySingscore](https://github.com/DavisLaboratory/PySingscore) - Python implementation. [GitHub](https://github.com/DavisLaboratory/singscore). <details>
+    <summary>Paper</summary>
+    Foroutan, Momeneh, Dharmesh D. Bhuva, Ruqian Lyu, Kristy Horan, Joseph Cursons, and Melissa J. Davis. “Single Sample Scoring of Molecular Phenotypes.” BMC Bioinformatics 19, no. 1 (December 2018): 404. https://doi.org/10.1186/s12859-018-2435-4.
+</details>
+
 - [CEMiTool](https://bioconductor.org/packages/release/bioc/html/CEMiTool.html) - gene co-expression analysis, reimplements WGCNA, includes selection of a soft-thresholding power using Cauchi distribution, gene enrichment analysis and, optionally, PPI network. Good overview of WGCNA algorithm. 
     - Russo, Pedro S. T., Gustavo R. Ferreira, Lucas E. Cardozo, Matheus C. Bürger, Raul Arias-Carrasco, Sandra R. Maruyama, Thiago D. C. Hirata, et al. “[CEMiTool: A Bioconductor Package for Performing Comprehensive Modular Co-Expression Analyses](https://doi.org/10.1186/s12859-018-2053-1).” BMC Bioinformatics 19, no. 1 (20 2018)
 
