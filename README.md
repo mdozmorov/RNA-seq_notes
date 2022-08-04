@@ -206,6 +206,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Allele-specific expression
 
+- [ASEP](https://github.com/Jiaxin-Fan/ASEP) - allele-specific (differential) gene expression in a population from RNA-seq. A generalized linear mixed-effects model, the subject-specific random effect accounts for correlation of multiple SNPs within the same gene, and sample heterogeneity is modeled by a two-component mixture distribution. A pseudo-phasing approach (MBASED), 'majority voting'. Type I error is approx. 1%. Input - gene-specific SNP alleles and read counts. <details>
+    <summary>Paper</summary>
+    Fan, Jiaxin, Jian Hu, Chenyi Xue, Hanrui Zhang, Katalin Susztak, Muredach P. Reilly, Rui Xiao, and Mingyao Li. “ASEP: Gene-Based Detection of Allele-Specific Expression across Individuals in a Population by RNA Sequencing.” Edited by Xiaofeng Zhu. PLOS Genetics 16, no. 5 (May 11, 2020): e1008786. https://doi.org/10.1371/journal.pgen.1008786.
+</details>
+
 - [SNPsplit](https://www.bioinformatics.babraham.ac.uk/projects/SNPsplit/) - allele-specific splitting of SAM/BAM alignments using known SNP genotypes. Based on alignment to SNP-masked genomes (N). Perl, three scripts (SNPsplit, SNPsplit_genome_preparation, tag2sort). Input - SAM/BAM files, an annotation file containing the positions of all SNPs in the genome. Performs 1) read tagging and 2) read sorting. Classifies into Allele 1-specific, Allele 2-specific, Unassigned, Conflicting. Works with DNA-seq, RNA-seq, Hi-C, Bisulfite-seq data, single- and paired end, aligned by various aligners. [GitHub](https://github.com/FelixKrueger/SNPsplit). <details>
     <summary>Paper</summary>
     Krueger, Felix, and Simon R. Andrews. “SNPsplit: Allele-Specific Splitting of Alignments between Genomes with Known SNP Genotypes.” F1000Research 5 (July 2016): 1479. https://doi.org/10.12688/f1000research.9037.2.
