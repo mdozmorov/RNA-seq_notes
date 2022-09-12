@@ -484,8 +484,10 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [pcaExplorer](https://bioconductor.org/packages/release/bioc/html/pcaExplorer.html) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach, R package
 
-- `WIlsON` - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. 
-
+- [WIlsON](https://github.com/loosolab/wilson) - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. R/Shiny, installs as a package. Docker image available. [Web demo](http://loosolab.mpi-bn.mpg.de/wilson/). <details>
+    <summary>Paper</summary>
+    H. Schultheis, C. Kuenne, J. Preussner, R. Wiegandt, A. Fust, M. Bentsen and M. Looso. WIlsON: Webbased Interactive Omics VisualizatioN. Bioinformatics 35(6) 2018, doi: https://doi.org/10.1093/bioinformatics/bty711
+</details>
 
 ## Data
 
