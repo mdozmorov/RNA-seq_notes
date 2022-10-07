@@ -562,6 +562,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [GEOparse](https://github.com/guma44/GEOparse) - Python library to access Gene Expression Omnibus Database (GEO). [Documentation](https://geoparse.readthedocs.io/en/latest/)
 
+- [ffq](https://github.com/pachterlab/ffq) - A tool to find sequencing data and metadata from public databases (GEO, SRA, EMBL-EBI, others).
+
 - [RRHO](https://systems.crump.ucla.edu/rankrank/) - Rank–rank Hypergeometric Overlap between two gene lists ranked by the degree of differential expression (e.g., signed -log10 p-value). 2D analog of GSEA.  Identifies and visualizes areas of significant overlap by determining the degree of statistical enrichment using the hypergeometric distribution while sliding across all possible thresholds through the two ranked lists. Multiple testing correction (FWER, Benjamini-Yekutieli). [Website](https://systems.crump.ucla.edu/rankrank/) and [R/Bioconductor RRHO package](https://bioconductor.org/packages/RRHO/). <details>
     <summary>Paper</summary>
     Plaisier, Seema B, Richard Taschereau, Justin A Wong, and G Graeber. “Rank–Rank Hypergeometric Overlap: Identification of Statistically Significant Overlap between Gene-Expression Signatures.” Nucleic Acids Research 38, no. 17 (2010): 17. https://doi.org/10.1093/nar/gkq636
