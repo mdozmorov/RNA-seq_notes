@@ -83,6 +83,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [rasusa](https://github.com/mbhall88/rasusa) - Randomly subsample sequencing reads to a specified coverage, single- and paired end reads
 
+- [RSEM tutorial](https://github.com/bli25/RSEM_tutorial) - A short tutorial on how to use RSEM
+
 ### Aligners
 
 - [Chromap](https://github.com/haowenz/chromap) - ultra-fast aligner (>10X faster) for ChIP-seq, Hi-C, scATAC-seq. Based on the minimizer sketch. Memory depends only on genome index size, \~20Gb for human. <details>
