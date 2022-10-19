@@ -282,6 +282,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Non-canonical RNAs
 
+- [ITAS](https://github.com/EpiEpiMSU/ITAS) - database of transcript annotation for small RNAs. Filtered, corrected, and integrated transcript annotations for several types of small RNAs (miRNA, piRNA, tRNA, rRNA, tsRNA) and several species (human, mouse, rat, fly, worm). Data from miRBase, piRNAdb, GtRNAdb, UCSC, tRFdb, MINTbase. Compared with [SPORTS](https://github.com/junchaoshi/sports1.1) annotation pipeline, detects more transcripts, differentially expressed. [Processing scripts](https://github.com/EpiEpiMSU/ITAS_scripts). <details>
+    <summary>Paper</summary>
+    Stupnikov, Alexey, Vitaly Bezuglov, Ivan Skakov, Victoria Shtratnikova, J. Richard Pilsner, Alexander Suvorov, and Oleg Sergeyev. “ITAS: Integrated Transcript Annotation for Small RNA.” Non-Coding RNA 8, no. 3 (May 2, 2022): 30. https://doi.org/10.3390/ncrna8030030.
+</details>
+
 - [oddgenes](https://github.com/cmdcolin/oddgenes) - A list of weird gene annotations or things that break bioinformatics assumptions
 
 ### Alternative splicing
