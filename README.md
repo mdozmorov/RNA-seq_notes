@@ -17,6 +17,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
   - [Analysis](#analysis)
 - [Quality control](#quality-control)
 - [Imputation](#imputation)
+- [Deconvolution](#deconvolution)
 - [Batch effect](#batch-effect)
 - [Clustering](#clustering)
 - [Timecourse](#timecourse)
@@ -159,6 +160,13 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [fancyimpute](https://github.com/iskandr/fancyimpute) - Multivariate imputation and matrix completion algorithms implemented in Python. Algorithms: SimpleFill, KNN, SoftImpute, IterativeImputer, IterativeSVD, MatrixFactorization, NuclearNormMinimization, BiScaler.
 
 - [softImpute](https://CRAN.R-project.org/package=softImpute) - R package for Matrix Completion via Iterative Soft-Thresholded SVD, by Trevor Hastie and Rahul Mazumder.
+
+## Deconvolution
+
+- [GEDIT](https://github.com/BNadel/GEDIT) - cell type deconvolution from gene expression data. Supports microarray, RNA-seq data, blood and stromal tissue types, human and mouse species. Includes reference data from 8 sources (Human Skin Signatures, Human Body Atlas, Human Primary Cell Atlas, Blueprint, Encode, LM22, 10X single cell dataset, Immunostates, Tabula Muris, Mouse Body Atlas, ImmGen). Input - gene expression matrix and reference data. Joint quantile normalization, signature score calculation, expression range normalization, non-negative linear regression with no regularization. Compared with CIBERSORT, dtangle, DeconRNASeq, performs better in most cases. <details>
+    <summary>Paper</summary>
+    Nadel, Brian B, David Lopez, Dennis J Montoya, Feiyang Ma, Hannah Waddel, Misha M Khan, Serghei Mangul, and Matteo Pellegrini. “The Gene Expression Deconvolution Interactive Tool (GEDIT): Accurate Cell Type Quantification from Gene Expression Data.” GigaScience 10, no. 2 (January 29, 2021): giab002. https://doi.org/10.1093/gigascience/giab002.
+</details>
 
 ## Batch effect
 
