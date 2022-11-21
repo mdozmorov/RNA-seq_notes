@@ -202,6 +202,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Differential expression
 
+- [lmerSeq](https://github.com/stop-pre16/lmerSeq) - linear mixed models for RNA-seq data (VST, variance stabilization transformed). Wraps lme4, lmerTest, nlme packages. Tested on synthetic and experimental data vs. DREAM, rmRNA-seq, almost uniformly more powerful, has the best control of FDR. [GitHub](https://github.com/stop-pre16/lmerSeq) with tutorials. <details>
+    <summary>Paper</summary>
+    Vestal, Brian E., Elizabeth Wynn, and Camille M. Moore. “LmerSeq: An R Package for Analyzing Transformed RNA-Seq Data with Linear Mixed Effects Models.” BMC Bioinformatics 23, no. 1 (November 16, 2022): 489. https://doi.org/10.1186/s12859-022-05019-9.
+</details>
+
 - [Glimma 2.0](https://github.com/hasaru-k/GlimmaV2) - R package for interactive visualization of DESeq2, edgeR, Limma objects. MDS plot, MA plot, Volcano plot. D3, htmlwidgets, plotly, dygraphs. Plots are embeddable in RMarkdown. Export data as CSV, PNG, SVG. [Bioconductor](https://bioconductor.org/packages/Glimma/). <details>
     <summary>Paper</summary>
     Kariyawasam, Hasaru, Shian Su, Oliver Voogd, Matthew E Ritchie, and Charity W Law. “Dashboard-Style Interactive Plots for RNA-Seq Analysis Are R Markdown Ready with Glimma 2.0.” NAR Genomics and Bioinformatics 3, no. 4 (October 4, 2021): lqab116. https://doi.org/10.1093/nargab/lqab116.
@@ -239,6 +244,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 </details>
 
 ## Functional enrichment
+
+- [rGREAT](https://bioconductor.org/packages/rGREAT/) - GREAT method for TSS-centric enrichment of genomic regions. Interface with online GREAT, local implementation. Integrates GO, MSigDB, supports more than 600 organisms via [BioMartGOGeneSets](https://github.com/jokergoo/BioMartGOGeneSets), custom organisms/annotations support. Results viewable via Shiny app. Different TSS annotations, despite differences, produce similar results. [GitHub](https://github.com/jokergoo/rGREAT). <details>
+    <summary>Paper</summary>
+    Gu, Zuguang, and Daniel Hübschmann. “RGREAT: An R/Bioconductor Package for Functional Enrichment on Genomic Regions.” Edited by Tobias Marschall. Bioinformatics, November 17, 2022, btac745. https://doi.org/10.1093/bioinformatics/btac745.
+</details>
 
 - [eVITTA](https://tau.cmmt.ubc.ca/eVITTA/) - web tool for interactive gene expression and functional enrichment (GSEA, overrepresentation) analyses. Three modules: 1) easyGEO, retrieval and analysis of GEO datasets; 2) easyGSEA, GSEA or overrepresentation enrichment analyses; 3) easyVizR, comparison among experimental groups (overlap of gene lists and enrichment results). Input: DESeq2/edgeR output, (ranked) gene lists. Output: interactive barplots, heatmaps, volcano plots (plotly), rank-rank hypergeometric overlap (RRHO) plot, networks, enrichment tables. Figure 1, Table 1 - overview of analyses, inputs, outputs. [GitHub](https://github.com/easygsea/eVITTA). <details>
     <summary>Paper</summary>
