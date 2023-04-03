@@ -628,3 +628,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - Multi-omics madness picture, [Tweet](https://twitter.com/AntoBeck/status/1461478948106170374?s=20), [download](multiomics.jpeg)
 
 ![Multi-omics madness](https://pbs.twimg.com/media/FEg3MGmVQAIJnoQ?format=jpg&name=small)
+
+- STAR aligner parameters, from https://doi.org/10.1038/s41467-020-18035-1
+    - **ATAC-seq:** --alignEndsType End- ToEnd --outFilterMismatchNoverLmax 0.1 --outFilterScoreMinOverLread 0.66 --outFilterMatchNminOverLread 0.66 --outFilterMatchNmin 20 --alignIntronMax 1 --alignSJDBoverhangMin 999 --alignEndsProtrude 10 ConcordantPair --alignMatesGapMax 2000 --outMultimapperOrder Random --outFilterMultimapNmax 999 --outSAMmultNmax 1
+    - **RNA-seq:** --outFilterMismatchNoverLmax 0.1 --outFilterScoreMinOverLread 0.9 --out- FilterMatchNminOverLread 0.9 --outFilterMatchNmin 20 --alignIntronMax 200000 --alignMatesGapMax 2000 --alignEndsProtrude 10 ConcordantPair --outMultimapperOrder Random --outFilterMultimapNmax 999
+    - **ChIP-seq:** --outFilterMismatchNoverLmax 0.2 --outFilterScoreMinOverLread 0.66 --outFilterMatchNminOverLread 0.66 --outFilterMatchNmin 20 --alignIntronMax 1 --alignSJDBoverhangMin 999 --outFilterMultimapNmax 1 --alignEndsProtrude 10 ConcordantPair
