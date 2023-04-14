@@ -46,6 +46,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Pipelines
 
+- [The ENCODE pipelines](https://www.encodeproject.org/pages/pipelines/) (RNA-seq, microRNA-seq, long-read RNA, ChIP-seq, ATAC-seq, DNAse-seq, methylation, WGBS, 3D), including quality control steps. Figures - pipeline schemas. Implemented in [WDL](https://openwdl.org/), available on DockerHub. Supplementary tools - [CAPER](https://github.com/ENCODE-DCC/caper) - Cromwell/WDL wrapper for Python, provides backends for HPC job submission systems, [CROO](https://github.com/ENCODE-DCC/croo) - Cromwell output organizer, [accession](https://github.com/ENCODE-DCC/accession). <details>
+    <summary>Paper</summary>
+    Hitz, Benjamin C., Jin-Wook Lee, Otto Jolanki, Meenakshi S. Kagda, Keenan Graham, Paul Sud, Idan Gabdank, et al. “The ENCODE Uniform Analysis Pipelines.” Preprint. Bioinformatics, April 6, 2023. https://doi.org/10.1101/2023.04.04.535623.
+</details>
+
 - [RNA-seq pipeline developed by NASA GeneLab](https://github.com/nasa/GeneLab_Data_Processing). FastQC/MultiQC, TrimGalore, STAR (two-pass mode), RSEM (to quantify isiforms), DESeq2. Can normalize using ERCCs. produces unnormalized and normalized counts, more. PCA, heatmaps, other visualization. [Step-by-step instructions and commands](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/GL-DPPD-7101-C.md)
     - Galazka, Jonathan. “[NASA GeneLab RNA-Seq Consensus Pipeline: Standardized Processing of Short-Read RNA-Seq Data](https://doi.org/10.1101/2020.11.06.371724),” bioRxiv, November 10, 2020
 
