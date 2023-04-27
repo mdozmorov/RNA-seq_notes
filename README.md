@@ -100,6 +100,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     Zhang, Haowen, Li Song, Xiaotao Wang, Haoyu Cheng, Chenfei Wang, Clifford A. Meyer, Tao Liu, et al. “Fast Alignment and Preprocessing of Chromatin Profiles with Chromap.” Nature Communications, 12 November 2021, https://doi.org/10.1038/s41467-021-26865-w
 </details>
 
+- [LJA](https://github.com/AntonBankevich/LJA) (La Jolla Assembler) - long-read genome assembler using multiplex de Bruijn graphs. Utilizes three modules/ideas: jumboDBG (constructing large de Bruijn graphs), mowerDBG (error-correcting reads), and multiplexDBG (utilizing the entire read-length for resolving repeats). Includes the LJApolish module that expands the collapsed homopolymer runs in the resulting assembly. Benchmarked against hifiasm and HiCanu, significantly reduced the number of misassemblies. <details>
+    <summary>Paper</summary>
+    Bankevich, Anton, Andrey Bzikadze, Mikhail Kolmogorov, Dmitry Antipov, and Pavel A. Pevzner. “LJA: Assembling Long and Accurate Reads Using Multiplex de Bruijn Graphs.” Preprint. Bioinformatics, December 11, 2020. https://doi.org/10.1101/2020.12.10.420448.
+</details>
+
 - [SNAP](https://github.com/amplab/snap) - paired-read short-read (70-300bp) aligner based on fussy set intersection. 2-5x faster than BWA-mem2, Bowtie2.  When used with Haplotype Caller from the Genome Analysis Toolkit, SNAP produces better concordance with known-truth sets than other aligners for most of the genome-in-a-bottle and Illumina Platinum genomes. Additonal features: accepts SAM and BAM, outputs sorted, duplicate marked and indexed file. Binaries for Windows, Mac, Linux. [Tweet](https://twitter.com/razoralign/status/1465664608711036932?s=20). <details>
     <summary>Paper</summary>
     Bolosky, William J., Arun Subramaniyan, Matei Zaharia, Ravi Pandya, Taylor Sittler, and David Patterson. “Fuzzy Set Intersection Based Paired-End Short-Read Alignment.” Preprint. Bioinformatics, November 23, 2021. https://doi.org/10.1101/2021.11.23.469039.
