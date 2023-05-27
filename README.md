@@ -112,6 +112,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 #### Long-read
 
+- [Verkko](https://github.com/marbl/verkko) - long-read diploid genome assembly, for PacBio HiFi and Oxford Nanopore reads. Telomere-to-telomere phased, diploid genome assembly. <details>
+    <summary>Paper</summary>
+    Rautiainen, Mikko, Sergey Nurk, Brian P. Walenz, Glennis A. Logsdon, David Porubsky, Arang Rhie, Evan E. Eichler, Adam M. Phillippy, and Sergey Koren. “Telomere-to-Telomere Assembly of Diploid Chromosomes with Verkko.” Nature Biotechnology, February 16, 2023. https://doi.org/10.1038/s41587-023-01662-6.
+</details>
+
 - [Minimap2](https://github.com/lh3/minimap2) - aligner for long- (SMRT, ONT technologies, over 1kb) and short- (over 100bp, paired-end supported) reads. Spli-read alignment, gap cost for long insertions and deletions, reduces spurious alignment. 3-4 tiimes faster than short-read aligners (C and Python implementation), over 30 times faster than long-read aligners (BLASR, BWA-MEM, GraphMap, minialign, NGMLR). Presets of parameters. <details>
     <summary>Paper</summary>
     Li, Heng. “Minimap2: Pairwise Alignment for Nucleotide Sequences.” Edited by Inanc Birol. Bioinformatics 34, no. 18 (September 15, 2018): 3094–3100. https://doi.org/10.1093/bioinformatics/bty191.
