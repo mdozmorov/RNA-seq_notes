@@ -194,6 +194,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     Nadel, Brian B, David Lopez, Dennis J Montoya, Feiyang Ma, Hannah Waddel, Misha M Khan, Serghei Mangul, and Matteo Pellegrini. “The Gene Expression Deconvolution Interactive Tool (GEDIT): Accurate Cell Type Quantification from Gene Expression Data.” GigaScience 10, no. 2 (January 29, 2021): giab002. https://doi.org/10.1093/gigascience/giab002.
 </details>
 
+- [SCDC](https://meichendong.github.io/SCDC/) - Bulk Gene Expression Deconvolution by Integrating Multiple Single-Cell RNA Sequencing References. Contrasted with other methods (Bseq-SC, DWLS, MuSiC, Bisque, CIBERSORTx) that utilize one scRNA-seq dataset. Outperforms existing methods even if using one single-cell dataset. R package. <details>
+    <summary>Paper</summary>
+    Dong, Meichen, Aatish Thennavan, Eugene Urrutia, Yun Li, Charles M. Perou, Fei Zou, and Yuchao Jiang. “SCDC: Bulk Gene Expression Deconvolution by Multiple Single-Cell RNA Sequencing References.” Preprint. Bioinformatics, August 22, 2019. https://doi.org/10.1101/743591.
+</details>
+
 ## Batch effect
 
 - [ComBat-seq](https://github.com/zhangyuqing/sva-devel) - batch effect correction for RNA-seq data using negative binomial regression. Maintains count nature of RNA-seq data. Tested on simulated data (polyester package), and experimental data. Achieves the highest true positive rate. [Code to reproduce paper](https://github.com/zhangyuqing/ComBat-seq)
@@ -538,8 +543,6 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [chromoMap](https://CRAN.R-project.org/package=chromoMap) - an R package/function for visualizing BED-like data across chromosomes. Static and interactive (Shiny embeddable) plots, segment-, point-, barplot-, scatterplot visualization. Filters to color visualization by criteria. Colors, spacing, height/width - all customizable. Supports multiple organisms. [Documentation, tutorial](https://lakshay-anand.github.io/chromoMap/index.html)
     - Anand, Lakshay, and Carlos M Rodriguez Lopez. “[ChromoMap: An R Package for Interactive Visualization and Annotation of Chromosomes](https://doi.org/10.1101/605600)” bioRxiv, January 23, 2020
-
-- [chromoscope](https://github.com/hms-dbmi/chromoscope) - multi-omics circular visualization of cancer genomes. Web-based (Python, Jupyter notebook support). Input: BEDPE (structural variants), TSV (CNVs, driver mutations), VCF, BAM. [Web demo](https://chromoscope.bio/), [Documentation](https://chromoscope.bio/docs/#/).
 
 - [Hiplot](https://hiplot-academic.com/) - a web tool for publication-ready biomedical data visualization (command line interpreter Hctl written in Go is available). From heatmaps, correlograms to dimensionaliry reduction, other plots (over 240). Basic statistics, multi-omics, regression, clustering, dimensionality reduction, meta-analysis, survival analysis, risk modelling, etc., highly adjustable. Wraps other packages, such as immundeconv, circos. JSON-based plugin system, [hiplotlib](https://github.com/hiplot/hiplotlib) - development library, [plugin-preview](https://hiplot-academic.com/developer/plugin-preview) - JSON-based previewer to debug plugins. Demo data, data spreadsheet/upload/remote access, SVG download. Created in collaboration with [OpenBiox](https://openbiox.org/#/projects) consortium. Table 1 - comparison with competitors, [ImageGP](http://www.ehbio.com/ImageGP/) and [Galaxy](https://usegalaxy.org/). <details>
     <summary>Paper</summary>
