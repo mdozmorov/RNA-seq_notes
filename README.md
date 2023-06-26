@@ -353,6 +353,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [rMATS](http://rnaseq-mats.sourceforge.net/) alternative splicing detection tool. Using paired samples.RNA-seq depth and alternative splicing power - 200M reads minimum. [rMATS-turbo](https://github.com/Xinglab/rmats-turbo/) - 100X faster implementation, [Tweet](https://twitter.com/YiXing77/status/1267834667715235843?s=20)
     - Shen, Shihao, Juw Won Park, Zhi-xiang Lu, Lan Lin, Michael D. Henry, Ying Nian Wu, Qing Zhou, and Yi Xing. “[RMATS: Robust and Flexible Detection of Differential Alternative Splicing from Replicate RNA-Seq Data](https://doi.org/10.1073/pnas.1419161111).” Proceedings of the National Academy of Sciences of the United States of America 111, no. 51 (December 23, 2014)
 
+- [MMSEQ](https://github.com/eturro/mmseq) - Haplotype, isoform and gene level expression analysis using multi-mapping RNA-seq reads. Including differential analysis. 
+
 - [tappAS](http://tappas.org/) - functional impact of alternative splicing. Input - transcript-level count matrix
 
 - [vast-tools](https://github.com/vastgroup/vast-tools) - A toolset for profiling alternative splicing events in RNA-Seq data
