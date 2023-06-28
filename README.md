@@ -543,6 +543,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Visualization
 
+- [aPEAR](https://github.com/ievaKer/aPEAR) (Advanced Pathway Enrichment Analysis Representation) - R package for pathway enrichment results visualization as a network. Input: results from clusterProfiler or gprofiler2. Pairwise similarity between pathways is estimated using Jaccard (or, cosine, correlation), the similarity matrix is clustered using Markov (or, hierarchical, spectral) clustering, the most representative pathway name is determined using PageRank (or, HITS, highest NES) algorithm. Output: ggplot2 object, modifiable, can be plotted interactive with plotly. [CRAN](https://CRAN.R-project.org/package=aPEAR). <details>
+    <summary>Paper</summary>
+    Kerseviciute, Ieva, and Juozas Gordevicius. “APEAR: An R Package for Autonomous Visualisation of Pathway Enrichment Networks.” Preprint. Bioinformatics, March 29, 2023. https://doi.org/10.1101/2023.03.28.534514.
+</details>
+
 - [chromoMap](https://CRAN.R-project.org/package=chromoMap) - an R package/function for visualizing BED-like data across chromosomes. Static and interactive (Shiny embeddable) plots, segment-, point-, barplot-, scatterplot visualization. Filters to color visualization by criteria. Colors, spacing, height/width - all customizable. Supports multiple organisms. [Documentation, tutorial](https://lakshay-anand.github.io/chromoMap/index.html)
     - Anand, Lakshay, and Carlos M Rodriguez Lopez. “[ChromoMap: An R Package for Interactive Visualization and Annotation of Chromosomes](https://doi.org/10.1101/605600)” bioRxiv, January 23, 2020
 
