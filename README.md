@@ -194,6 +194,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     Nadel, Brian B, David Lopez, Dennis J Montoya, Feiyang Ma, Hannah Waddel, Misha M Khan, Serghei Mangul, and Matteo Pellegrini. “The Gene Expression Deconvolution Interactive Tool (GEDIT): Accurate Cell Type Quantification from Gene Expression Data.” GigaScience 10, no. 2 (January 29, 2021): giab002. https://doi.org/10.1093/gigascience/giab002.
 </details>
 
+- [MuSiC](https://github.com/xuranw/MuSiC) - cell type deconvolution method to use scRNA-seq data (pre-determined cell types) to deconvolve bulk RNA-seq data. Gene weighting to prioritize stable and reliably expressed genes to build cell signatures. Compared with CIBERSORT, Nonnegative least squares (NNLS), BSEQ-sc. <details>
+    <summary>Paper</summary>
+    Wang, Xuran, Jihwan Park, Katalin Susztak, Nancy R. Zhang, and Mingyao Li. “Bulk Tissue Cell Type Deconvolution with Multi-Subject Single-Cell Expression Reference.” Nature Communications 10, no. 1 (December 2019). https://doi.org/10.1038/s41467-018-08023-x.
+</details>
+
 - [SCDC](https://meichendong.github.io/SCDC/) - Bulk Gene Expression Deconvolution by Integrating Multiple Single-Cell RNA Sequencing References. Contrasted with other methods (Bseq-SC, DWLS, MuSiC, Bisque, CIBERSORTx) that utilize one scRNA-seq dataset. Outperforms existing methods even if using one single-cell dataset. R package. <details>
     <summary>Paper</summary>
     Dong, Meichen, Aatish Thennavan, Eugene Urrutia, Yun Li, Charles M. Perou, Fei Zou, and Yuchao Jiang. “SCDC: Bulk Gene Expression Deconvolution by Multiple Single-Cell RNA Sequencing References.” Preprint. Bioinformatics, August 22, 2019. https://doi.org/10.1101/743591.
