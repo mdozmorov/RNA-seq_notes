@@ -184,6 +184,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Deconvolution
 
+See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#deconvolution)
+
 - [DeCompress](https://github.com/bhattacharya-a-bt/DeCompress) - R package for a semi-reference-free deconvolution method for targeted panels. Input: a target gene expression panel (RNA-seq or microarray, raw scale), and a reference dataset from similar tissue (not compartment-specific profiles) to expand the feature space of targeted panels using compressed sensing. Output: cell type proportions and gene expression. Ensemble reference-free deconvolution is performed on this artificially expanded dataset to estimate cell-type proportions and gene signatures. Three steps: 1) selection of compartment-specific genes from the reference, 2) compressed sensing to expand the targeted panel, and 3) ensemble deconvolution of the expanded dataset. Benchmarked against deconf, CellDistinguisher, Linseed, DeconICA, TOAST, on in-silico mixtures (GTeX), published mixing experiments, the Carolina Breast Cancer Study. Survival, eQTL analyses demonstrating increased biological relevance. [Scripts to reproduce the results](https://github.com/bhattacharya-a-bt/DeCompress_supplement). <details>
     <summary>Paper</summary>
     Bhattacharya, Arjun, Alina M. Hamilton, Melissa A. Troester, and Michael I. Love. “DeCompress: Tissue Compartment Deconvolution of Targeted MRNA Expression Panels Using Compressed Sensing.” Preprint. Bioinformatics, August 14, 2020. https://doi.org/10.1101/2020.08.14.250902.
