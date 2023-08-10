@@ -314,6 +314,8 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 - [Positional Gene Enrichment analysis](http://silico.biotoul.fr/pge/) of gene sets for high resolution identification of overrepresented chromosomal regions.  
     - [De Preter, K., Barriot, R., Speleman, F., Vandesompele, J., Moreau, Y., 2008, Nucleic Acids Res.](https://academic.oup.com/nar/article/36/7/e43/2410597)
 
+- [blitzgsea](https://github.com/MaayanLab/blitzgsea) - Fast Gene Set Enrichment Analysis (GSEA) implementation of the prerank algorithm. Use Loess interpolation of bimodal ES distribution for accurate p-value estimation. Python.
+
 - [gProfileR](https://CRAN.R-project.org/package=gProfileR) - enrichment of gene lists, from GO to KEGG and others, organism-specific, ortholog conversion. [Web interface](https://biit.cs.ut.ee/gprofiler/gost)
 
 - [msigdb4mouse](https://github.com/markziemann/msigdb4mouse) - MSigDB gene sets for mouse (GO, KEGG, Reactome).
