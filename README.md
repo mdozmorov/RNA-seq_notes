@@ -320,6 +320,8 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [msigdb4mouse](https://github.com/markziemann/msigdb4mouse) - MSigDB gene sets for mouse (GO, KEGG, Reactome).
 
+- [Rummagene](https://rummagene.com/about) - Finding gene sets from supplementary materials matching query. [Youtube video](https://www.youtube.com/watch?v=RftBcfWsSOs), 47m.
+
 ### Transcription regulators
 
 - [ChEA3](https://amp.pharm.mssm.edu/chea3/) - predicting regulatory TFs for sets of user-provided genes. Improved backend reference gene set data (six datasets), ranking of the most significantly enriched TFs. Benchmarking against several other TF prioritization tools (overviewed in intro). [Docker](https://hub.docker.com/r/maayanlab/chea3), [API web-interface and downloadable data](https://amp.pharm.mssm.edu/chea3/)
