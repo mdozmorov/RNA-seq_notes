@@ -373,6 +373,10 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 ### miRNAs
 
+- miRNA expression atlas across 196 cell type. Reanalysis of 175 studies using miRBase and miRge3.0. UCSCGenome Browser [tracks](https://genome.ucsc.edu/cgi-bin/hgHubConnect). [microRNAome](https://bioconductor.org/packages/microRNAome/) R package, SummarizedExperiment for the microRNAome project. [GitHub](https://github.com/mhalushka/miROme) with code, tutorial, figures, data. <details>
+    <summary>Paper</summary>
+    
+
 - [CancerMIRNome](http://bioinfo.jialab-ucr.org/CancerMIRNome/) - web server for exploratory miRNA analysis in TCGA cancers and circulating microRNA studies. Query individual miRNAs, cancers. Differential expression, ROC for predicting tumor-normal distinction, survival plots, miRNA-target correlation, functional enrichment of targets. [GitHub](https://github.com/rli012/CancerMIRNome)
     - Li, Ruidong, Han Qu, Shibo Wang, Xuesong Wang, Yanru Cui, Lei Yu, John M. Chater, et al. “[CancerMIRNome: A Web Server for Interactive Analysis and Visualization of Cancer MiRNome Data](https://doi.org/10.1101/2020.10.04.325670).” Preprint. Bioinformatics, October 5, 2020
 
