@@ -284,6 +284,8 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
     Krueger, Felix, and Simon R. Andrews. “SNPsplit: Allele-Specific Splitting of Alignments between Genomes with Known SNP Genotypes.” F1000Research 5 (July 2016): 1479. https://doi.org/10.12688/f1000research.9037.2.
 </details>
 
+- [phASER](https://github.com/secastel/phaser) - phasing and Allele Specific Expression from RNA-seq. Performs haplotype phasing using read alignments in BAM format from both DNA and RNA based assays, and provides measures of haplotypic expression for RNA based assays.
+
 ## Functional enrichment
 
 - [rGREAT](https://bioconductor.org/packages/rGREAT/) - GREAT method for TSS-centric enrichment of genomic regions. Interface with online GREAT, local implementation. Integrates GO, MSigDB, supports more than 600 organisms via [BioMartGOGeneSets](https://github.com/jokergoo/BioMartGOGeneSets), custom organisms/annotations support. Results viewable via Shiny app. Different TSS annotations, despite differences, produce similar results. [GitHub](https://github.com/jokergoo/rGREAT). <details>
