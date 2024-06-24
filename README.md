@@ -85,6 +85,8 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [FastUniq](https://sourceforge.net/projects/fastuniq/) - an ultrafast de novo duplicates removal tool for paired short DNA sequences.
 
+- [fastqwiper](https://github.com/mazzalab/fastqwiper) - An ensemble method to recover corrupted FASTQ files, drop or fix pesky lines, remove unpaired reads, and settle reads interleaving.
+
 - [faster](https://github.com/angelovangel/faster) - A (very) fast program for getting statistics about a fastq file, written in Rust. Get the read length, GC content, mean Phred scores, trim frong and tail, regex search. Compiled binaries are available
 
 - [fgbio tools](https://fulcrumgenomics.github.io/fgbio/tools/latest/) - general purpose tools for working with sequencing data. Examples of tools for manipulating FASTA/FASTQ files (FastqToBam, TrimFastq), RNA-seq (EstimateRnaSeqInsertSize), SAM/BAM (FilterBam, FindTechnicalReads, SplitBam, TrimPrimers), UMI (CollectDuplexSeqMetrics), VCF/BCF (AssessPhasing, FilterSomaticVcf, FixVcfPhaseSet). [GitHub](https://github.com/fulcrumgenomics/fgbio)
