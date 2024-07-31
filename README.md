@@ -636,6 +636,11 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 ### Genes
 
+- Impact of hg19, hg38, CHM13 genome build on RNA-seq gene expression. GENCODEv35 gene annotations, lifted over. STAR alignment, RSEM quantification, regressing out batch, RIN, sex, splicing (LeafCutter). Effect on clinically relevant genes. [Supplementary tables](https://www.cell.com/ajhg/fulltext/S0002-9297(24)00168-X#supplementaryMaterial) S2 - Annotation-specific genes, S3 - differentially quantified genes, S4 - build-exclusive genes ("exclude" column flagging genes). Genome-based alignment is recommended. [GitHub](https://github.com/raungar/build_rnaseq_paper_public). <details>
+    <summary>Paper</summary>
+    Ungar, Rachel A., Pagé C. Goddard, Tanner D. Jensen, Fabien Degalez, Kevin S. Smith, Christopher A. Jin, Devon E. Bonner, Jonathan A. Bernstein, Matthew T. Wheeler, and Stephen B. Montgomery. “Impact of Genome Build on RNA-Seq Interpretation and Diagnostics.” The American Journal of Human Genetics 111, no. 7 (July 2024): 1282–1300. https://doi.org/10.1016/j.ajhg.2024.05.005.
+</details>
+
 - [Enrichr](https://maayanlab.cloud/Enrichr/) - enrichment analysis, gene search, term search. Libraries for various signatures are available for [download](https://maayanlab.cloud/Enrichr/#stats)
 
 - [CellMarker](http://biocc.hrbmu.edu.cn/CellMarker/download.jsp) - Cell markers of different cell types from different tissues in human and mouse.
