@@ -366,6 +366,11 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 - [SUPPA2](https://github.com/comprna/SUPPA) - differential splicing from RNA-seq analysis (differences in PSI). TPM-quantified transcripts, handles replicates, accounts for sequencing depth, covariates. Clusters alternatively spliced events (DBSCAN, OPTICS). Compared with rMATS, DEXseq, MAJIQ on simulated data, very fast, accurate. [Tutorial based on Salmon quantification](https://github.com/comprna/SUPPA/wiki/SUPPA2-tutorial)
     - Trincado, Juan L., Juan C. Entizne, Gerald Hysenaj, Babita Singh, Miha Skalic, David J. Elliott, and Eduardo Eyras. “[SUPPA2: Fast, Accurate, and Uncertainty-Aware Differential Splicing Analysis across Multiple Conditions](https://doi.org/10.1186/s13059-018-1417-1).” Genome Biology, (December 2018)
 
+- [LeafCutter](https://github.com/davidaknowles/leafcutter) - intron splicing analysis. Identifies variable splicing events from RNA-seq and finds events of high complexity. Does not measure alternative transcription start sites and alternative polyadenylation directly, hence does not require read assembly or inference of isoforms supported by ambigious reads. GTEx reanalysis identified 31.5% unannotated alternatively excised introns. Outperforms Cufflinks2, rMATS, MAJIQ, also by speed and memory requirements. [Visualization Shiny app](https://leafcutter.shinyapps.io/leafviz/). <details>
+    <summary>Paper</summary>
+    Li, Yang I., David A. Knowles, Jack Humphrey, Alvaro N. Barbeira, Scott P. Dickinson, Hae Kyung Im, and Jonathan K. Pritchard. “Annotation-Free Quantification of RNA Splicing Using LeafCutter.” Nature Genetics 50, no. 1 (January 2018): 151–58. https://doi.org/10.1038/s41588-017-0004-9.
+</details>
+
 - [MAJIQ](https://majiq.biociphers.org/) - local splicing variation analysis. Detects canonical and alternative splicing events. Quantifies as Percent Selected In (PSI). Differential splicing as delta PSI. Visualization using VOILA package. Python 3.
     - Vaquero-Garcia, Jorge, Alejandro Barrera, Matthew R. Gazzara, Juan González-Vallinas, Nicholas F. Lahens, John B. Hogenesch, Kristen W. Lynch, and Yoseph Barash. “[A New View of Transcriptome Complexity and Regulation through the Lens of Local Splicing Variations](https://doi.org/10.7554/eLife.11752).” ELife 5 (February 1, 2016)
 
