@@ -23,7 +23,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [Timecourse](#timecourse)
 - [Allele-specific expression](#allele-specific-expression)
 - [Differential expression](#differential-expression)
-- [Functional enrichment](#functional-enrichment)
+- [Pathways, Functional enrichment](#pathways-functional-enrichment)
   - [Transcription regulators](#transcription-regulators)
 - [Non-canonical RNAs](#non-canonical-rnas)
   - [Alternative splicing](#alternative-splicing)
@@ -288,7 +288,13 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [phASER](https://github.com/secastel/phaser) - phasing and Allele Specific Expression from RNA-seq. Performs haplotype phasing using read alignments in BAM format from both DNA and RNA based assays, and provides measures of haplotypic expression for RNA based assays.
 
-## Functional enrichment
+## Pathways, Functional enrichment
+
+- [pathDIP](http://ophid.utoronto.ca/pathDIP/) - **path**way **D**ata **I**ntegration **P**ortal integrating 24 major databases (5366 for human), adds protein-protein interactions to pathways. Enrichment analysis. API for Java, Python, R. <details>
+    <summary>Paper</summary>
+    Rahmati, Sara, Mark Abovsky, Chiara Pastrello, et al. “pathDIP 4: An Extended Pathway Annotations and Enrichment Analysis Resource for Human, Model Organisms and Domesticated Species.” Nucleic Acids Research, November 16, 2019, gkz989. https://doi.org/10.1093/nar/gkz989.
+    Pastrello C, Kotlyar M, Abovsky M, Lu R, Jurisica I. PathDIP 5: improving coverage and making enrichment analysis more biologically meaningful. Nucleic Acids Res. 52(D1):D663-D671, 2024. 
+</details>
 
 - [rGREAT](https://bioconductor.org/packages/rGREAT/) - GREAT method for TSS-centric enrichment of genomic regions. Interface with online GREAT, local implementation. Integrates GO, MSigDB, supports more than 600 organisms via [BioMartGOGeneSets](https://github.com/jokergoo/BioMartGOGeneSets), custom organisms/annotations support. Results viewable via Shiny app. Different TSS annotations, despite differences, produce similar results. [GitHub](https://github.com/jokergoo/rGREAT). <details>
     <summary>Paper</summary>
