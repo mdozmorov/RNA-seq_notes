@@ -135,6 +135,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Analysis
 
+- [Matrisome AnalyzeR](https://sites.google.com/uic.edu/matrisome/tools/matrisome-analyzer) - annotate and quantify extracellular matrix (ECM) molecules in genomic data. Five organisms. Table 1 - data sources defining "Core matrisome" and "Matrisome-associated" gene sets. [MatrixDB](https://matrixdb.univ-lyon1.fr/), [MatriNet](https://github.com/MatriNet/matrinetR). Input - gene symbols, Entrez, UniProt, Ensembl, others. [Web](https://sites.google.com/uic.edu/matrisome/tools/matrisome-analyzer) and [R package](https://github.com/Matrisome/MatrisomeAnalyzeR). <details>
+    <summary>Paper</summary>
+    Petrov, Petar B., James M. Considine, Valerio Izzi, and Alexandra Naba. “Matrisome AnalyzeR – a Suite of Tools to Annotate and Quantify ECM Molecules in Big Datasets across Organisms.” Journal of Cell Science 136, no. 17 (2023): jcs261255. https://doi.org/10.1242/jcs.261255.
+</details>
+
 - [GeneTonic](https://bioconductor.org/packages/GeneTonic) - R package for visualization and interpretation of differential expression and functional enrichment analyses results. Heatmaps, volcano plots, PCA, KEGG pathways with gene expression overlay. Shiny app, tutorials, HTML report. Input: differentially expressed genes (DESeq2 preferred), enrichment results (clusterProfiler, Enrichr, others), the `shaker` function processes many data formats. [Alternatives](https://docs.google.com/spreadsheets/d/167XV0w18P0FSld1dt6owN4C2Esxl5FU2QTo4D-wclz0/edit#gid=0). [Code to reproduce the paper](https://github.com/federicomarini/GeneTonic_supplement). [GitHub](https://github.com/federicomarini/GeneTonic). [Demo webserver](http://shiny.imbei.uni-mainz.de:3838/GeneTonic/) <details>
     <summary>Paper</summary>
     Marini, Federico, Annekathrin Ludt, Jan Linke, and Konstantin Strauch. “GeneTonic: An R/Bioconductor Package for Streamlining the Interpretation of RNA-Seq Data.” BMC Bioinformatics 22, no. 1 (December 2021): 610. https://doi.org/10.1186/s12859-021-04461-5.
