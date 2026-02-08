@@ -193,6 +193,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#deconvolution)
 
+- [omnideconv](https://omnideconv.org/) - deconvolution methods benchmarking, [omnideconv](https://github.com/omnideconv/omnideconv) R package, [deconvBench](https://github.com/omnideconv/deconvBench) Nextflow pipeline, and [deconvExplorer](https://daisybio.ls.tum.de/deconvexplorer/) for results investigation. 12 Second-generation methods that directly learn cell type-specific signatures from annotated scRNA-seq data (AutoGeneS, BayesPrism, Bseq-SC, Bisque, CDseq, CIBERSORTx, CPM, DWLS, MOMF, MuSiC, SCDC, and Scaden). Over 5K simulated ([SimBu](https://github.com/omnideconv/SimBu) simulator) and experimental data. No best performers. <details>
+    <summary>Paper</summary>
+    Dietrich, Alexander, Lorenzo Merotto, Konstantin Pelz, et al. “Omnideconv: A Unifying Framework for Using and Benchmarking Single-Cell-Informed Deconvolution of Bulk RNA-Seq Data.” Genome Biology 27, no. 1 (2026): 6. https://doi.org/10.1186/s13059-026-03955-w.
+</details>
+
 - [AutoGeneS](https://github.com/theislab/AutoGeneS) - Python code for RNA-seq deconvolution. Novel feature selection method (multi-object optimization) eliminating collinear genes and improving deconvolution accuracy. Signature matrix generation from annotated scRNA-seq data, as well as using sorted/purified cell signatures. Nu-Support Vector Regression (Nu-SVR) better controlling for outliers. Compatible with the scanpy pipeline. [Documentation](https://autogenes.readthedocs.io/en/latest/). <details>
     <summary>Paper</summary>
     Aliee, Hananeh, and Fabian J. Theis. "AutoGeneS: Automatic gene selection using multi-objective optimization for RNA-seq deconvolution." Cell Systems 12, no. 7 (2021): 706-715. https://doi.org/10.1016/j.cels.2021.05.006
