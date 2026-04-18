@@ -31,7 +31,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
   - [lncRNAs](#lncrnas)
   - [circRNAs](#circrnas)
   - [Gene fusion](#gene-fusion)
-  - [Isoforms](#isoforms)
+  - [Isoforms, Transposable elements](#isoforms-transposable-elements)
 - [CNVs and Structural variations](#cnvs-and-structural-variations)
 - [Networks](#networks)
   - [Transcription regulators](#transcription-regulators)
@@ -501,7 +501,12 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [EricScript](https://sites.google.com/site/bioericscript/) is a computational framework for the discovery of gene fusions in paired end RNA-seq data
 
-### Isoforms
+### Isoforms, Transposable elements
+
+- [MAJEC](https://github.com/calico/majec) - simultaneous quantification of gene and transposable element (TE) expression. Input - BAM file, alignes with splice-aware aligner with multi-mapped reads retained (e.g., STAR --outFilterMultimapNmax 100 --winAnchorMultimapNmax 200), a GTF file, and a TE annotation file (RepeatMasker). Output: transcript-level and TE locus-level count summaries, HTML reports. Two-phase EM algorithm - first, assign unique reads, second, iteratively allocate multi-mapped reads, weighted by known junctions. Can be run only on TE quantification. Outperforms Salmon, RSEM on isoform quantification. Synthetic transcriptomes (Sequins) and complex real transcriptomes (LongBench). Python implementation. <details>
+    <summary>Paper</summary>
+    Lim, Tian-Yeh, and Ari J. Firestone. MAJEC: Unified Gene, Isoform, and Locus-Level Transposable Element Quantification from RNA-Seq. April 14, 2026, https://doi.org/10.64898/2026.04.10.717472
+</details>
 
 - [IsoformSwitchAnalyzeR](https://bioconductor.org/packages/release/bioc/html/IsoformSwitchAnalyzeR.html) - An R package to Identify, Annotate and Visualize Alternative Splicing and Isoform Switches with Functional Consequences (from RNA-seq data)
     - Vitting-Seerup, Kristoffer, and Albin Sandelin. “[IsoformSwitchAnalyzeR: Analysis of Changes in Genome-Wide Patterns of Alternative Splicing and Its Functional Consequences](https://doi.org/10.1093/bioinformatics/btz247).” Bioinformatics, April 15, 2019
