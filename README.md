@@ -508,6 +508,11 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
     Lim, Tian-Yeh, and Ari J. Firestone. MAJEC: Unified Gene, Isoform, and Locus-Level Transposable Element Quantification from RNA-Seq. April 14, 2026, https://doi.org/10.64898/2026.04.10.717472
 </details>
 
+- [TEtranscripts](https://www.mghlab.org/software/tetranscripts) - transposable element classification at the element level. Input: SAM/BAM files and two GTFs, for gene and TE (from RepeatMasker) annotations. EM algorithm, unique mapped reads are not used as prior (justified as potential bias). Includes differential analysis with DESeq2. Outperforms HTSeq-count, Cufflinks, RepEnrich. Computationally efficient. Python implementation. [GitHub](https://github.com/mhammell-laboratory/TEtranscripts). <details>
+    <summary>Paper</summary>
+    Jin, Ying, Oliver H. Tam, Eric Paniagua, and Molly Hammell. “TEtranscripts: A Package for Including Transposable Elements in Differential Expression Analysis of RNA-Seq Datasets.” Bioinformatics 31, no. 22 (2015): 3593–99. https://doi.org/10.1093/bioinformatics/btv422.
+</details>
+
 - [IsoformSwitchAnalyzeR](https://bioconductor.org/packages/release/bioc/html/IsoformSwitchAnalyzeR.html) - An R package to Identify, Annotate and Visualize Alternative Splicing and Isoform Switches with Functional Consequences (from RNA-seq data)
     - Vitting-Seerup, Kristoffer, and Albin Sandelin. “[IsoformSwitchAnalyzeR: Analysis of Changes in Genome-Wide Patterns of Alternative Splicing and Its Functional Consequences](https://doi.org/10.1093/bioinformatics/btz247).” Bioinformatics, April 15, 2019
     - Vitting-Seerup, Kristoffer, and Albin Sandelin. “[The Landscape of Isoform Switches in Human Cancers](https://doi.org/10.1158/1541-7786.MCR-16-0459).” Molecular Cancer Research 15, no. 9 (September 2017) - Isoform switching analysis of TCGA data, tumor vs. normal. Consequences, survival prediction. [Supplementary data](https://mcr.aacrjournals.org/content/15/9/1206.figures-only) has isoform switching analysis results for all TCGA cancers
