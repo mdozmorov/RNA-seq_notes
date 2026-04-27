@@ -503,6 +503,11 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 ### Isoforms, Transposable elements
 
+- [TEsingle](https://github.com/mhammell-laboratory/TEsingle) - scRNA-seq transposable element quantification at locus level, from the authors of TEtranscripts. EM algorithm for only ambigious reads with potential TE annotations, resolves intronic TEs, genes are modeled as full-length transcripts. Input: SAM/BAM format aligned with STARsolo (settings in Methods), two GTF annotation files (genes, TEs). Output: gene and TE matrices. Also applicable to snRNA-seq with up to 40% intron retention. Tested on a synthetic dataset (FluxSimulator), outperforms STARsolo-TE, CellRanger-TE, scTE, SoloTE. <details>
+    <summary>Paper</summary>
+    Hammell, Gale. TEsingle Enables Locus-Specific Transposable Element Expression Analysis at Single-Cell Resolution. n.d.
+</details>
+
 - [MAJEC](https://github.com/calico/majec) - simultaneous quantification of gene and transposable element (TE) expression. Input - BAM file, alignes with splice-aware aligner with multi-mapped reads retained (e.g., STAR --outFilterMultimapNmax 100 --winAnchorMultimapNmax 200), a GTF file, and a TE annotation file (RepeatMasker). Output: transcript-level and TE locus-level count summaries, HTML reports. Two-phase EM algorithm - first, assign unique reads, second, iteratively allocate multi-mapped reads, weighted by known junctions. Can be run only on TE quantification. Outperforms Salmon, RSEM on isoform quantification. Synthetic transcriptomes (Sequins) and complex real transcriptomes (LongBench). Python implementation. <details>
     <summary>Paper</summary>
     Lim, Tian-Yeh, and Ari J. Firestone. MAJEC: Unified Gene, Isoform, and Locus-Level Transposable Element Quantification from RNA-Seq. April 14, 2026, https://doi.org/10.64898/2026.04.10.717472
