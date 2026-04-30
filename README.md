@@ -185,6 +185,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ## Imputation
 
+- [Pinferna](https://janeslab.shinyapps.io/Pinferna/) - protein inference from RNA, predicting protein copy number from gene expression data. Trained for 4366 genes in 369 cell lines, 1489 models. Three model types: 1) median abundance irrespectively of transcript abundance, 2) Hyperbolic-to-linear (HL) relationship, 3) HL + LASSO. Most of relationships are explained by the HL model. Robust to sequencing depth. Outperforms PaxDb, published datasets, ProteoEstimator. Applied to reclassifying PAM50-classified breast cancer, improves survival differences. [GitHub model](https://github.com/JanesLab/TranscriptionTranslation/), [GitHub Shiny app](https://github.com/JanesLab/Pinferna/). <details>
+    <summary>Paper</summary>
+    Sweatt, Andrew J., Cameron D. Griffiths, Sarah M. Groves, et al. “Proteome-Wide Copy-Number Estimation from Transcriptomics.” Molecular Systems Biology 20, no. 11 (2024): 1230–56. https://doi.org/10.1038/s44320-024-00064-3.
+</details>
+
 - [fancyimpute](https://github.com/iskandr/fancyimpute) - Multivariate imputation and matrix completion algorithms implemented in Python. Algorithms: SimpleFill, KNN, SoftImpute, IterativeImputer, IterativeSVD, MatrixFactorization, NuclearNormMinimization, BiScaler.
 
 - [softImpute](https://CRAN.R-project.org/package=softImpute) - R package for Matrix Completion via Iterative Soft-Thresholded SVD, by Trevor Hastie and Rahul Mazumder.
