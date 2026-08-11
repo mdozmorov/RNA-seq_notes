@@ -364,6 +364,8 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [MOMA](https://bioc.r-universe.dev/MOMA/doc/moma.html) - Multi Omic Master Regulator Analysis. Inferring connections between Master Regulator proteins and genomic driver events in cancer. 
 
+- [VIPER](https://califano.c2b2.columbia.edu/viper) - Virtual Inference of Protein-activity by Enriched Regulon analysis from gene expression data. [Bioconductor](https://bioconductor.org/packages/viper/)
+
 ## Non-canonical RNAs
 
 - [ITAS](https://github.com/EpiEpiMSU/ITAS) - database of transcript annotation for small RNAs. Filtered, corrected, and integrated transcript annotations for several types of small RNAs (miRNA, piRNA, tRNA, rRNA, tsRNA) and several species (human, mouse, rat, fly, worm). Data from miRBase, piRNAdb, GtRNAdb, UCSC, tRFdb, MINTbase. Compared with [SPORTS](https://github.com/junchaoshi/sports1.1) annotation pipeline, detects more transcripts, differentially expressed. [Processing scripts](https://github.com/EpiEpiMSU/ITAS_scripts). <details>
