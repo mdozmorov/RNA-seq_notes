@@ -305,6 +305,11 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 ## Pathways, Functional enrichment
 
+- [GeneAgent](https://github.com/ncbi-nlp/GeneAgent) - an LLM-based AI agent for gene set analysis. A four-stage pipeline (generator, self-verification, modification and summarization). Self-verification using g:Profiler, Enrichr, E-utils, custom API. Compared with SPINDOCTOR, Gene Set Summarization using Large Language Models, pure GPT-4, provides more informative gene summaries. Evaluated using ROGUE scores (recall-oriented understudy for gisting evaluation),  ROUGE-L (longest common subsequence), ROUGE-1 (1-gram) and ROUGE-2 (2-gram) scores, [MedCPT](https://github.com/ncbi/MedCPT), Zero-shot Biomedical IR Model. [Online version](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/GeneAgent/geneagent.html). <details>
+    <summary>Paper</summary>
+    Wang, Zhizheng, Qiao Jin, Chih-Hsuan Wei, et al. “GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases.” Nature Methods 22, no. 8 (2025): 1677–85. https://doi.org/10.1038/s41592-025-02748-6.
+</details>
+
 - [pathDIP](http://ophid.utoronto.ca/pathDIP/) - **path**way **D**ata **I**ntegration **P**ortal integrating 24 major databases (5366 for human), adds protein-protein interactions to pathways. Enrichment analysis. API for Java, Python, R. <details>
     <summary>Paper</summary>
     Rahmati, Sara, Mark Abovsky, Chiara Pastrello, et al. “pathDIP 4: An Extended Pathway Annotations and Enrichment Analysis Resource for Human, Model Organisms and Domesticated Species.” Nucleic Acids Research, November 16, 2019, gkz989. https://doi.org/10.1093/nar/gkz989.
