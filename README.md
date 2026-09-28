@@ -51,7 +51,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     Hitz, Benjamin C., Jin-Wook Lee, Otto Jolanki, Meenakshi S. Kagda, Keenan Graham, Paul Sud, Idan Gabdank, et al. “The ENCODE Uniform Analysis Pipelines.” Preprint. Bioinformatics, April 6, 2023. https://doi.org/10.1101/2023.04.04.535623.
 </details>
 
-- [RNA-seq pipeline developed by NASA GeneLab](https://github.com/nasa/GeneLab_Data_Processing). FastQC/MultiQC, TrimGalore, STAR (two-pass mode), RSEM (to quantify isiforms), DESeq2. Can normalize using ERCCs. produces unnormalized and normalized counts, more. PCA, heatmaps, other visualization. [Step-by-step instructions and commands](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/GL-DPPD-7101-C.md)
+- [RNA-seq pipeline developed by NASA GeneLab](https://github.com/nasa/GeneLab_Data_Processing). FastQC/MultiQC, TrimGalore, STAR (two-pass mode), RSEM (to quantify isiforms), DESeq2. Can normalize using ERCCs. produces unnormalized and normalized counts, more. PCA, heatmaps, other visualization. [Step-by-step instructions and commands](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-C.md)
     - Galazka, Jonathan. “[NASA GeneLab RNA-Seq Consensus Pipeline: Standardized Processing of Short-Read RNA-Seq Data](https://doi.org/10.1101/2020.11.06.371724),” bioRxiv, November 10, 2020
 
 - [GEO2RNAseq](https://anaconda.org/xentrics/r-geo2rnaseq) - an R-based RNA-seq processing pipeline, from FASTQ files or directly from GEO. Reads meta-data, oriented for two-group differential analysis. Competitors: Galaxy, the Total RNA-seq Analysis Package for R (TRAP), EasyRNASeq, READemption. Installable through Conda https://anaconda.org/xentrics/r-geo2rnaseq
@@ -657,7 +657,7 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [pcaExplorer](https://bioconductor.org/packages/release/bioc/html/pcaExplorer.html) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach, R package
 
-- [WIlsON](https://github.com/loosolab/wilson) - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. R/Shiny, installs as a package. Docker image available. [Web demo](http://loosolab.mpi-bn.mpg.de/wilson/). <details>
+- [WIlsON](https://github.com/loosolab/wilson) - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. R/Shiny, installs as a package. Docker image available. [Web demo](https://bioinformatics-cluster2.mpi-bn.mpg.de/mampok-bn/demo-wilson/wilson/). <details>
     <summary>Paper</summary>
     H. Schultheis, C. Kuenne, J. Preussner, R. Wiegandt, A. Fust, M. Bentsen and M. Looso. WIlsON: Webbased Interactive Omics VisualizatioN. Bioinformatics 35(6) 2018, doi: https://doi.org/10.1093/bioinformatics/bty711
 </details>
@@ -683,7 +683,7 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 - [GREIN](http://www.ilincs.org/apps/grein/) - re-analysis of RNA-seq datasets from GEO. Download processed data, visualization, power analysis, differential expression, functional enrichment analysis, connectivity analysis with LINCS L1000 data. [GitHub](https://github.com/uc-bd2k/grein), [Docker image](https://hub.docker.com/r/ucbd2k/grein/)
     - Al Mahi, Naim, Mehdi Fazel Najafabadi, Marcin Pilarczyk, Michal Kouril, and Mario Medvedovic. “[GREIN: An Interactive Web Platform for Re-Analyzing GEO RNA-Seq Data](https://doi.org/10.1101/326223),” October 27, 2018
 
-- [DEE2](http://dee2.io) - Digital Expression Explorer - gene- and transcript-level processed data from multiple organisms, amenable for downstream analysis in R etc. [getDEE2](https://github.com/markziemann/dee2/blob/master/AccessDEEfromR.md) R package to get the data
+- [DEE2](http://dee2.io) - Digital Expression Explorer - gene- and transcript-level processed data from multiple organisms, amenable for downstream analysis in R etc. [getDEE2](https://bioconductor.org/packages/getDEE2/) R package to get the data
     - Ziemann, Mark, Antony Kaspi, and Assam El-Osta. “[Digital Expression Explorer 2: A Repository of Uniformly Processed RNA Sequencing Data](https://doi.org/10.1093/gigascience/giz022).” GigaScience 8, no. 4 (April 1, 2019)
 
 - [GEMMA](https://gemma.msl.ubc.ca/home.html) - curated transcriptomic database, >10,000 studies, \~34% are brain-related. Query genes, phenotypes, experiments, search for coexpression, differential expression. Processing methods, batch correction. Online access, API, R package. [GitHub](https://github.com/PavlidisLab/Gemma/)
