@@ -135,7 +135,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 ### Analysis
 
-- [Matrisome AnalyzeR](https://sites.google.com/uic.edu/matrisome/tools/matrisome-analyzer) - annotate and quantify extracellular matrix (ECM) molecules in genomic data. Five organisms. Table 1 - data sources defining "Core matrisome" and "Matrisome-associated" gene sets. [MatrixDB](https://matrixdb.univ-lyon1.fr/), [MatriNet](https://github.com/MatriNet/matrinetR). Input - gene symbols, Entrez, UniProt, Ensembl, others. [Web](https://sites.google.com/uic.edu/matrisome/tools/matrisome-analyzer) and [R package](https://github.com/Matrisome/MatrisomeAnalyzeR). <details>
+- [Matrisome AnalyzeR](https://matrinet.shinyapps.io/MatrisomeAnalyzer/) - annotate and quantify extracellular matrix (ECM) molecules in genomic data. Five organisms. Table 1 - data sources defining "Core matrisome" and "Matrisome-associated" gene sets. [MatrixDB](https://matrixdb.univ-lyon1.fr/), [MatriNet](https://github.com/MatriNet/matrinetR). Input - gene symbols, Entrez, UniProt, Ensembl, others. [Web](https://matrinet.shinyapps.io/MatrisomeAnalyzer/) and [R package](https://github.com/Matrisome/MatrisomeAnalyzeR). <details>
     <summary>Paper</summary>
     Petrov, Petar B., James M. Considine, Valerio Izzi, and Alexandra Naba. “Matrisome AnalyzeR – a Suite of Tools to Annotate and Quantify ECM Molecules in Big Datasets across Organisms.” Journal of Cell Science 136, no. 17 (2023): jcs261255. https://doi.org/10.1242/jcs.261255.
 </details>
@@ -618,7 +618,7 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
     Price, Brandon A., J. S. Marron, Lisle E. Mose, Charles M. Perou, and Joel S. Parker. “Translating Transcriptomic Findings from Cancer Model Systems to Humans through Joint Dimension Reduction.” Communications Biology 6, no. 1 (February 16, 2023): 179. https://doi.org/10.1038/s42003-023-04529-3.
 </details>
 
-- [DIABLO](http://mixomics.org/) - multi-omics analysis method. Overview of previous methods (SNF, Bayesian Consensus Clustering, NMF, JIVE, sGCCA, MOFA, others). Method extends sGCCA multivariate dimensionality reduction that uses SVD and selects co-expressed (correlated) variables from several omics datasets. Methods, model, iterative solution. Design matrix specifies which omics datasets are connected. Variable selection for biomarkers identification.  Visualization options. Part of [mixOmics R package](http://mixomics.org/), [Documentation](https://mixomicsteam.github.io/Bookdown/intro.html)
+- [DIABLO](http://mixomics.org/) - multi-omics analysis method. Overview of previous methods (SNF, Bayesian Consensus Clustering, NMF, JIVE, sGCCA, MOFA, others). Method extends sGCCA multivariate dimensionality reduction that uses SVD and selects co-expressed (correlated) variables from several omics datasets. Methods, model, iterative solution. Design matrix specifies which omics datasets are connected. Variable selection for biomarkers identification.  Visualization options. Part of [mixOmics R package](http://mixomics.org/), [Documentation](https://mixomics.org/book)
     - Singh, Amrit, Casey P Shannon, Benoît Gautier, Florian Rohart, Michaël Vacher, Scott J Tebbutt, and Kim-Anh Lê Cao. “DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omics Assays.” Edited by Inanc Birol. Bioinformatics 35, no. 17 (September 1, 2019): 3055–62. https://doi.org/10.1093/bioinformatics/bty1054.
 
 - [MANCIE](https://cran.r-project.org/web/packages/MANCIE/) - matrix analysis and normalization by concordant information enhancement. Bias correction and data integration of distinct genomic profiles on the same samples. Match matrices by rows, run correlation for each row, replace the associated row with modified values using a PCA procedure, Methods. Tested on integration of DHS and gene expression data, TCGA and METABRIC data. R package
@@ -676,7 +676,7 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [PINS](http://www.cs.wayne.edu/tinnguyen/PINS/PINS.html) - A novel method for data integration and disease subtyping
 
-- [refine.bio](https://www.ccdatalab.org/projects/refinebio) - harmonized microarray and RNA-seq data for various organisms and conditions
+- [refine.bio](https://www.refine.bio/) - harmonized microarray and RNA-seq data for various organisms and conditions
 
 - [recount2](https://bioconductor.org/help/workflows/recountWorkflow/) - an R workflow to work with recount2 data
 
