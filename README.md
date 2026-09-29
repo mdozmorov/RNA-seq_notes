@@ -14,6 +14,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
   - [Preprocessing](#preprocessing)
   - [Aligners](#aligners)
     - [Long-read](#long-read)
+  - [Quantification](#quantification)
   - [Analysis](#analysis)
 - [Quality control](#quality-control)
 - [Imputation](#imputation)
@@ -58,6 +59,11 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     - Seelbinder, Bastian, Thomas Wolf, Steffen Priebe, Sylvie McNamara, Silvia Gerber, Reinhard Guthke, and Joerg Linde. “[GEO2RNAseq: An Easy-to-Use R Pipeline for Complete Pre-Processing of RNA-Seq Data](https://doi.org/10.1101/771063).” Preprint. Bioinformatics, September 16, 2019
 
 - [RNAseq-workflow](https://github.com/twbattaglia/RNAseq-workflow) - A repository for setting up a RNAseq workflow. Detailed instructions and code for each analysis and visualization step.
+
+- [nf-core/rnaseq](https://github.com/nf-core/rnaseq) - community-curated Nextflow pipeline, currently v3.27.0, a widely reused reference implementation for RNA-seq analysis. Trimming (cutadapt, fastp), QC (FastQC, MultiQC), alignment (STAR, HISAT2) or pseudoalignment (Salmon, kallisto), quantification (featureCounts, HTSeq, RSEM, Salmon, kallisto), strandedness estimation, ribosomal RNA and fusion detection, sample and library-level reports. Containers, versioned releases, test datasets, continuous integration. Cite the pipeline release with https://doi.org/10.5281/zenodo.1400710. <details>
+    <summary>Paper</summary>
+    Ewels, Philip A., Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso, and Sven Nahnsen. “The nf-core framework for community-curated bioinformatics pipelines.” Nature Biotechnology 38, no. 3 (March 2020): 276–78. https://doi.org/10.1038/s41587-020-0439-x.
+</details>
 
 ### Preprocessing
 
@@ -131,6 +137,23 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 - [NGMLR](https://github.com/philres/ngmlr) - long-read mapper designed to align PacBio or Oxford Nanopore (standard and ultra-long) to a reference genome with a focus on reads that span structural variations
 
 - [Sniffles](https://github.com/fritzsedlazeck/Sniffles) - structural variation caller using third generation sequencing (PacBio or Oxford Nanopore).
+
+### Quantification
+
+- [Salmon](https://salmon.readthedocs.io/) - selective alignment pseudoquantifier, currently 1.12.x. Minimizer-based selective alignment distinguishes reads that come from a target transcriptome from those that do not, EM-based abundance estimation, modelling of sequence-composition and GC bias, 3' bias correction, decoy-aware index construction, many transcriptomes and selective alignment modes. Command line, C++. <details>
+    <summary>Paper</summary>
+    Patro, Rob, Geet Duggal, Michael I. Love, Rafael A. Irizarry, and Carl Kingsford. “Salmon provides fast and bias-aware quantification of transcript expression.” Nature Methods 14, no. 4 (April 2017): 417–19. https://doi.org/10.1038/nmeth.4197.
+</details>
+
+- [kallisto](https://pachterlab.github.io/kallisto/) - pseudoalignment-based quantification, k-mer index of a transcriptome, target pseudoalignment, EM-based abundance estimation. Runs in a few minutes per sample, counting and lightweight deconvolution modes (`bus` workflow for scRNA-seq). Command line, C++. <details>
+    <summary>Paper</summary>
+    Bray, Nicolas L., Harold Pimentel, Páll Melsted, and Lior Pachter. “Near-optimal probabilistic RNA-seq quantification.” Nature Biotechnology 34, no. 5 (May 2016): 525–27. https://doi.org/10.1038/nbt.3519.
+</details>
+
+- [BUStools](https://github.com/BUStools/bustools) - quantification of transcripts from BUS (bottom-up single-cell analysis) files produced by `bustools`, constant-memory processing, works with 3' scRNA-seq and bulk data. Command line, C. <details>
+    <summary>Paper</summary>
+    Melsted, Páll, A. Sina Booeshaghi, Lauren Liu, Fan Gao, Lambda Lu, Kyung Hoi Min, Eduardo da Veiga Beltrame, Kristjǫn Eldjǫrn Hjörleifsson, Jase Gehring, and Lior Pachter. “Modular, efficient and constant-memory single-cell RNA-seq preprocessing.” Nature Biotechnology 39, no. 7 (July 2021): 813–18. https://doi.org/10.1038/s41587-021-00870-2.
+</details>
 
 
 ### Analysis
