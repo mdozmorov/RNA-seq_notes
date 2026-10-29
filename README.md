@@ -618,6 +618,11 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
     Price, Brandon A., J. S. Marron, Lisle E. Mose, Charles M. Perou, and Joel S. Parker. “Translating Transcriptomic Findings from Cancer Model Systems to Humans through Joint Dimension Reduction.” Communications Biology 6, no. 1 (February 16, 2023): 179. https://doi.org/10.1038/s42003-023-04529-3.
 </details>
 
+- [multiview](https://CRAN.R-project.org/package=multiview) R package - Cooperative learning for joint prediction from different data modalities. Statistical formulation that allows varying degrees of early and late fusion approaches (the agreement penalty). Elastic net mixing parameter for defining lasso or Ridge regression (lasso default). Linear, logistic, and poisson models. Robust to sparsity. Tested on simulated data, 10-fold CV, outperforms separate modeling, arly and late fusion methods in terms of MSE. Tested on proteomics and metabolomics predicting time to labor. Can be applied to features from image data processed with CNN. Intro into data fusion goals, methods and types. <details>
+    <summary>Paper</summary>
+    Ding, Daisy Yi, Shuangning Li, Balasubramanian Narasimhan, and Robert Tibshirani. “Cooperative Learning for Multiview Analysis.” Proceedings of the National Academy of Sciences 119, no. 38 (2022): e2202113119. https://doi.org/10.1073/pnas.2202113119.
+</details>
+
 - [DIABLO](http://mixomics.org/) - multi-omics analysis method. Overview of previous methods (SNF, Bayesian Consensus Clustering, NMF, JIVE, sGCCA, MOFA, others). Method extends sGCCA multivariate dimensionality reduction that uses SVD and selects co-expressed (correlated) variables from several omics datasets. Methods, model, iterative solution. Design matrix specifies which omics datasets are connected. Variable selection for biomarkers identification.  Visualization options. Part of [mixOmics R package](http://mixomics.org/), [Documentation](https://mixomicsteam.github.io/Bookdown/intro.html)
     - Singh, Amrit, Casey P Shannon, Benoît Gautier, Florian Rohart, Michaël Vacher, Scott J Tebbutt, and Kim-Anh Lê Cao. “DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omics Assays.” Edited by Inanc Birol. Bioinformatics 35, no. 17 (September 1, 2019): 3055–62. https://doi.org/10.1093/bioinformatics/bty1054.
 
