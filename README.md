@@ -14,6 +14,7 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
   - [Preprocessing](#preprocessing)
   - [Aligners](#aligners)
     - [Long-read](#long-read)
+  - [Quantification](#quantification)
   - [Analysis](#analysis)
 - [Quality control](#quality-control)
 - [Imputation](#imputation)
@@ -51,13 +52,18 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
     Hitz, Benjamin C., Jin-Wook Lee, Otto Jolanki, Meenakshi S. Kagda, Keenan Graham, Paul Sud, Idan Gabdank, et al. “The ENCODE Uniform Analysis Pipelines.” Preprint. Bioinformatics, April 6, 2023. https://doi.org/10.1101/2023.04.04.535623.
 </details>
 
-- [RNA-seq pipeline developed by NASA GeneLab](https://github.com/nasa/GeneLab_Data_Processing). FastQC/MultiQC, TrimGalore, STAR (two-pass mode), RSEM (to quantify isiforms), DESeq2. Can normalize using ERCCs. produces unnormalized and normalized counts, more. PCA, heatmaps, other visualization. [Step-by-step instructions and commands](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/GL-DPPD-7101-C.md)
+- [RNA-seq pipeline developed by NASA GeneLab](https://github.com/nasa/GeneLab_Data_Processing). FastQC/MultiQC, TrimGalore, STAR (two-pass mode), RSEM (to quantify isiforms), DESeq2. Can normalize using ERCCs. produces unnormalized and normalized counts, more. PCA, heatmaps, other visualization. [Step-by-step instructions and commands](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-C.md)
     - Galazka, Jonathan. “[NASA GeneLab RNA-Seq Consensus Pipeline: Standardized Processing of Short-Read RNA-Seq Data](https://doi.org/10.1101/2020.11.06.371724),” bioRxiv, November 10, 2020
 
 - [GEO2RNAseq](https://anaconda.org/xentrics/r-geo2rnaseq) - an R-based RNA-seq processing pipeline, from FASTQ files or directly from GEO. Reads meta-data, oriented for two-group differential analysis. Competitors: Galaxy, the Total RNA-seq Analysis Package for R (TRAP), EasyRNASeq, READemption. Installable through Conda https://anaconda.org/xentrics/r-geo2rnaseq
     - Seelbinder, Bastian, Thomas Wolf, Steffen Priebe, Sylvie McNamara, Silvia Gerber, Reinhard Guthke, and Joerg Linde. “[GEO2RNAseq: An Easy-to-Use R Pipeline for Complete Pre-Processing of RNA-Seq Data](https://doi.org/10.1101/771063).” Preprint. Bioinformatics, September 16, 2019
 
 - [RNAseq-workflow](https://github.com/twbattaglia/RNAseq-workflow) - A repository for setting up a RNAseq workflow. Detailed instructions and code for each analysis and visualization step.
+
+- [nf-core/rnaseq](https://github.com/nf-core/rnaseq) - community-curated Nextflow pipeline, currently v3.27.0, a widely reused reference implementation for RNA-seq analysis. Trimming (cutadapt, fastp), QC (FastQC, MultiQC), alignment (STAR, HISAT2) or pseudoalignment (Salmon, kallisto), quantification (featureCounts, HTSeq, RSEM, Salmon, kallisto), strandedness estimation, ribosomal RNA and fusion detection, sample and library-level reports. Containers, versioned releases, test datasets, continuous integration. Cite the pipeline release with https://doi.org/10.5281/zenodo.1400710. <details>
+    <summary>Paper</summary>
+    Ewels, Philip A., Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso, and Sven Nahnsen. “The nf-core framework for community-curated bioinformatics pipelines.” Nature Biotechnology 38, no. 3 (March 2020): 276–78. https://doi.org/10.1038/s41587-020-0439-x.
+</details>
 
 ### Preprocessing
 
@@ -132,10 +138,27 @@ RNA-seq related tools and genomics data analysis resources. Please, [contribute 
 
 - [Sniffles](https://github.com/fritzsedlazeck/Sniffles) - structural variation caller using third generation sequencing (PacBio or Oxford Nanopore).
 
+### Quantification
+
+- [Salmon](https://salmon.readthedocs.io/) - selective alignment pseudoquantifier, currently 1.12.x. Minimizer-based selective alignment distinguishes reads that come from a target transcriptome from those that do not, EM-based abundance estimation, modelling of sequence-composition and GC bias, 3' bias correction, decoy-aware index construction, many transcriptomes and selective alignment modes. Command line, C++. <details>
+    <summary>Paper</summary>
+    Patro, Rob, Geet Duggal, Michael I. Love, Rafael A. Irizarry, and Carl Kingsford. “Salmon provides fast and bias-aware quantification of transcript expression.” Nature Methods 14, no. 4 (April 2017): 417–19. https://doi.org/10.1038/nmeth.4197.
+</details>
+
+- [kallisto](https://pachterlab.github.io/kallisto/) - pseudoalignment-based quantification, k-mer index of a transcriptome, target pseudoalignment, EM-based abundance estimation. Runs in a few minutes per sample, counting and lightweight deconvolution modes (`bus` workflow for scRNA-seq). Command line, C++. <details>
+    <summary>Paper</summary>
+    Bray, Nicolas L., Harold Pimentel, Páll Melsted, and Lior Pachter. “Near-optimal probabilistic RNA-seq quantification.” Nature Biotechnology 34, no. 5 (May 2016): 525–27. https://doi.org/10.1038/nbt.3519.
+</details>
+
+- [BUStools](https://github.com/BUStools/bustools) - quantification of transcripts from BUS (bottom-up single-cell analysis) files produced by `bustools`, constant-memory processing, works with 3' scRNA-seq and bulk data. Command line, C. <details>
+    <summary>Paper</summary>
+    Melsted, Páll, A. Sina Booeshaghi, Lauren Liu, Fan Gao, Lambda Lu, Kyung Hoi Min, Eduardo da Veiga Beltrame, Kristjǫn Eldjǫrn Hjörleifsson, Jase Gehring, and Lior Pachter. “Modular, efficient and constant-memory single-cell RNA-seq preprocessing.” Nature Biotechnology 39, no. 7 (July 2021): 813–18. https://doi.org/10.1038/s41587-021-00870-2.
+</details>
+
 
 ### Analysis
 
-- [Matrisome AnalyzeR](https://sites.google.com/uic.edu/matrisome/tools/matrisome-analyzer) - annotate and quantify extracellular matrix (ECM) molecules in genomic data. Five organisms. Table 1 - data sources defining "Core matrisome" and "Matrisome-associated" gene sets. [MatrixDB](https://matrixdb.univ-lyon1.fr/), [MatriNet](https://github.com/MatriNet/matrinetR). Input - gene symbols, Entrez, UniProt, Ensembl, others. [Web](https://sites.google.com/uic.edu/matrisome/tools/matrisome-analyzer) and [R package](https://github.com/Matrisome/MatrisomeAnalyzeR). <details>
+- [Matrisome AnalyzeR](https://matrinet.shinyapps.io/MatrisomeAnalyzer/) - annotate and quantify extracellular matrix (ECM) molecules in genomic data. Five organisms. Table 1 - data sources defining "Core matrisome" and "Matrisome-associated" gene sets. [MatrixDB](https://matrixdb.univ-lyon1.fr/), [MatriNet](https://github.com/MatriNet/matrinetR). Input - gene symbols, Entrez, UniProt, Ensembl, others. [Web](https://matrinet.shinyapps.io/MatrisomeAnalyzer/) and [R package](https://github.com/Matrisome/MatrisomeAnalyzeR). <details>
     <summary>Paper</summary>
     Petrov, Petar B., James M. Considine, Valerio Izzi, and Alexandra Naba. “Matrisome AnalyzeR – a Suite of Tools to Annotate and Quantify ECM Molecules in Big Datasets across Organisms.” Journal of Cell Science 136, no. 17 (2023): jcs261255. https://doi.org/10.1242/jcs.261255.
 </details>
@@ -343,7 +366,7 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 - [EnrichmentBrowser](https://bioconductor.org/packages/release/bioc/html/EnrichmentBrowser.html) - R package for microarray/RNA-seq normalization, ID mapping, differential analysis, functional enrichment (many methods) and network analyses and visualization
      - Geistlinger, Ludwig, Gergely Csaba, and Ralf Zimmer. “[Bioconductor’s EnrichmentBrowser: Seamless Navigation through Combined Results of Set- & Network-Based Enrichment Analysis](https://doi.org/10.1186/s12859-016-0884-1).” BMC Bioinformatics 17 (January 20, 2016)
 
-- [Metascape](http://metascape.org/gp/index.html#/main/step1) - multi-gene lists functional analysis, auto gene ID recognition, >40 databases. [data_analysis_portals.xlsx]((https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-09234-6/MediaObjects/41467_2019_9234_MOESM3_ESM.xlsx)) - 25 data analysis portals
+- [Metascape](http://metascape.org/gp/index.html#/main/step1) - multi-gene lists functional analysis, auto gene ID recognition, >40 databases. [data_analysis_portals.xlsx](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-09234-6/MediaObjects/41467_2019_9234_MOESM3_ESM.xlsx) - 25 data analysis portals
     - Zhou, Yingyao, Bin Zhou, Lars Pache, Max Chang, Alireza Hadj Khodabakhshi, Olga Tanaseichuk, Christopher Benner, and Sumit K. Chanda. “[Metascape Provides a Biologist-Oriented Resource for the Analysis of Systems-Level Datasets](https://doi.org/10.1038/s41467-019-09234-6).” Nature Communications 10, no. 1 (December 2019)
 
 - [Positional Gene Enrichment analysis](http://silico.biotoul.fr/pge/) of gene sets for high resolution identification of overrepresented chromosomal regions.  
@@ -623,7 +646,7 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
     Ding, Daisy Yi, Shuangning Li, Balasubramanian Narasimhan, and Robert Tibshirani. “Cooperative Learning for Multiview Analysis.” Proceedings of the National Academy of Sciences 119, no. 38 (2022): e2202113119. https://doi.org/10.1073/pnas.2202113119.
 </details>
 
-- [DIABLO](http://mixomics.org/) - multi-omics analysis method. Overview of previous methods (SNF, Bayesian Consensus Clustering, NMF, JIVE, sGCCA, MOFA, others). Method extends sGCCA multivariate dimensionality reduction that uses SVD and selects co-expressed (correlated) variables from several omics datasets. Methods, model, iterative solution. Design matrix specifies which omics datasets are connected. Variable selection for biomarkers identification.  Visualization options. Part of [mixOmics R package](http://mixomics.org/), [Documentation](https://mixomicsteam.github.io/Bookdown/intro.html)
+- [DIABLO](http://mixomics.org/) - multi-omics analysis method. Overview of previous methods (SNF, Bayesian Consensus Clustering, NMF, JIVE, sGCCA, MOFA, others). Method extends sGCCA multivariate dimensionality reduction that uses SVD and selects co-expressed (correlated) variables from several omics datasets. Methods, model, iterative solution. Design matrix specifies which omics datasets are connected. Variable selection for biomarkers identification.  Visualization options. Part of [mixOmics R package](http://mixomics.org/), [Documentation](https://mixomics.org/book)
     - Singh, Amrit, Casey P Shannon, Benoît Gautier, Florian Rohart, Michaël Vacher, Scott J Tebbutt, and Kim-Anh Lê Cao. “DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omics Assays.” Edited by Inanc Birol. Bioinformatics 35, no. 17 (September 1, 2019): 3055–62. https://doi.org/10.1093/bioinformatics/bty1054.
 
 - [MANCIE](https://cran.r-project.org/web/packages/MANCIE/) - matrix analysis and normalization by concordant information enhancement. Bias correction and data integration of distinct genomic profiles on the same samples. Match matrices by rows, run correlation for each row, replace the associated row with modified values using a PCA procedure, Methods. Tested on integration of DHS and gene expression data, TCGA and METABRIC data. R package
@@ -662,7 +685,7 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [pcaExplorer](https://bioconductor.org/packages/release/bioc/html/pcaExplorer.html) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach, R package
 
-- [WIlsON](https://github.com/loosolab/wilson) - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. R/Shiny, installs as a package. Docker image available. [Web demo](http://loosolab.mpi-bn.mpg.de/wilson/). <details>
+- [WIlsON](https://github.com/loosolab/wilson) - Web-based Interactive Omics VisualizatioN, accepts, text files, SummarizedExperiment datasets. R/Shiny, installs as a package. Docker image available. [Web demo](https://bioinformatics-cluster2.mpi-bn.mpg.de/mampok-bn/demo-wilson/wilson/). <details>
     <summary>Paper</summary>
     H. Schultheis, C. Kuenne, J. Preussner, R. Wiegandt, A. Fust, M. Bentsen and M. Looso. WIlsON: Webbased Interactive Omics VisualizatioN. Bioinformatics 35(6) 2018, doi: https://doi.org/10.1093/bioinformatics/bty711
 </details>
@@ -681,14 +704,14 @@ See also [Cancer_notes/Deconvolution](https://github.com/mdozmorov/Cancer_notes#
 
 - [PINS](http://www.cs.wayne.edu/tinnguyen/PINS/PINS.html) - A novel method for data integration and disease subtyping
 
-- [refine.bio](https://www.ccdatalab.org/projects/refinebio) - harmonized microarray and RNA-seq data for various organisms and conditions
+- [refine.bio](https://www.refine.bio/) - harmonized microarray and RNA-seq data for various organisms and conditions
 
 - [recount2](https://bioconductor.org/help/workflows/recountWorkflow/) - an R workflow to work with recount2 data
 
 - [GREIN](http://www.ilincs.org/apps/grein/) - re-analysis of RNA-seq datasets from GEO. Download processed data, visualization, power analysis, differential expression, functional enrichment analysis, connectivity analysis with LINCS L1000 data. [GitHub](https://github.com/uc-bd2k/grein), [Docker image](https://hub.docker.com/r/ucbd2k/grein/)
     - Al Mahi, Naim, Mehdi Fazel Najafabadi, Marcin Pilarczyk, Michal Kouril, and Mario Medvedovic. “[GREIN: An Interactive Web Platform for Re-Analyzing GEO RNA-Seq Data](https://doi.org/10.1101/326223),” October 27, 2018
 
-- [DEE2](http://dee2.io) - Digital Expression Explorer - gene- and transcript-level processed data from multiple organisms, amenable for downstream analysis in R etc. [getDEE2](https://github.com/markziemann/dee2/blob/master/AccessDEEfromR.md) R package to get the data
+- [DEE2](http://dee2.io) - Digital Expression Explorer - gene- and transcript-level processed data from multiple organisms, amenable for downstream analysis in R etc. [getDEE2](https://bioconductor.org/packages/getDEE2/) R package to get the data
     - Ziemann, Mark, Antony Kaspi, and Assam El-Osta. “[Digital Expression Explorer 2: A Repository of Uniformly Processed RNA Sequencing Data](https://doi.org/10.1093/gigascience/giz022).” GigaScience 8, no. 4 (April 1, 2019)
 
 - [GEMMA](https://gemma.msl.ubc.ca/home.html) - curated transcriptomic database, >10,000 studies, \~34% are brain-related. Query genes, phenotypes, experiments, search for coexpression, differential expression. Processing methods, batch correction. Online access, API, R package. [GitHub](https://github.com/PavlidisLab/Gemma/)
